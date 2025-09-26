@@ -107,7 +107,7 @@ engagementTypeSelect.addEventListener("change", () => {
   // Reset SLA
   slaSelect.innerHTML = '<option value="">-- Select SLA/Level --</option>';
 
-  // Staffing → SLA = L1–L5, show Resource Model, hide Duration
+  // Staffing → SLA = L1–L5
   if (selectedEngagement === "Staffing") {
     ["L1", "L2", "L3", "L4", "L5"].forEach((level) => {
       const option = document.createElement("option");
@@ -119,22 +119,24 @@ engagementTypeSelect.addEventListener("change", () => {
     document.getElementById("duration-group").style.display = "none";
     document.getElementById("additional-hours-group").style.display = "none";
   }
-  // Dispatch Ticket → SLA from JSON keys, show Additional Hours
+  // Dispatch Ticket → SLA keys (excluding Additional Hours)
   else if (selectedEngagement === "DispatchTicket") {
     const dataList = countryData.DispatchTicket;
     if (dataList && dataList.length > 0) {
-      Object.keys(dataList[0]).forEach((sla) => {
-        const option = document.createElement("option");
-        option.value = sla;
-        option.textContent = sla;
-        slaSelect.appendChild(option);
-      });
+      Object.keys(dataList[0])
+        .filter((sla) => sla.toLowerCase() !== "additional hour rate") // remove it
+        .forEach((sla) => {
+          const option = document.createElement("option");
+          option.value = sla;
+          option.textContent = sla;
+          slaSelect.appendChild(option);
+        });
     }
     document.getElementById("resource-model-group").style.display = "none";
     document.getElementById("duration-group").style.display = "block";
     document.getElementById("additional-hours-group").style.display = "block";
   }
-  // Other Engagements → SLA keys from JSON
+  // Other Engagements
   else {
     const dataList = countryData[selectedEngagement];
     if (dataList && dataList.length > 0) {
@@ -151,9 +153,11 @@ engagementTypeSelect.addEventListener("change", () => {
   }
 });
 
+
 // Form Submit
 form.addEventListener("submit", (e) => {
   e.preventDefault();
+
   const values = {
     region: regionSelect.value,
     country: countrySelect.value,
@@ -168,6 +172,53 @@ form.addEventListener("submit", (e) => {
     duration: Number(document.getElementById("duration").value),
   };
 
-  // For now → just show what user selected
-  resultDiv.innerHTML = `<pre>${JSON.stringify(values, null, 2)}</pre>`;
+  let totalCost = 0;
+
+  // Get selected country data
+  const regionData = jsonData.find((r) => r.Region === values.region);
+  const countryData = regionData?.Countries.find((c) => c.Name === values.country);
+
+  if (!countryData) {
+    resultDiv.innerHTML = `<p style="color:red;">Invalid selection. Please try again.</p>`;
+    return;
+  }
+
+  // === Staffing Calculation ===
+  if (values.engagementType === "Staffing") {
+    if (!values.sla || !values.resourceModel) {
+      resultDiv.innerHTML = `<p style="color:red;">Please select SLA and Resource Model.</p>`;
+      return;
+    }
+
+    // SLA object (e.g., L1, L2, etc.)
+    const slaData = countryData[values.sla];
+    if (!slaData || slaData.length === 0) {
+      resultDiv.innerHTML = `<p style="color:red;">No pricing data found for ${values.sla}.</p>`;
+      return;
+    }
+
+    // Pick the correct rate (With / Without Backfill)
+    const rate = slaData[0][values.resourceModel];
+    if (!rate) {
+      resultDiv.innerHTML = `<p style="color:red;">No rate available for chosen Resource Model.</p>`;
+      return;
+    }
+
+    // Multiply by number of resources
+    totalCost = Number(rate) * values.quantity;
+
+    resultDiv.innerHTML = `
+      <h3>Calculation Result</h3>
+      <p><strong>Engagement:</strong> Staffing</p>
+      <p><strong>SLA:</strong> ${values.sla}</p>
+      <p><strong>Resource Model:</strong> ${values.resourceModel}</p>
+      <p><strong>Quantity:</strong> ${values.quantity}</p>
+      <p><strong>Rate per Resource:</strong> ${rate} ${values.currency}</p>
+      <p><strong>Total Cost:</strong> ${totalCost} ${values.currency}</p>
+    `;
+  }
+  else {
+    // TODO: handle DispatchTicket, FullDayVisits, etc.
+    resultDiv.innerHTML = `<p style="color:blue;">Calculation logic for ${values.engagementType} not yet implemented.</p>`;
+  }
 });
