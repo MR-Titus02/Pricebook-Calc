@@ -1,0 +1,95 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Container */
+body {
+  background: #f4f7fb;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  padding: 40px 20px;
+}
+
+.container {
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  width: 100%;
+  max-width: 600px;
+}
+
+/* Heading */
+.heading {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 28px;
+  color: #333;
+}
+
+/* Form */
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: #444;
+}
+
+/* Input fields */
+.input-field, select {
+  padding: 10px 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  outline: none;
+  transition: 0.2s;
+  font-size: 14px;
+}
+
+.input-field:focus, select:focus {
+  border-color: #4e73df;
+  box-shadow: 0 0 6px rgba(78, 115, 223, 0.3);
+}
+
+/* Radio buttons */
+.radio-group {
+  display: flex;
+  gap: 20px;
+}
+
+.radio-group label {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+/* Button */
+.btn {
+  background: #4e73df;
+  color: #fff;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.btn:hover {
+  background: #2e59d9;
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PriceBook Calculator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="heading">PriceBook Calculator</h1>
+    <form class="form">
+      
+      <!-- Region -->
+      <div class="form-group">
+        <label for="region">Region</label>
+        <select id="region" name="region" class="input-field">
+          <option value="us">US</option>
+        </select>
+      </div>
+
+      <!-- Country -->
+      <div class="form-group">
+        <label for="country">Country</label>
+        <select id="country" name="country" class="input-field">
+          <option value="us">United States</option>
+        </select>
+      </div>
+
+      <!-- Supplier -->
+      <div class="form-group">
+        <label for="supplier">Supplier</label>
+        <select id="supplier" name="supplier" class="input-field">
+          <option value="supplier1">Supplier 1</option>
+        </select>
+      </div>
+
+      <!-- Currency -->
+      <div class="form-group">
+        <label for="currency">Currency</label>
+        <select id="currency" name="currency" class="input-field">
+          <option value="usd">USD</option>
+        </select>
+      </div>
+
+      <!-- Payment Terms -->
+      <div class="form-group">
+        <label for="payment-terms">Payment Terms</label>
+        <select id="payment-terms" name="payment-terms" class="input-field">
+          <option value="net60">60 Days</option>
+        </select>
+      </div>
+
+      <!-- Service Level -->
+      <div class="form-group">
+        <label for="service-level">Service Level</label>
+        <select id="service-level" name="service-level" class="input-field">
+          <option value="l1">L1</option>
+        </select>
+      </div>
+
+      <!-- Engagement Type -->
+      <div class="form-group">
+        <label for="engagement-type">Engagement Type</label>
+        <select id="engagement-type" name="engagement-type" class="input-field">
+          <option value="type1">Full Day Visit</option>
+        </select>
+      </div>
+
+      <!-- SLA -->
+      <div class="form-group">
+        <label for="sla">SLA</label>
+        <select id="sla" name="sla" class="input-field">
+          <option value="sla1">SLA 1</option>
+        </select>
+      </div>
+
+      <!-- Additional Hours -->
+      <div class="form-group">
+        <label for="additional-hours">Additional Hours</label>
+        <input type="number" id="additional-hours" name="additional-hours" class="input-field" placeholder="Enter hours">
+      </div>
+
+      <!-- Resource Model -->
+      <div class="form-group">
+        <label>Resource Model</label>
+        <div class="radio-group">
+          <label><input type="radio" name="resource-model" value="with-backfill"> With Backfill</label>
+          <label><input type="radio" name="resource-model" value="without-backfill"> Without Backfill</label>
+        </div>
+      </div>
+
+      <!-- Number of Resources -->
+      <div class="form-group">
+        <label for="quantity">Number of Resources</label>
+        <input type="number" id="quantity" name="quantity" class="input-field" placeholder="Enter quantity">
+      </div>
+
+      <!-- Duration -->
+      <div class="form-group">
+        <label for="duration">Duration (Months)</label>
+        <input type="number" id="duration" name="duration" class="input-field" placeholder="Enter duration">
+      </div>
+
+      <!-- Submit -->
+      <div class="form-group">
+        <button type="submit" class="btn">Calculate</button>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
