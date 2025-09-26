@@ -50,14 +50,6 @@
         </select>
       </div>
 
-      <!-- Service Level -->
-      <div class="form-group">
-        <label for="service-level">Service Level</label>
-        <select id="service-level" name="service-level" class="input-field">
-          <option value="">-- Select Service Level --</option>
-        </select>
-      </div>
-
       <!-- Engagement Type -->
       <div class="form-group">
         <label for="engagement-type">Engagement Type</label>
@@ -68,25 +60,25 @@
 
       <!-- SLA -->
       <div class="form-group">
-        <label for="sla">SLA</label>
+        <label for="sla">SLA / Level</label>
         <select id="sla" name="sla" class="input-field">
-          <option value="">-- Select SLA --</option>
+          <option value="">-- Select SLA/Level --</option>
         </select>
       </div>
 
-      <!-- Additional Hours -->
-      <div class="form-group">
-        <label for="additional-hours">Additional Hours</label>
-        <input type="number" id="additional-hours" name="additional-hours" class="input-field" placeholder="Enter hours">
-      </div>
-
-      <!-- Resource Model -->
-      <div class="form-group">
+      <!-- Resource Model (only for Staffing) -->
+      <div class="form-group" id="resource-model-group" style="display:none;">
         <label>Resource Model</label>
         <div class="radio-group">
           <label><input type="radio" name="resource-model" value="With-Backfill"> With Backfill</label>
           <label><input type="radio" name="resource-model" value="Without-Backfill"> Without Backfill</label>
         </div>
+      </div>
+
+      <!-- Additional Hours (only for Dispatch Ticket) -->
+      <div class="form-group" id="additional-hours-group" style="display:none;">
+        <label for="additional-hours">Additional Hours</label>
+        <input type="number" id="additional-hours" name="additional-hours" class="input-field" placeholder="Enter hours">
       </div>
 
       <!-- Number of Resources -->
@@ -95,9 +87,9 @@
         <input type="number" id="quantity" name="quantity" class="input-field" placeholder="Enter quantity">
       </div>
 
-      <!-- Duration -->
-      <div class="form-group">
-        <label for="duration">Duration (Months)</label>
+      <!-- Duration (hidden when Staffing is chosen) -->
+      <div class="form-group" id="duration-group">
+        <label for="duration">Duration</label>
         <input type="number" id="duration" name="duration" class="input-field" placeholder="Enter duration">
       </div>
 
