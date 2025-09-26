@@ -7582,19 +7582,7334 @@
     },
     {
       "Region": "Africa",
-      "Countries":[]
+      "Countries":[
+        {
+    "Name": "Egypt",
+    "Supplier": "Direct",
+    "Currency": "USD",
+    "PaymentTerms": "60 Days",
+    "L1": [
+        {
+            "With-Backfill": 14000.0,
+            "Without-Backfill": 15750.0
+        }
+    ],
+    "L2": [
+        {
+            "With-Backfill": 16100.0,
+            "Without-Backfill": 18112.5
+        }
+    ],
+    "L3": [
+        {
+            "With-Backfill": 17710.0,
+            "Without-Backfill": 19923.75
+        }
+    ],
+    "L4": [
+        {
+            "With-Backfill": 19923.75,
+            "Without-Backfill": 22414.22
+        }
+    ],
+    "L5": [
+        {
+            "With-Backfill": 22414.22,
+            "Without-Backfill": 25216.0
+        }
+    ],
+    "FullDayVisits": [
+        {
+            "L1": 225.0,
+            "L2": 245.0,
+            "L3": 274.4
+        }
+    ],
+    "HalfDayVisits": [
+        {
+            "L1": 168.75,
+            "L2": 183.75,
+            "L3": 205.8
+        }
+    ],
+    "DispatchTicket": [
+        {
+            "9 X 5 X 4 Incident Response": 130.5,
+            "24 X 7 X 4 Response to site": 174.0,
+            "SBD": 145.0,
+            "NBD": 108.75,
+            "2BD": 97.88,
+            "3BD": 95.92,
+            "Additional hour rate": 40.0
+        }
+    ],
+    "DispatchPricing": [
+        {
+            "2BD": 40.5,
+            "3BD": 95.92,
+            "4BD": 94.0
+        }
+    ],
+    "ShortTermProjects": [
+        {
+            "L1": 1866.67,
+            "L2": 2146.67,
+            "L3": 2361.33,
+            "L4": 2490.47,
+            "L5": 2801.78
+        }
+    ],
+    "LongTermProjects": [
+        {
+            "L1": 1750.0,
+            "L2": 2012.5,
+            "L3": 2213.75,
+            "L4": 2490.47,
+            "L5": 2801.78
+        }
+    ]
+},
+{
+    "Name": "South Africa",
+    "Supplier": "Direct",
+    "Currency": "USD",
+    "PaymentTerms": "60 Days",
+    "L1": [
+        {
+            "With-Backfill": 28000.0,
+            "Without-Backfill": 31500.0
+        }
+    ],
+    "L2": [
+        {
+            "With-Backfill": 30800.0,
+            "Without-Backfill": 34650.0
+        }
+    ],
+    "L3": [
+        {
+            "With-Backfill": 33880.0,
+            "Without-Backfill": 38115.0
+        }
+    ],
+    "L4": [
+        {
+            "With-Backfill": 38115.0,
+            "Without-Backfill": 42879.38
+        }
+    ],
+    "L5": [
+        {
+            "With-Backfill": 42879.38,
+            "Without-Backfill": 48239.3
+        }
+    ],
+    "FullDayVisits": [
+        {
+            "L1": 245.0,
+            "L2": 295.0,
+            "L3": 330.4
+        }
+    ],
+    "HalfDayVisits": [
+        {
+            "L1": 183.75,
+            "L2": 221.25,
+            "L3": 247.8
+        }
+    ],
+    "DispatchTicket": [
+        {
+            "9 X 5 X 4 Incident Response": 117.0,
+            "24 X 7 X 4 Response to site": 156.0,
+            "SBD": 130.0,
+            "NBD": 97.5,
+            "2BD": 87.75,
+            "3BD": 86.0,
+            "Additional hour rate": 60.0
+        }
+    ],
+    "DispatchPricing": [
+        {
+            "2BD": 58.5,
+            "3BD": 86.0,
+            "4BD": 84.28
+        }
+    ],
+    "ShortTermProjects": [
+        {
+            "L1": 3733.33,
+            "L2": 4106.67,
+            "L3": 4517.33,
+            "L4": 4764.38,
+            "L5": 5359.92
+        }
+    ],
+    "LongTermProjects": [
+        {
+            "L1": 3500.0,
+            "L2": 3850.0,
+            "L3": 4235.0,
+            "L4": 4764.38,
+            "L5": 5359.92
+        }
+    ]
+},
+{
+    "Name": "Algeria",
+    "Supplier": "Direct",
+    "Currency": "USD",
+    "PaymentTerms": "60 Days",
+    "L1": [
+        {
+            "With-Backfill": 38837.0,
+            "Without-Backfill": 43152.0
+        }
+    ],
+    "L2": [
+        {
+            "With-Backfill": 43146.0,
+            "Without-Backfill": 47940.0
+        }
+    ],
+    "L3": [
+        {
+            "With-Backfill": 48006.0,
+            "Without-Backfill": 53340.0
+        }
+    ],
+    "L4": [
+        {
+            "With-Backfill": 52807.0,
+            "Without-Backfill": 58674.0
+        }
+    ],
+    "L5": [
+        {
+            "With-Backfill": 58088.0,
+            "Without-Backfill": 64542.0
+        }
+    ],
+    "FullDayVisits": [
+        {
+            "L1": 340.0,
+            "L2": 374.0,
+            "L3": 418.88
+        }
+    ],
+    "HalfDayVisits": [
+        {
+            "L1": 196.0,
+            "L2": 217.0,
+            "L3": 239.0
+        }
+    ],
+    "DispatchTicket": [
+        {
+            "9 X 5 X 4 Incident Response": 112.5,
+            "24 X 7 X 4 Response to site": 150.0,
+            "SBD": 125.0,
+            "NBD": 93.75,
+            "2BD": 84.38,
+            "3BD": 82.69,
+            "Additional hour rate": 60.0
+        }
+    ],
+    "DispatchPricing": [
+        {
+            "2BD": 58.5,
+            "3BD": 82.69,
+            "4BD": 81.03
+        }
+    ],
+    "ShortTermProjects": [
+        {
+            "L1": 5178.27,
+            "L2": 5752.8,
+            "L3": 6400.8,
+            "L4": 6600.88,
+            "L5": 7261.0
+        }
+    ],
+    "LongTermProjects": [
+        {
+            "L1": 4854.63,
+            "L2": 5393.25,
+            "L3": 6000.75,
+            "L4": 6600.88,
+            "L5": 7261.0
+        }
+    ]
+},
+{
+    "Name": "Angola",
+    "Supplier": "Direct",
+    "Currency": "USD",
+    "PaymentTerms": "60 Days",
+    "L1": [
+        {
+            "With-Backfill": 38902.0,
+            "Without-Backfill": 43224.0
+        }
+    ],
+    "L2": [
+        {
+            "With-Backfill": 43216.0,
+            "Without-Backfill": 48017.0
+        }
+    ],
+    "L3": [
+        {
+            "With-Backfill": 47538.0,
+            "Without-Backfill": 52819.0
+        }
+    ],
+    "L4": [
+        {
+            "With-Backfill": 52291.0,
+            "Without-Backfill": 58101.0
+        }
+    ],
+    "L5": [
+        {
+            "With-Backfill": 57521.0,
+            "Without-Backfill": 63912.0
+        }
+    ],
+    "FullDayVisits": [
+        {
+            "L1": 334.0,
+            "L2": 368.0,
+            "L3": 412.16
+        }
+    ],
+    "HalfDayVisits": [
+        {
+            "L1": 196.0,
+            "L2": 217.0,
+            "L3": 239.0
+        }
+    ],
+    "DispatchTicket": [
+        {
+            "9 X 5 X 4 Incident Response": 117.0,
+            "24 X 7 X 4 Response to site": 156.0,
+            "SBD": 130.0,
+            "NBD": 97.5,
+            "2BD": 87.75,
+            "3BD": 86.0,
+            "Additional hour rate": 60.0
+        }
+    ],
+    "DispatchPricing": [
+        {
+            "2BD": 58.5,
+            "3BD": 86.0,
+            "4BD": 84.28
+        }
+    ],
+    "ShortTermProjects": [
+        {
+            "L1": 5186.93,
+            "L2": 5762.13,
+            "L3": 6338.4,
+            "L4": 6536.38,
+            "L5": 7190.13
+        }
+    ],
+    "LongTermProjects": [
+        {
+            "L1": 4862.75,
+            "L2": 5402.0,
+            "L3": 5942.25,
+            "L4": 6536.38,
+            "L5": 7190.13
+        }
+    ]
+},
+{
+    "Name": "Botswana",
+    "Supplier": "Direct",
+    "Currency": "USD",
+    "PaymentTerms": "60 Days",
+    "L1": [
+        {
+            "With-Backfill": 38902.0,
+            "Without-Backfill": 43224.0
+        }
+    ],
+    "L2": [
+        {
+            "With-Backfill": 43216.0,
+            "Without-Backfill": 48017.0
+        }
+    ],
+    "L3": [
+        {
+            "With-Backfill": 47538.0,
+            "Without-Backfill": 52819.0
+        }
+    ],
+    "L4": [
+        {
+            "With-Backfill": 52291.0,
+            "Without-Backfill": 58101.0
+        }
+    ],
+    "L5": [
+        {
+            "With-Backfill": 57521.0,
+            "Without-Backfill": 63912.0
+        }
+    ],
+    "FullDayVisits": [
+        {
+            "L1": 334.0,
+            "L2": 368.0,
+            "L3": 412.16
+        }
+    ],
+    "HalfDayVisits": [
+        {
+            "L1": 196.0,
+            "L2": 217.0,
+            "L3": 239.0
+        }
+    ],
+    "DispatchTicket": [
+        {
+            "9 X 5 X 4 Incident Response": 117.0,
+            "24 X 7 X 4 Response to site": 156.0,
+            "SBD": 130.0,
+            "NBD": 97.5,
+            "2BD": 87.75,
+            "3BD": 86.0,
+            "Additional hour rate": 60.0
+        }
+    ],
+    "DispatchPricing": [
+        {
+            "2BD": 58.5,
+            "3BD": 86.0,
+            "4BD": 84.28
+        }
+    ],
+    "ShortTermProjects": [
+        {
+            "L1": 5186.93,
+            "L2": 5762.13,
+            "L3": 6338.4,
+            "L4": 6536.38,
+            "L5": 7190.13
+        }
+    ],
+    "LongTermProjects": [
+        {
+            "L1": 4862.75,
+            "L2": 5402.0,
+            "L3": 5942.25,
+            "L4": 6536.38,
+            "L5": 7190.13
+        }
+    ]
+},
+{
+        "Name": "Cameroon",
+        "Supplier": "Direct",
+        "Currency": "USD",
+        "PaymentTerms": "60 Days",
+        "L1": [
+            {
+                "With-Backfill": 16460.0,
+                "Without-Backfill": 18288.0
+            }
+        ],
+        "L2": [
+            {
+                "With-Backfill": 18284.0,
+                "Without-Backfill": 20315.0
+            }
+        ],
+        "L3": [
+            {
+                "With-Backfill": 20113.0,
+                "Without-Backfill": 22347.0
+            }
+        ],
+        "L4": [
+            {
+                "With-Backfill": 22124.0,
+                "Without-Backfill": 24582.0
+            }
+        ],
+        "L5": [
+            {
+                "With-Backfill": 24337.0,
+                "Without-Backfill": 27041.0
+            }
+        ],
+        "FullDayVisits": [
+            {
+                "L1": 142.0,
+                "L2": 157.0,
+                "L3": 175.84
+            }
+        ],
+        "HalfDayVisits": [
+            {
+                "L1": 83.0,
+                "L2": 92.0,
+                "L3": 102.0
+            }
+        ],
+        "DispatchTicket": [
+            {
+                "9 X 5 X 4 Incident Response": 117.0,
+                "24 X 7 X 4 Response to site": 156.0,
+                "SBD": 130.0,
+                "NBD": 97.5,
+                "2BD": 87.75,
+                "3BD": 86.0,
+                "Additional hour rate": 25.0
+            }
+        ],
+        "DispatchPricing": [
+            {
+                "2BD": 24.75,
+                "3BD": 86.0,
+                "4BD": 84.28
+            }
+        ],
+        "ShortTermProjects": [
+            {
+                "L1": 2194.67,
+                "L2": 2437.87,
+                "L3": 2681.73,
+                "L4": 2765.5,
+                "L5": 3042.13
+            }
+        ],
+        "LongTermProjects": [
+            {
+                "L1": 2057.5,
+                "L2": 2285.5,
+                "L3": 2514.13,
+                "L4": 2765.5,
+                "L5": 3042.13
+            }
+        ]
+    },
+    {
+        "Name": "Central African Republic",
+        "Supplier": "Direct",
+        "Currency": "USD",
+        "PaymentTerms": "60 Days",
+        "L1": [
+            {
+                "With-Backfill": 38902.0,
+                "Without-Backfill": 43224.0
+            }
+        ],
+        "L2": [
+            {
+                "With-Backfill": 43216.0,
+                "Without-Backfill": 48017.0
+            }
+        ],
+        "L3": [
+            {
+                "With-Backfill": 47538.0,
+                "Without-Backfill": 52819.0
+            }
+        ],
+        "L4": [
+            {
+                "With-Backfill": 52291.0,
+                "Without-Backfill": 58101.0
+            }
+        ],
+        "L5": [
+            {
+                "With-Backfill": 57521.0,
+                "Without-Backfill": 63912.0
+            }
+        ],
+        "FullDayVisits": [
+            {
+                "L1": 334.0,
+                "L2": 368.0,
+                "L3": 412.16
+            }
+        ],
+        "HalfDayVisits": [
+            {
+                "L1": 196.0,
+                "L2": 217.0,
+                "L3": 239.0
+            }
+        ],
+        "DispatchTicket": [
+            {
+                "9 X 5 X 4 Incident Response": 117.0,
+                "24 X 7 X 4 Response to site": 156.0,
+                "SBD": 130.0,
+                "NBD": 97.5,
+                "2BD": 87.75,
+                "3BD": 86.0,
+                "Additional hour rate": 60.0
+            }
+        ],
+        "DispatchPricing": [
+            {
+                "2BD": 58.5,
+                "3BD": 86.0,
+                "4BD": 84.28
+            }
+        ],
+        "ShortTermProjects": [
+            {
+                "L1": 5186.93,
+                "L2": 5762.13,
+                "L3": 6338.4,
+                "L4": 6536.38,
+                "L5": 7190.13
+            }
+        ],
+        "LongTermProjects": [
+            {
+                "L1": 4862.75,
+                "L2": 5402.0,
+                "L3": 5942.25,
+                "L4": 6536.38,
+                "L5": 7190.13
+            }
+        ]
+    },
+        {
+        "Name": "Comoros",
+        "Supplier": "Direct",
+        "Currency": "USD",
+        "PaymentTerms": "60 Days",
+        "L1": [
+            {
+                "With-Backfill": 26936.0,
+                "Without-Backfill": 29928.0
+            }
+        ],
+        "L2": [
+            {
+                "With-Backfill": 29919.0,
+                "Without-Backfill": 33243.0
+            }
+        ],
+        "L3": [
+            {
+                "With-Backfill": 32911.0,
+                "Without-Backfill": 36567.0
+            }
+        ],
+        "L4": [
+            {
+                "With-Backfill": 36202.0,
+                "Without-Backfill": 40224.0
+            }
+        ],
+        "L5": [
+            {
+                "With-Backfill": 39823.0,
+                "Without-Backfill": 44247.0
+            }
+        ],
+        "FullDayVisits": [
+            {
+                "L1": 231.0,
+                "L2": 255.0,
+                "L3": 285.6
+            }
+        ],
+        "HalfDayVisits": [
+            {
+                "L1": 135.0,
+                "L2": 150.0,
+                "L3": 165.0
+            }
+        ],
+        "DispatchTicket": [
+            {
+                "9 X 5 X 4 Incident Response": 130.5,
+                "24 X 7 X 4 Response to site": 174.0,
+                "SBD": 145.0,
+                "NBD": 108.75,
+                "2BD": 97.88,
+                "3BD": 95.92,
+                "Additional hour rate": 40.0
+            }
+        ],
+        "DispatchPricing": [
+            {
+                "2BD": 40.5,
+                "3BD": 95.92,
+                "4BD": 94.0
+            }
+        ],
+        "ShortTermProjects": [
+            {
+                "L1": 3591.47,
+                "L2": 3989.2,
+                "L3": 4388.13,
+                "L4": 4525.25,
+                "L5": 4977.88
+            }
+        ],
+        "LongTermProjects": [
+            {
+                "L1": 3367.0,
+                "L2": 3739.88,
+                "L3": 4113.88,
+                "L4": 4525.25,
+                "L5": 4977.88
+            }
+        ]
+    },
+    {
+        "Name": "Congo",
+        "Supplier": "Direct",
+        "Currency": "USD",
+        "PaymentTerms": "60 Days",
+        "L1": [
+            {
+                "With-Backfill": 29117.0,
+                "Without-Backfill": 32352.0
+            }
+        ],
+        "L2": [
+            {
+                "With-Backfill": 32346.0,
+                "Without-Backfill": 35940.0
+            }
+        ],
+        "L3": [
+            {
+                "With-Backfill": 35581.0,
+                "Without-Backfill": 39534.0
+            }
+        ],
+        "L4": [
+            {
+                "With-Backfill": 39140.0,
+                "Without-Backfill": 43488.0
+            }
+        ],
+        "L5": [
+            {
+                "With-Backfill": 43054.0,
+                "Without-Backfill": 47837.0
+            }
+        ],
+        "FullDayVisits": [
+            {
+                "L1": 283.0,
+                "L2": 312.0,
+                "L3": 349.44
+            }
+        ],
+        "HalfDayVisits": [
+            {
+                "L1": 166.0,
+                "L2": 184.0,
+                "L3": 203.0
+            }
+        ],
+        "DispatchTicket": [
+            {
+                "9 X 5 X 4 Incident Response": 117.0,
+                "24 X 7 X 4 Response to site": 156.0,
+                "SBD": 130.0,
+                "NBD": 97.5,
+                "2BD": 87.75,
+                "3BD": 86.0,
+                "Additional hour rate": 50.0
+            }
+        ],
+        "DispatchPricing": [
+            {
+                "2BD": 49.5,
+                "3BD": 86.0,
+                "4BD": 84.28
+            }
+        ],
+        "ShortTermProjects": [
+            {
+                "L1": 3882.27,
+                "L2": 4312.8,
+                "L3": 4744.13,
+                "L4": 4892.5,
+                "L5": 5381.75
+            }
+        ],
+        "LongTermProjects": [
+            {
+                "L1": 3639.63,
+                "L2": 4043.25,
+                "L3": 4447.63,
+                "L4": 4892.5,
+                "L5": 5381.75
+            }
+        ]
+    },
+    {
+    "Name": "Côte d'Ivoire",
+    "Supplier": "Direct",
+    "Currency": "USD",
+    "PaymentTerms": "60 Days",
+    "L1": [
+        {
+            "With-Backfill": 26936.0,
+            "Without-Backfill": 29928.0
+        }
+    ],
+    "L2": [
+        {
+            "With-Backfill": 29919.0,
+            "Without-Backfill": 33243.0
+        }
+    ],
+    "L3": [
+        {
+            "With-Backfill": 32911.0,
+            "Without-Backfill": 36567.0
+        }
+    ],
+    "L4": [
+        {
+            "With-Backfill": 36202.0,
+            "Without-Backfill": 40224.0
+        }
+    ],
+    "L5": [
+        {
+            "With-Backfill": 39823.0,
+            "Without-Backfill": 44247.0
+        }
+    ],
+    "FullDayVisits": [
+        {
+            "L1": 231.0,
+            "L2": 255.0,
+            "L3": 285.6
+        }
+    ],
+    "HalfDayVisits": [
+        {
+            "L1": 135.0,
+            "L2": 150.0,
+            "L3": 165.0
+        }
+    ],
+    "DispatchTicket": [
+        {
+            "9 X 5 X 4 Incident Response": 117.0,
+            "24 X 7 X 4 Response to site": 156.0,
+            "SBD": 130.0,
+            "NBD": 97.5,
+            "2BD": 87.75,
+            "3BD": 86.0,
+            "Additional hour rate": 40.0
+        }
+    ],
+    "DispatchPricing": [
+        {
+            "2BD": 40.5,
+            "3BD": 86.0,
+            "4BD": 84.28
+        }
+    ],
+    "ShortTermProjects": [
+        {
+            "L1": 3591.47,
+            "L2": 3989.2,
+            "L3": 4388.13,
+            "L4": 4525.25,
+            "L5": 4977.88
+        }
+    ],
+    "LongTermProjects": [
+        {
+            "L1": 3367.0,
+            "L2": 3739.88,
+            "L3": 4113.88,
+            "L4": 4525.25,
+            "L5": 4977.88
+        }
+    ]
+},
+    {
+        "Name": "Equatorial Guinea",
+        "Supplier": "Direct",
+        "Currency": "USD",
+        "PaymentTerms": "60 Days",
+        "L1": [
+            {
+                "With-Backfill": 26936.0,
+                "Without-Backfill": 29928.0
+            }
+        ],
+        "L2": [
+            {
+                "With-Backfill": 29919.0,
+                "Without-Backfill": 33243.0
+            }
+        ],
+        "L3": [
+            {
+                "With-Backfill": 32911.0,
+                "Without-Backfill": 36567.0
+            }
+        ],
+        "L4": [
+            {
+                "With-Backfill": 36202.0,
+                "Without-Backfill": 40224.0
+            }
+        ],
+        "L5": [
+            {
+                "With-Backfill": 39823.0,
+                "Without-Backfill": 44247.0
+            }
+        ],
+        "FullDayVisits": [
+            {
+                "L1": 231.0,
+                "L2": 255.0,
+                "L3": 285.6
+            }
+        ],
+        "HalfDayVisits": [
+            {
+                "L1": 135.0,
+                "L2": 150.0,
+                "L3": 165.0
+            }
+        ],
+        "DispatchTicket": [
+            {
+                "9 X 5 X 4 Incident Response": 117.0,
+                "24 X 7 X 4 Response to site": 156.0,
+                "SBD": 130.0,
+                "NBD": 97.5,
+                "2BD": 87.75,
+                "3BD": 86.0,
+                "Additional hour rate": 40.0
+            }
+        ],
+        "DispatchPricing": [
+            {
+                "2BD": 40.5,
+                "3BD": 86.0,
+                "4BD": 84.28
+            }
+        ],
+        "ShortTermProjects": [
+            {
+                "L1": 3591.47,
+                "L2": 3989.2,
+                "L3": 4388.13,
+                "L4": 4525.25,
+                "L5": 4977.88
+            }
+        ],
+        "LongTermProjects": [
+            {
+                "L1": 3367.0,
+                "L2": 3739.88,
+                "L3": 4113.88,
+                "L4": 4525.25,
+                "L5": 4977.88
+            }
+        ]
+    },
+    {
+        "Name": "Ethiopia",
+        "Supplier": "Direct",
+        "Currency": "USD",
+        "PaymentTerms": "60 Days",
+        "L1": [
+            {
+                "With-Backfill": 26936.0,
+                "Without-Backfill": 29928.0
+            }
+        ],
+        "L2": [
+            {
+                "With-Backfill": 29919.0,
+                "Without-Backfill": 33243.0
+            }
+        ],
+        "L3": [
+            {
+                "With-Backfill": 32911.0,
+                "Without-Backfill": 36567.0
+            }
+        ],
+        "L4": [
+            {
+                "With-Backfill": 36202.0,
+                "Without-Backfill": 40224.0
+            }
+        ],
+        "L5": [
+            {
+                "With-Backfill": 39823.0,
+                "Without-Backfill": 44247.0
+            }
+        ],
+        "FullDayVisits": [
+            {
+                "L1": 231.0,
+                "L2": 255.0,
+                "L3": 285.6
+            }
+        ],
+        "HalfDayVisits": [
+            {
+                "L1": 135.0,
+                "L2": 150.0,
+                "L3": 165.0
+            }
+        ],
+        "DispatchTicket": [
+            {
+                "9 X 5 X 4 Incident Response": 117.0,
+                "24 X 7 X 4 Response to site": 156.0,
+                "SBD": 130.0,
+                "NBD": 97.5,
+                "2BD": 87.75,
+                "3BD": 86.0,
+                "Additional hour rate": 40.0
+            }
+        ],
+        "DispatchPricing": [
+            {
+                "2BD": 40.5,
+                "3BD": 86.0,
+                "4BD": 84.28
+            }
+        ],
+        "ShortTermProjects": [
+            {
+                "L1": 3591.47,
+                "L2": 3989.2,
+                "L3": 4388.13,
+                "L4": 4525.25,
+                "L5": 4977.88
+            }
+        ],
+        "LongTermProjects": [
+            {
+                "L1": 3367.0,
+                "L2": 3739.88,
+                "L3": 4113.88,
+                "L4": 4525.25,
+                "L5": 4977.88
+            }
+        ]
+    },
+    {
+    "Name": "The Gambia",
+    "Supplier": "Direct",
+    "Currency": "USD",
+    "PaymentTerms": "60 Days",
+    "L1": [
+        {
+            "With-Backfill": 38902.0,
+            "Without-Backfill": 43224.0
+        }
+    ],
+    "L2": [
+        {
+            "With-Backfill": 43216.0,
+            "Without-Backfill": 48017.0
+        }
+    ],
+    "L3": [
+        {
+            "With-Backfill": 47538.0,
+            "Without-Backfill": 52819.0
+        }
+    ],
+    "L4": [
+        {
+            "With-Backfill": 52291.0,
+            "Without-Backfill": 58101.0
+        }
+    ],
+    "L5": [
+        {
+            "With-Backfill": 57521.0,
+            "Without-Backfill": 63912.0
+        }
+    ],
+    "FullDayVisits": [
+        {
+            "L1": 334.0,
+            "L2": 368.0,
+            "L3": 412.16
+        }
+    ],
+    "HalfDayVisits": [
+        {
+            "L1": 196.0,
+            "L2": 217.0,
+            "L3": 239.0
+        }
+    ],
+    "DispatchTicket": [
+        {
+            "9 X 5 X 4 Incident Response": 117.0,
+            "24 X 7 X 4 Response to site": 156.0,
+            "SBD": 130.0,
+            "NBD": 97.5,
+            "2BD": 87.75,
+            "3BD": 86.0,
+            "Additional hour rate": 60.0
+        }
+    ],
+    "DispatchPricing": [
+        {
+            "2BD": 58.5,
+            "3BD": 86.0,
+            "4BD": 84.28
+        }
+    ],
+    "ShortTermProjects": [
+        {
+            "L1": 5186.93,
+            "L2": 5762.13,
+            "L3": 6338.4,
+            "L4": 6536.38,
+            "L5": 7190.13
+        }
+    ],
+    "LongTermProjects": [
+        {
+            "L1": 4862.75,
+            "L2": 5402.0,
+            "L3": 5942.25,
+            "L4": 6536.38,
+            "L5": 7190.13
+        }
+    ]
+},
+{
+    "Name": "Ghana",
+    "Supplier": "Direct",
+    "Currency": "USD",
+    "PaymentTerms": "60 Days",
+    "L1": [
+        {
+            "With-Backfill": 26936.0,
+            "Without-Backfill": 29928.0
+        }
+    ],
+    "L2": [
+        {
+            "With-Backfill": 29919.0,
+            "Without-Backfill": 33243.0
+        }
+    ],
+    "L3": [
+        {
+            "With-Backfill": 32911.0,
+            "Without-Backfill": 36567.0
+        }
+    ],
+    "L4": [
+        {
+            "With-Backfill": 36202.0,
+            "Without-Backfill": 40224.0
+        }
+    ],
+    "L5": [
+        {
+            "With-Backfill": 39823.0,
+            "Without-Backfill": 44247.0
+        }
+    ],
+    "FullDayVisits": [
+        {
+            "L1": 231.0,
+            "L2": 255.0,
+            "L3": 285.6
+        }
+    ],
+    "HalfDayVisits": [
+        {
+            "L1": 135.0,
+            "L2": 150.0,
+            "L3": 165.0
+        }
+    ],
+    "DispatchTicket": [
+        {
+            "9 X 5 X 4 Incident Response": 103.5,
+            "24 X 7 X 4 Response to site": 138.0,
+            "SBD": 115.0,
+            "NBD": 86.25,
+            "2BD": 77.63,
+            "3BD": 76.07,
+            "Additional hour rate": 40.0
+        }
+    ],
+    "DispatchPricing": [
+        {
+            "2BD": 40.5,
+            "3BD": 76.07,
+            "4BD": 74.55
+        }
+    ],
+    "ShortTermProjects": [
+        {
+            "L1": 3591.47,
+            "L2": 3989.2,
+            "L3": 4388.13,
+            "L4": 4525.25,
+            "L5": 4977.88
+        }
+    ],
+    "LongTermProjects": [
+        {
+            "L1": 3367.0,
+            "L2": 3739.88,
+            "L3": 4113.88,
+            "L4": 4525.25,
+            "L5": 4977.88
+        }
+    ]
+},
+{
+    "Name": "Guinea",
+    "Supplier": "Direct",
+    "Currency": "USD",
+    "PaymentTerms": "60 Days",
+    "L1": [
+        {
+            "With-Backfill": 26936.0,
+            "Without-Backfill": 29928.0
+        }
+    ],
+    "L2": [
+        {
+            "With-Backfill": 29919.0,
+            "Without-Backfill": 33243.0
+        }
+    ],
+    "L3": [
+        {
+            "With-Backfill": 32911.0,
+            "Without-Backfill": 36567.0
+        }
+    ],
+    "L4": [
+        {
+            "With-Backfill": 36202.0,
+            "Without-Backfill": 40224.0
+        }
+    ],
+    "L5": [
+        {
+            "With-Backfill": 39823.0,
+            "Without-Backfill": 44247.0
+        }
+    ],
+    "FullDayVisits": [
+        {
+            "L1": 231.0,
+            "L2": 255.0,
+            "L3": 285.6
+        }
+    ],
+    "HalfDayVisits": [
+        {
+            "L1": 135.0,
+            "L2": 150.0,
+            "L3": 165.0
+        }
+    ],
+    "DispatchTicket": [
+        {
+            "9 X 5 X 4 Incident Response": 117.0,
+            "24 X 7 X 4 Response to site": 156.0,
+            "SBD": 130.0,
+            "NBD": 97.5,
+            "2BD": 87.75,
+            "3BD": 86.0,
+            "Additional hour rate": 40.0
+        }
+    ],
+    "DispatchPricing": [
+        {
+            "2BD": 40.5,
+            "3BD": 86.0,
+            "4BD": 84.28
+        }
+    ],
+    "ShortTermProjects": [
+        {
+            "L1": 3591.47,
+            "L2": 3989.2,
+            "L3": 4388.13,
+            "L4": 4525.25,
+            "L5": 4977.88
+        }
+    ],
+    "LongTermProjects": [
+        {
+            "L1": 3367.0,
+            "L2": 3739.88,
+            "L3": 4113.88,
+            "L4": 4525.25,
+            "L5": 4977.88
+        }
+    ]
+},
+{
+    "Name": "Kenya",
+    "Supplier": "Direct",
+    "Currency": "USD",
+    "PaymentTerms": "60 Days",
+    "L1": [
+        {
+            "With-Backfill": 24257.0,
+            "Without-Backfill": 26952.0
+        }
+    ],
+    "L2": [
+        {
+            "With-Backfill": 26946.0,
+            "Without-Backfill": 29940.0
+        }
+    ],
+    "L3": [
+        {
+            "With-Backfill": 32346.0,
+            "Without-Backfill": 35940.0
+        }
+    ],
+    "L4": [
+        {
+            "With-Backfill": 35581.0,
+            "Without-Backfill": 39534.0
+        }
+    ],
+    "L5": [
+        {
+            "With-Backfill": 39140.0,
+            "Without-Backfill": 43488.0
+        }
+    ],
+    "FullDayVisits": [
+        {
+            "L1": 334.0,
+            "L2": 368.0,
+            "L3": 412.16
+        }
+    ],
+    "HalfDayVisits": [
+        {
+            "L1": 196.0,
+            "L2": 217.0,
+            "L3": 239.0
+        }
+    ],
+    "DispatchTicket": [
+        {
+            "9 X 5 X 4 Incident Response": 99.0,
+            "24 X 7 X 4 Response to site": 132.0,
+            "SBD": 110.0,
+            "NBD": 82.5,
+            "2BD": 74.25,
+            "3BD": 72.77,
+            "Additional hour rate": 60.0
+        }
+    ],
+    "DispatchPricing": [
+        {
+            "2BD": 58.5,
+            "3BD": 72.77,
+            "4BD": 71.31
+        }
+    ],
+    "ShortTermProjects": [
+        {
+            "L1": 3234.27,
+            "L2": 3592.8,
+            "L3": 4312.8,
+            "L4": 4447.63,
+            "L5": 4892.5
+        }
+    ],
+    "LongTermProjects": [
+        {
+            "L1": 3032.13,
+            "L2": 3368.25,
+            "L3": 4043.25,
+            "L4": 4447.63,
+            "L5": 4892.5
+        }
+    ]
+},
+    {
+        "Name": "Liberia",
+        "Supplier": "Direct",
+        "Currency": "USD",
+        "PaymentTerms": "60 Days",
+        "L1": [
+            {
+                "With-Backfill": 29117.0,
+                "Without-Backfill": 32352.0
+            }
+        ],
+        "L2": [
+            {
+                "With-Backfill": 32346.0,
+                "Without-Backfill": 35940.0
+            }
+        ],
+        "L3": [
+            {
+                "With-Backfill": 35581.0,
+                "Without-Backfill": 39534.0
+            }
+        ],
+        "L4": [
+            {
+                "With-Backfill": 39140.0,
+                "Without-Backfill": 43488.0
+            }
+        ],
+        "L5": [
+            {
+                "With-Backfill": 43054.0,
+                "Without-Backfill": 47837.0
+            }
+        ],
+        "FullDayVisits": [
+            {
+                "L1": 231.0,
+                "L2": 255.0,
+                "L3": 285.6
+            }
+        ],
+        "HalfDayVisits": [
+            {
+                "L1": 135.0,
+                "L2": 150.0,
+                "L3": 165.0
+            }
+        ],
+        "DispatchTicket": [
+            {
+                "9 X 5 X 4 Incident Response": 117.0,
+                "24 X 7 X 4 Response to site": 156.0,
+                "SBD": 130.0,
+                "NBD": 97.5,
+                "2BD": 87.75,
+                "3BD": 86.0,
+                "Additional hour rate": 40.0
+            }
+        ],
+        "DispatchPricing": [
+            {
+                "2BD": 40.5,
+                "3BD": 86.0,
+                "4BD": 84.28
+            }
+        ],
+        "ShortTermProjects": [
+            {
+                "L1": 3882.27,
+                "L2": 4312.8,
+                "L3": 4744.13,
+                "L4": 4892.5,
+                "L5": 5381.75
+            }
+        ],
+        "LongTermProjects": [
+            {
+                "L1": 3639.63,
+                "L2": 4043.25,
+                "L3": 4447.63,
+                "L4": 4892.5,
+                "L5": 5381.75
+            }
+        ]
+    },
+    {
+        "Name": "Libya",
+        "Supplier": "Direct",
+        "Currency": "USD",
+        "PaymentTerms": "60 Days",
+        "L1": [
+            {
+                "With-Backfill": 29117.0,
+                "Without-Backfill": 32352.0
+            }
+        ],
+        "L2": [
+            {
+                "With-Backfill": 32346.0,
+                "Without-Backfill": 35940.0
+            }
+        ],
+        "L3": [
+            {
+                "With-Backfill": 35581.0,
+                "Without-Backfill": 39534.0
+            }
+        ],
+        "L4": [
+            {
+                "With-Backfill": 39140.0,
+                "Without-Backfill": 43488.0
+            }
+        ],
+        "L5": [
+            {
+                "With-Backfill": 43054.0,
+                "Without-Backfill": 47837.0
+            }
+        ],
+        "FullDayVisits": [
+            {
+                "L1": 283.0,
+                "L2": 312.0,
+                "L3": 349.44
+            }
+        ],
+        "HalfDayVisits": [
+            {
+                "L1": 166.0,
+                "L2": 184.0,
+                "L3": 203.0
+            }
+        ],
+        "DispatchTicket": [
+            {
+                "9 X 5 X 4 Incident Response": 81.0,
+                "24 X 7 X 4 Response to site": 108.0,
+                "SBD": 90.0,
+                "NBD": 67.5,
+                "2BD": 60.75,
+                "3BD": 59.54,
+                "Additional hour rate": 50.0
+            }
+        ],
+        "DispatchPricing": [
+            {
+                "2BD": 49.5,
+                "3BD": 59.54,
+                "4BD": 58.34
+            }
+        ],
+        "ShortTermProjects": [
+            {
+                "L1": 3882.27,
+                "L2": 4312.8,
+                "L3": 4744.13,
+                "L4": 4892.5,
+                "L5": 5381.75
+            }
+        ],
+        "LongTermProjects": [
+            {
+                "L1": 3639.63,
+                "L2": 4043.25,
+                "L3": 4447.63,
+                "L4": 4892.5,
+                "L5": 5381.75
+            }
+        ]
+    },
+        {
+        "Name": "Madagascar",
+        "Supplier": "Direct",
+        "Currency": "USD",
+        "PaymentTerms": "60 Days",
+        "L1": [
+            {
+                "With-Backfill": 38902.0,
+                "Without-Backfill": 43224.0
+            }
+        ],
+        "L2": [
+            {
+                "With-Backfill": 43216.0,
+                "Without-Backfill": 48017.0
+            }
+        ],
+        "L3": [
+            {
+                "With-Backfill": 47538.0,
+                "Without-Backfill": 52819.0
+            }
+        ],
+        "L4": [
+            {
+                "With-Backfill": 52291.0,
+                "Without-Backfill": 58101.0
+            }
+        ],
+        "L5": [
+            {
+                "With-Backfill": 57521.0,
+                "Without-Backfill": 63912.0
+            }
+        ],
+        "FullDayVisits": [
+            {
+                "L1": 334.0,
+                "L2": 368.0,
+                "L3": 412.16
+            }
+        ],
+        "HalfDayVisits": [
+            {
+                "L1": 196.0,
+                "L2": 217.0,
+                "L3": 239.0
+            }
+        ],
+        "DispatchTicket": [
+            {
+                "9 X 5 X 4 Incident Response": 117.0,
+                "24 X 7 X 4 Response to site": 156.0,
+                "SBD": 130.0,
+                "NBD": 97.5,
+                "2BD": 87.75,
+                "3BD": 86.0,
+                "Additional hour rate": 60.0
+            }
+        ],
+        "DispatchPricing": [
+            {
+                "2BD": 58.5,
+                "3BD": 86.0,
+                "4BD": 84.28
+            }
+        ],
+        "ShortTermProjects": [
+            {
+                "L1": 5186.93,
+                "L2": 5762.13,
+                "L3": 6338.4,
+                "L4": 6536.38,
+                "L5": 7190.13
+            }
+        ],
+        "LongTermProjects": [
+            {
+                "L1": 4862.75,
+                "L2": 5402.0,
+                "L3": 5942.25,
+                "L4": 6536.38,
+                "L5": 7190.13
+            }
+        ]
+    },
+    {
+        "Name": "Malawi",
+        "Supplier": "Direct",
+        "Currency": "USD",
+        "PaymentTerms": "60 Days",
+        "L1": [
+            {
+                "With-Backfill": 38902.0,
+                "Without-Backfill": 43224.0
+            }
+        ],
+        "L2": [
+            {
+                "With-Backfill": 43216.0,
+                "Without-Backfill": 48017.0
+            }
+        ],
+        "L3": [
+            {
+                "With-Backfill": 47538.0,
+                "Without-Backfill": 52819.0
+            }
+        ],
+        "L4": [
+            {
+                "With-Backfill": 52291.0,
+                "Without-Backfill": 58101.0
+            }
+        ],
+        "L5": [
+            {
+                "With-Backfill": 57521.0,
+                "Without-Backfill": 63912.0
+            }
+        ],
+        "FullDayVisits": [
+            {
+                "L1": 334.0,
+                "L2": 368.0,
+                "L3": 412.16
+            }
+        ],
+        "HalfDayVisits": [
+            {
+                "L1": 196.0,
+                "L2": 217.0,
+                "L3": 239.0
+            }
+        ],
+        "DispatchTicket": [
+            {
+                "9 X 5 X 4 Incident Response": 117.0,
+                "24 X 7 X 4 Response to site": 156.0,
+                "SBD": 130.0,
+                "NBD": 97.5,
+                "2BD": 87.75,
+                "3BD": 86.0,
+                "Additional hour rate": 60.0
+            }
+        ],
+        "DispatchPricing": [
+            {
+                "2BD": 58.5,
+                "3BD": 86.0,
+                "4BD": 84.28
+            }
+        ],
+        "ShortTermProjects": [
+            {
+                "L1": 5186.93,
+                "L2": 5762.13,
+                "L3": 6338.4,
+                "L4": 6536.38,
+                "L5": 7190.13
+            }
+        ],
+        "LongTermProjects": [
+            {
+                "L1": 4862.75,
+                "L2": 5402.0,
+                "L3": 5942.25,
+                "L4": 6536.38,
+                "L5": 7190.13
+            }
+        ]
+    },
+    {
+    "Name": "Mali",
+    "Supplier": "Direct",
+    "Currency": "USD",
+    "PaymentTerms": "60 Days",
+    "L1": [
+        {
+            "With-Backfill": 38902.0,
+            "Without-Backfill": 43224.0
+        }
+    ],
+    "L2": [
+        {
+            "With-Backfill": 43216.0,
+            "Without-Backfill": 48017.0
+        }
+    ],
+    "L3": [
+        {
+            "With-Backfill": 47538.0,
+            "Without-Backfill": 52819.0
+        }
+    ],
+    "L4": [
+        {
+            "With-Backfill": 52291.0,
+            "Without-Backfill": 58101.0
+        }
+    ],
+    "L5": [
+        {
+            "With-Backfill": 57521.0,
+            "Without-Backfill": 63912.0
+        }
+    ],
+    "FullDayVisits": [
+        {
+            "L1": 334.0,
+            "L2": 368.0,
+            "L3": 412.16
+        }
+    ],
+    "HalfDayVisits": [
+        {
+            "L1": 196.0,
+            "L2": 217.0,
+            "L3": 239.0
+        }
+    ],
+    "DispatchTicket": [
+        {
+            "9 X 5 X 4 Incident Response": 112.5,
+            "24 X 7 X 4 Response to site": 150.0,
+            "SBD": 125.0,
+            "NBD": 93.75,
+            "2BD": 84.38,
+            "3BD": 82.69,
+            "Additional hour rate": 60.0
+        }
+    ],
+    "DispatchPricing": [
+        {
+            "2BD": 58.5,
+            "3BD": 82.69,
+            "4BD": 81.03
+        }
+    ],
+    "ShortTermProjects": [
+        {
+            "L1": 5186.93,
+            "L2": 5762.13,
+            "L3": 6338.4,
+            "L4": 6536.38,
+            "L5": 7190.13
+        }
+    ],
+    "LongTermProjects": [
+        {
+            "L1": 4862.75,
+            "L2": 5402.0,
+            "L3": 5942.25,
+            "L4": 6536.38,
+            "L5": 7190.13
+        }
+    ]
+},
+    {
+        "Name": "Mauritius",
+        "Supplier": "Direct",
+        "Currency": "USD",
+        "PaymentTerms": "60 Days",
+        "L1": [
+            {
+                "With-Backfill": 26936.0,
+                "Without-Backfill": 29928.0
+            }
+        ],
+        "L2": [
+            {
+                "With-Backfill": 29919.0,
+                "Without-Backfill": 33243.0
+            }
+        ],
+        "L3": [
+            {
+                "With-Backfill": 32911.0,
+                "Without-Backfill": 36567.0
+            }
+        ],
+        "L4": [
+            {
+                "With-Backfill": 36202.0,
+                "Without-Backfill": 40224.0
+            }
+        ],
+        "L5": [
+            {
+                "With-Backfill": 39823.0,
+                "Without-Backfill": 44247.0
+            }
+        ],
+        "FullDayVisits": [
+            {
+                "L1": 231.0,
+                "L2": 255.0,
+                "L3": 285.6
+            }
+        ],
+        "HalfDayVisits": [
+            {
+                "L1": 135.0,
+                "L2": 150.0,
+                "L3": 165.0
+            }
+        ],
+        "DispatchTicket": [
+            {
+                "9 X 5 X 4 Incident Response": 90.0,
+                "24 X 7 X 4 Response to site": 120.0,
+                "SBD": 100.0,
+                "NBD": 75.0,
+                "2BD": 67.5,
+                "3BD": 66.15,
+                "Additional hour rate": 40.0
+            }
+        ],
+        "DispatchPricing": [
+            {
+                "2BD": 40.5,
+                "3BD": 66.15,
+                "4BD": 64.83
+            }
+        ],
+        "ShortTermProjects": [
+            {
+                "L1": 3591.47,
+                "L2": 3989.2,
+                "L3": 4388.13,
+                "L4": 4525.25,
+                "L5": 4977.88
+            }
+        ],
+        "LongTermProjects": [
+            {
+                "L1": 3367.0,
+                "L2": 3739.88,
+                "L3": 4113.88,
+                "L4": 4525.25,
+                "L5": 4977.88
+            }
+        ]
+    },
+    {
+        "Name": "Mayotte",
+        "Supplier": "Direct",
+        "Currency": "USD",
+        "PaymentTerms": "60 Days",
+        "L1": [
+            {
+                "With-Backfill": 38902.0,
+                "Without-Backfill": 43224.0
+            }
+        ],
+        "L2": [
+            {
+                "With-Backfill": 43216.0,
+                "Without-Backfill": 48017.0
+            }
+        ],
+        "L3": [
+            {
+                "With-Backfill": 47538.0,
+                "Without-Backfill": 52819.0
+            }
+        ],
+        "L4": [
+            {
+                "With-Backfill": 52291.0,
+                "Without-Backfill": 58101.0
+            }
+        ],
+        "L5": [
+            {
+                "With-Backfill": 57521.0,
+                "Without-Backfill": 63912.0
+            }
+        ],
+        "FullDayVisits": [
+            {
+                "L1": 334.0,
+                "L2": 368.0,
+                "L3": 412.16
+            }
+        ],
+        "HalfDayVisits": [
+            {
+                "L1": 196.0,
+                "L2": 217.0,
+                "L3": 239.0
+            }
+        ],
+        "DispatchTicket": [
+            {
+                "9 X 5 X 4 Incident Response": 117.0,
+                "24 X 7 X 4 Response to site": 156.0,
+                "SBD": 130.0,
+                "NBD": 97.5,
+                "2BD": 87.75,
+                "3BD": 86.0,
+                "Additional hour rate": 60.0
+            }
+        ],
+        "DispatchPricing": [
+            {
+                "2BD": 58.5,
+                "3BD": 86.0,
+                "4BD": 84.28
+            }
+        ],
+        "ShortTermProjects": [
+            {
+                "L1": 5186.93,
+                "L2": 5762.13,
+                "L3": 6338.4,
+                "L4": 6536.38,
+                "L5": 7190.13
+            }
+        ],
+        "LongTermProjects": [
+            {
+                "L1": 4862.75,
+                "L2": 5402.0,
+                "L3": 5942.25,
+            "L4": 6536.38,
+                "L5": 7190.13
+            }
+        ]
+    },
+       {
+        "Name": "Morocco",
+        "Supplier": "Direct",
+        "Currency": "USD",
+        "PaymentTerms": "60 Days",
+        "L1": [
+            {
+                "With-Backfill": 38902.0,
+                "Without-Backfill": 43224.0
+            }
+        ],
+        "L2": [
+            {
+                "With-Backfill": 43216.0,
+                "Without-Backfill": 48017.0
+            }
+        ],
+        "L3": [
+            {
+                "With-Backfill": 47538.0,
+                "Without-Backfill": 52819.0
+            }
+        ],
+        "L4": [
+            {
+                "With-Backfill": 52291.0,
+                "Without-Backfill": 58101.0
+            }
+        ],
+        "L5": [
+            {
+                "With-Backfill": 57521.0,
+                "Without-Backfill": 63912.0
+            }
+        ],
+        "FullDayVisits": [
+            {
+                "L1": 334.0,
+                "L2": 368.0,
+                "L3": 412.16
+            }
+        ],
+        "HalfDayVisits": [
+            {
+                "L1": 196.0,
+                "L2": 217.0,
+                "L3": 239.0
+            }
+        ],
+        "DispatchTicket": [
+            {
+                "9 X 5 X 4 Incident Response": 112.5,
+                "24 X 7 X 4 Response to site": 150.0,
+                "SBD": 125.0,
+                "NBD": 93.75,
+                "2BD": 84.38,
+                "3BD": 82.69,
+                "Additional hour rate": 60.0
+            }
+        ],
+        "DispatchPricing": [
+            {
+                "2BD": 58.5,
+                "3BD": 82.69,
+                "4BD": 81.03
+            }
+        ],
+        "ShortTermProjects": [
+            {
+                "L1": 5186.93,
+                "L2": 5762.13,
+                "L3": 6338.4,
+                "L4": 6536.38,
+                "L5": 7190.13
+            }
+        ],
+        "LongTermProjects": [
+            {
+                "L1": 4862.75,
+                "L2": 5402.0,
+                "L3": 5942.25,
+                "L4": 6536.38,
+                "L5": 7190.13
+            }
+        ]
+    },
+    {
+        "Name": "Mozambique",
+        "Supplier": "Direct",
+        "Currency": "USD",
+        "PaymentTerms": "60 Days",
+        "L1": [
+            {
+                "With-Backfill": 38902.0,
+                "Without-Backfill": 43224.0
+            }
+        ],
+        "L2": [
+            {
+                "With-Backfill": 43216.0,
+                "Without-Backfill": 48017.0
+            }
+        ],
+        "L3": [
+            {
+                "With-Backfill": 47538.0,
+                "Without-Backfill": 52819.0
+            }
+        ],
+        "L4": [
+            {
+                "With-Backfill": 52291.0,
+                "Without-Backfill": 58101.0
+            }
+        ],
+        "L5": [
+            {
+                "With-Backfill": 57521.0,
+                "Without-Backfill": 63912.0
+            }
+        ],
+        "FullDayVisits": [
+            {
+                "L1": 334.0,
+                "L2": 368.0,
+                "L3": 412.16
+            }
+        ],
+        "HalfDayVisits": [
+            {
+                "L1": 196.0,
+                "L2": 217.0,
+                "L3": 239.0
+            }
+        ],
+        "DispatchTicket": [
+            {
+                "9 X 5 X 4 Incident Response": 117.0,
+                "24 X 7 X 4 Response to site": 156.0,
+                "SBD": 130.0,
+                "NBD": 97.5,
+                "2BD": 87.75,
+                "3BD": 86.0,
+                "Additional hour rate": 60.0
+            }
+        ],
+        "DispatchPricing": [
+            {
+                "2BD": 58.5,
+                "3BD": 86.0,
+                "4BD": 84.28
+            }
+        ],
+        "ShortTermProjects": [
+            {
+                "L1": 5186.93,
+                "L2": 5762.13,
+                "L3": 6338.4,
+                "L4": 6536.38,
+                "L5": 7190.13
+            }
+        ],
+        "LongTermProjects": [
+            {
+                "L1": 4862.75,
+                "L2": 5402.0,
+                "L3": 5942.25,
+                "L4": 6536.38,
+                "L5": 7190.13
+            }
+        ]
+    },
+    {
+    "Name": "Namibia",
+    "Supplier": "Direct",
+    "Currency": "USD",
+    "PaymentTerms": "60 Days",
+    "L1": [
+        {
+            "With-Backfill": 38902.0,
+            "Without-Backfill": 43224.0
+        }
+    ],
+    "L2": [
+        {
+            "With-Backfill": 43216.0,
+            "Without-Backfill": 48017.0
+        }
+    ],
+    "L3": [
+        {
+            "With-Backfill": 47538.0,
+            "Without-Backfill": 52819.0
+        }
+    ],
+    "L4": [
+        {
+            "With-Backfill": 52291.0,
+            "Without-Backfill": 58101.0
+        }
+    ],
+    "L5": [
+        {
+            "With-Backfill": 57521.0,
+            "Without-Backfill": 63912.0
+        }
+    ],
+    "FullDayVisits": [
+        {
+            "L1": 334.0,
+            "L2": 368.0,
+            "L3": 412.16
+        }
+    ],
+    "HalfDayVisits": [
+        {
+            "L1": 196.0,
+            "L2": 217.0,
+            "L3": 239.0
+        }
+    ],
+    "DispatchTicket": [
+        {
+            "9 X 5 X 4 Incident Response": 103.5,
+            "24 X 7 X 4 Response to site": 138.0,
+            "SBD": 115.0,
+            "NBD": 86.25,
+            "2BD": 77.63,
+            "3BD": 76.07,
+            "Additional hour rate": 60.0
+        }
+    ],
+    "DispatchPricing": [
+        {
+            "2BD": 58.5,
+            "3BD": 76.07,
+            "4BD": 74.55
+        }
+    ],
+    "ShortTermProjects": [
+        {
+            "L1": 5186.93,
+            "L2": 5762.13,
+            "L3": 6338.4,
+            "L4": 6536.38,
+            "L5": 7190.13
+        }
+    ],
+    "LongTermProjects": [
+        {
+            "L1": 4862.75,
+            "L2": 5402.0,
+            "L3": 5942.25,
+            "L4": 6536.38,
+            "L5": 7190.13
+        }
+    ]
+},
+    {
+        "Name": "Niger",
+        "Supplier": "Direct",
+        "Currency": "USD",
+        "PaymentTerms": "60 Days",
+        "L1": [
+            {
+                "With-Backfill": 38902.0,
+                "Without-Backfill": 43224.0
+            }
+        ],
+        "L2": [
+            {
+                "With-Backfill": 43216.0,
+                "Without-Backfill": 48017.0
+            }
+        ],
+        "L3": [
+            {
+                "With-Backfill": 47538.0,
+                "Without-Backfill": 52819.0
+            }
+        ],
+        "L4": [
+            {
+                "With-Backfill": 52291.0,
+                "Without-Backfill": 58101.0
+            }
+        ],
+        "L5": [
+            {
+                "With-Backfill": 57521.0,
+                "Without-Backfill": 63912.0
+            }
+        ],
+        "FullDayVisits": [
+            {
+                "L1": 334.0,
+                "L2": 368.0,
+                "L3": 412.16
+            }
+        ],
+        "HalfDayVisits": [
+            {
+                "L1": 196.0,
+                "L2": 217.0,
+                "L3": 239.0
+            }
+        ],
+        "DispatchTicket": [
+            {
+                "9 X 5 X 4 Incident Response": 117.0,
+                "24 X 7 X 4 Response to site": 156.0,
+                "SBD": 130.0,
+                "NBD": 97.5,
+                "2BD": 87.75,
+                "3BD": 86.0,
+                "Additional hour rate": 60.0
+            }
+        ],
+        "DispatchPricing": [
+            {
+                "2BD": 58.5,
+                "3BD": 86.0,
+                "4BD": 84.28
+            }
+        ],
+        "ShortTermProjects": [
+            {
+                "L1": 5186.93,
+                "L2": 5762.13,
+                "L3": 6338.4,
+                "L4": 6536.38,
+                "L5": 7190.13
+            }
+        ],
+        "LongTermProjects": [
+            {
+                "L1": 4862.75,
+                "L2": 5402.0,
+                "L3": 5942.25,
+                "L4": 6536.38,
+                "L5": 7190.13
+            }
+        ]
+    },
+    {
+        "Name": "Nigeria",
+        "Supplier": "Direct",
+        "Currency": "USD",
+        "PaymentTerms": "60 Days",
+        "L1": [
+            {
+                "With-Backfill": 38902.0,
+                "Without-Backfill": 43224.0
+            }
+        ],
+        "L2": [
+            {
+                "With-Backfill": 43216.0,
+                "Without-Backfill": 48017.0
+            }
+        ],
+        "L3": [
+            {
+                "With-Backfill": 47538.0,
+                "Without-Backfill": 52819.0
+            }
+        ],
+        "L4": [
+            {
+                "With-Backfill": 52291.0,
+                "Without-Backfill": 58101.0
+            }
+        ],
+        "L5": [
+            {
+                "With-Backfill": 57521.0,
+                "Without-Backfill": 63912.0
+            }
+        ],
+        "FullDayVisits": [
+            {
+                "L1": 334.0,
+                "L2": 368.0,
+                "L3": 412.16
+            }
+        ],
+        "HalfDayVisits": [
+            {
+                "L1": 196.0,
+                "L2": 217.0,
+                "L3": 239.0
+            }
+        ],
+        "DispatchTicket": [
+            {
+                "9 X 5 X 4 Incident Response": 117.0,
+                "24 X 7 X 4 Response to site": 156.0,
+                "SBD": 130.0,
+                "NBD": 97.5,
+                "2BD": 87.75,
+                "3BD": 86.0,
+                "Additional hour rate": 60.0
+            }
+        ],
+        "DispatchPricing": [
+            {
+                "2BD": 58.5,
+                "3BD": 86.0,
+                "4BD": 84.28
+            }
+        ],
+        "ShortTermProjects": [
+            {
+                "L1": 5186.93,
+                "L2": 5762.13,
+                "L3": 6338.4,
+                "L4": 6536.38,
+                "L5": 7190.13
+            }
+        ],
+        "LongTermProjects": [
+            {
+                "L1": 4862.75,
+                "L2": 5402.0,
+                "L3": 5942.25,
+                "L4": 6536.38,
+                "L5": 7190.13
+            }
+        ]
+    },
+    {
+    "Name": "Reunion",
+    "Supplier": "Direct",
+    "Currency": "USD",
+    "PaymentTerms": "60 Days",
+    "L1": [
+        {
+            "With-Backfill": 37401.0,
+            "Without-Backfill": 41556.0
+        }
+    ],
+    "L2": [
+        {
+            "With-Backfill": 41553.0,
+            "Without-Backfill": 46170.0
+        }
+    ],
+    "L3": [
+        {
+            "With-Backfill": 45709.0,
+            "Without-Backfill": 50787.0
+        }
+    ],
+    "L4": [
+        {
+            "With-Backfill": 50280.0,
+            "Without-Backfill": 55866.0
+        }
+    ],
+    "L5": [
+        {
+            "With-Backfill": 55308.0,
+            "Without-Backfill": 61453.0
+        }
+    ],
+    "FullDayVisits": [
+        {
+            "L1": 321.0,
+            "L2": 354.0,
+            "L3": 396.48
+        }
+    ],
+    "HalfDayVisits": [
+        {
+            "L1": 189.0,
+            "L2": 209.0,
+            "L3": 230.0
+        }
+    ],
+    "DispatchTicket": [
+        {
+            "9 X 5 X 4 Incident Response": 117.0,
+            "24 X 7 X 4 Response to site": 156.0,
+            "SBD": 130.0,
+            "NBD": 97.5,
+            "2BD": 87.75,
+            "3BD": 86.0,
+            "Additional hour rate": 55.0
+        }
+    ],
+    "DispatchPricing": [
+        {
+            "2BD": 56.25,
+            "3BD": 86.0,
+            "4BD": 84.28
+        }
+    ],
+    "ShortTermProjects": [
+        {
+            "L1": 4986.8,
+            "L2": 5540.4,
+            "L3": 6094.53,
+            "L4": 6285.0,
+            "L5": 6913.5
+        }
+    ],
+    "LongTermProjects": [
+        {
+            "L1": 4675.13,
+            "L2": 5194.13,
+            "L3": 5713.63,
+            "L4": 6285.0,
+            "L5": 6913.5
+        }
+    ]
+},
+    {
+        "Name": "Rwanda",
+        "Supplier": "Direct",
+        "Currency": "USD",
+        "PaymentTerms": "60 Days",
+        "L1": [
+            {
+                "With-Backfill": 33977.0,
+                "Without-Backfill": 37752.0
+            }
+        ],
+        "L2": [
+            {
+                "With-Backfill": 37746.0,
+                "Without-Backfill": 41940.0
+            }
+        ],
+        "L3": [
+            {
+                "With-Backfill": 41521.0,
+                "Without-Backfill": 46134.0
+            }
+        ],
+        "L4": [
+            {
+                "With-Backfill": 45674.0,
+                "Without-Backfill": 50748.0
+            }
+        ],
+        "L5": [
+            {
+                "With-Backfill": 50241.0,
+                "Without-Backfill": 55823.0
+            }
+        ],
+        "FullDayVisits": [
+            {
+                "L1": 334.0,
+                "L2": 368.0,
+                "L3": 412.16
+            }
+        ],
+        "HalfDayVisits": [
+            {
+                "L1": 196.0,
+                "L2": 217.0,
+                "L3": 239.0
+            }
+        ],
+        "DispatchTicket": [
+            {
+                "9 X 5 X 4 Incident Response": 117.0,
+                "24 X 7 X 4 Response to site": 156.0,
+                "SBD": 130.0,
+                "NBD": 97.5,
+                "2BD": 87.75,
+                "3BD": 86.0,
+                "Additional hour rate": 60.0
+            }
+        ],
+        "DispatchPricing": [
+            {
+                "2BD": 58.5,
+                "3BD": 86.0,
+                "4BD": 84.28
+            }
+        ],
+        "ShortTermProjects": [
+            {
+                "L1": 4530.27,
+                "L2": 5032.8,
+                "L3": 5536.13,
+                "L4": 5709.25,
+                "L5": 6280.13
+            }
+        ],
+        "LongTermProjects": [
+            {
+                "L1": 4247.13,
+                "L2": 4718.25,
+                "L3": 5190.13,
+                "L4": 5709.25,
+                "L5": 6280.13
+            }
+        ]
+    },
+    {
+        "Name": "Senegal",
+        "Supplier": "Direct",
+        "Currency": "USD",
+        "PaymentTerms": "60 Days",
+        "L1": [
+            {
+                "With-Backfill": 26936.0,
+                "Without-Backfill": 29928.0
+            }
+        ],
+        "L2": [
+            {
+                "With-Backfill": 29919.0,
+                "Without-Backfill": 33243.0
+            }
+        ],
+        "L3": [
+            {
+                "With-Backfill": 32911.0,
+                "Without-Backfill": 36567.0
+            }
+        ],
+        "L4": [
+            {
+                "With-Backfill": 36202.0,
+                "Without-Backfill": 40224.0
+            }
+        ],
+        "L5": [
+            {
+                "With-Backfill": 39823.0,
+                "Without-Backfill": 44247.0
+            }
+        ],
+        "FullDayVisits": [
+            {
+                "L1": 231.0,
+                "L2": 255.0,
+                "L3": 285.6
+            }
+        ],
+        "HalfDayVisits": [
+            {
+                "L1": 135.0,
+                "L2": 150.0,
+                "L3": 165.0
+            }
+        ],
+        "DispatchTicket": [
+            {
+                "9 X 5 X 4 Incident Response": 90.0,
+                "24 X 7 X 4 Response to site": 120.0,
+                "SBD": 100.0,
+                "NBD": 75.0,
+                "2BD": 67.5,
+                "3BD": 66.15,
+                "Additional hour rate": 40.0
+            }
+        ],
+        "DispatchPricing": [
+            {
+                "2BD": 40.5,
+                "3BD": 66.15,
+                "4BD": 64.83
+            }
+        ],
+        "ShortTermProjects": [
+            {
+                "L1": 3591.47,
+                "L2": 3989.2,
+                "L3": 4388.13,
+                "L4": 4525.25,
+                "L5": 4977.88
+            }
+        ],
+        "LongTermProjects": [
+            {
+                "L1": 3367.0,
+                "L2": 3739.88,
+                "L3": 4113.88,
+                "L4": 4525.25,
+                "L5": 4977.88
+            }
+        ]
+    },
+        {
+        "Name": "Seychelles",
+        "Supplier": "Direct",
+        "Currency": "USD",
+        "PaymentTerms": "60 Days",
+        "L1": [
+            {
+                "With-Backfill": 38902.0,
+                "Without-Backfill": 43224.0
+            }
+        ],
+        "L2": [
+            {
+                "With-Backfill": 43216.0,
+                "Without-Backfill": 48017.0
+            }
+        ],
+        "L3": [
+            {
+                "With-Backfill": 47538.0,
+                "Without-Backfill": 52819.0
+            }
+        ],
+        "L4": [
+            {
+                "With-Backfill": 52291.0,
+                "Without-Backfill": 58101.0
+            }
+        ],
+        "L5": [
+            {
+                "With-Backfill": 57521.0,
+                "Without-Backfill": 63912.0
+            }
+        ],
+        "FullDayVisits": [
+            {
+                "L1": 334.0,
+                "L2": 368.0,
+                "L3": 412.16
+            }
+        ],
+        "HalfDayVisits": [
+            {
+                "L1": 196.0,
+                "L2": 217.0,
+                "L3": 239.0
+            }
+        ],
+        "DispatchTicket": [
+            {
+                "9 X 5 X 4 Incident Response": 112.5,
+                "24 X 7 X 4 Response to site": 150.0,
+                "SBD": 125.0,
+                "NBD": 93.75,
+                "2BD": 84.38,
+                "3BD": 82.69,
+                "Additional hour rate": 60.0
+            }
+        ],
+        "DispatchPricing": [
+            {
+                "2BD": 58.5,
+                "3BD": 82.69,
+                "4BD": 81.03
+            }
+        ],
+        "ShortTermProjects": [
+            {
+                "L1": 5186.93,
+                "L2": 5762.13,
+                "L3": 6338.4,
+                "L4": 6536.38,
+                "L5": 7190.13
+            }
+        ],
+        "LongTermProjects": [
+            {
+                "L1": 4862.75,
+                "L2": 5402.0,
+                "L3": 5942.25,
+                "L4": 6536.38,
+                "L5": 7190.13
+            }
+        ]
+    },
+    {
+        "Name": "Sierra Leone",
+        "Supplier": "Direct",
+        "Currency": "USD",
+        "PaymentTerms": "60 Days",
+        "L1": [
+            {
+                "With-Backfill": 38902.0,
+                "Without-Backfill": 43224.0
+            }
+        ],
+        "L2": [
+            {
+                "With-Backfill": 43216.0,
+                "Without-Backfill": 48017.0
+            }
+        ],
+        "L3": [
+            {
+                "With-Backfill": 47538.0,
+                "Without-Backfill": 52819.0
+            }
+        ],
+        "L4": [
+            {
+                "With-Backfill": 52291.0,
+                "Without-Backfill": 58101.0
+            }
+        ],
+        "L5": [
+            {
+                "With-Backfill": 57521.0,
+                "Without-Backfill": 63912.0
+            }
+        ],
+        "FullDayVisits": [
+            {
+                "L1": 334.0,
+                "L2": 368.0,
+                "L3": 412.16
+            }
+        ],
+        "HalfDayVisits": [
+            {
+                "L1": 196.0,
+                "L2": 217.0,
+                "L3": 239.0
+            }
+        ],
+        "DispatchTicket": [
+            {
+                "9 X 5 X 4 Incident Response": 166.5,
+                "24 X 7 X 4 Response to site": 222.0,
+                "SBD": 185.0,
+                "NBD": 138.75,
+                "2BD": 124.88,
+                "3BD": 122.38,
+                "Additional hour rate": 60.0
+            }
+        ],
+        "DispatchPricing": [
+            {
+                "2BD": 58.5,
+                "3BD": 122.38,
+                "4BD": 119.93
+            }
+        ],
+        "ShortTermProjects": [
+            {
+                "L1": 5186.93,
+                "L2": 5762.13,
+                "L3": 6338.4,
+                "L4": 6536.38,
+                "L5": 7190.13
+            }
+        ],
+        "LongTermProjects": [
+            {
+                "L1": 4862.75,
+                "L2": 5402.0,
+                "L3": 5942.25,
+                "L4": 6536.38,
+                "L5": 7190.13
+            }
+        ]
+    },
+        {
+        "Name": "Somalia",
+        "Supplier": "Direct",
+        "Currency": "USD",
+        "PaymentTerms": "60 Days",
+        "L1": [
+            {
+                "With-Backfill": 38902.0,
+                "Without-Backfill": 43224.0
+            }
+        ],
+        "L2": [
+            {
+                "With-Backfill": 43216.0,
+                "Without-Backfill": 48017.0
+            }
+        ],
+        "L3": [
+            {
+                "With-Backfill": 47538.0,
+                "Without-Backfill": 52819.0
+            }
+        ],
+        "L4": [
+            {
+                "With-Backfill": 52291.0,
+                "Without-Backfill": 58101.0
+            }
+        ],
+        "L5": [
+            {
+                "With-Backfill": 57521.0,
+                "Without-Backfill": 63912.0
+            }
+        ],
+        "FullDayVisits": [
+            {
+                "L1": 334.0,
+                "L2": 368.0,
+                "L3": 412.16
+            }
+        ],
+        "HalfDayVisits": [
+            {
+                "L1": 196.0,
+                "L2": 217.0,
+                "L3": 239.0
+            }
+        ],
+        "DispatchTicket": [
+            {
+                "9 X 5 X 4 Incident Response": 117.0,
+                "24 X 7 X 4 Response to site": 156.0,
+                "SBD": 130.0,
+                "NBD": 97.5,
+                "2BD": 87.75,
+                "3BD": 86.0,
+                "Additional hour rate": 60.0
+            }
+        ],
+        "DispatchPricing": [
+            {
+                "2BD": 58.5,
+                "3BD": 86.0,
+                "4BD": 84.28
+            }
+        ],
+        "ShortTermProjects": [
+            {
+                "L1": 5186.93,
+                "L2": 5762.13,
+                "L3": 6338.4,
+                "L4": 6536.38,
+                "L5": 7190.13
+            }
+        ],
+        "LongTermProjects": [
+            {
+                "L1": 4862.75,
+                "L2": 5402.0,
+                "L3": 5942.25,
+                "L4": 6536.38,
+                "L5": 7190.13
+            }
+        ]
+    },
+    {
+        "Name": "Sudan",
+        "Supplier": "Direct",
+        "Currency": "USD",
+        "PaymentTerms": "60 Days",
+        "L1": [
+            {
+                "With-Backfill": 38902.0,
+                "Without-Backfill": 43224.0
+            }
+        ],
+        "L2": [
+            {
+                "With-Backfill": 43216.0,
+                "Without-Backfill": 48017.0
+            }
+        ],
+        "L3": [
+            {
+                "With-Backfill": 47538.0,
+                "Without-Backfill": 52819.0
+            }
+        ],
+        "L4": [
+            {
+                "With-Backfill": 52291.0,
+                "Without-Backfill": 58101.0
+            }
+        ],
+        "L5": [
+            {
+                "With-Backfill": 57521.0,
+                "Without-Backfill": 63912.0
+            }
+        ],
+        "FullDayVisits": [
+            {
+                "L1": 334.0,
+                "L2": 368.0,
+                "L3": 412.16
+            }
+        ],
+        "HalfDayVisits": [
+            {
+                "L1": 196.0,
+                "L2": 217.0,
+                "L3": 239.0
+            }
+        ],
+        "DispatchTicket": [
+            {
+                "9 X 5 X 4 Incident Response": 90.0,
+                "24 X 7 X 4 Response to site": 120.0,
+                "SBD": 100.0,
+                "NBD": 75.0,
+                "2BD": 67.5,
+                "3BD": 66.15,
+                "Additional hour rate": 60.0
+            }
+        ],
+        "DispatchPricing": [
+            {
+                "2BD": 58.5,
+                "3BD": 66.15,
+                "4BD": 64.83
+            }
+        ],
+        "ShortTermProjects": [
+            {
+                "L1": 5186.93,
+                "L2": 5762.13,
+                "L3": 6338.4,
+                "L4": 6536.38,
+                "L5": 7190.13
+            }
+        ],
+        "LongTermProjects": [
+            {
+                "L1": 4862.75,
+                "L2": 5402.0,
+                "L3": 5942.25,
+                "L4": 6536.38,
+                "L5": 7190.13
+            }
+        ]
+    },
+    {
+    "Name": "Tanzania",
+    "Supplier": "Direct",
+    "Currency": "USD",
+    "PaymentTerms": "60 Days",
+    "L1": [
+        {
+            "With-Backfill": 29117.0,
+            "Without-Backfill": 32352.0
+        }
+    ],
+    "L2": [
+        {
+            "With-Backfill": 32346.0,
+            "Without-Backfill": 35940.0
+        }
+    ],
+    "L3": [
+        {
+            "With-Backfill": 35581.0,
+            "Without-Backfill": 39534.0
+        }
+    ],
+    "L4": [
+        {
+            "With-Backfill": 39140.0,
+            "Without-Backfill": 43488.0
+        }
+    ],
+    "L5": [
+        {
+            "With-Backfill": 43054.0,
+            "Without-Backfill": 47837.0
+        }
+    ],
+    "FullDayVisits": [
+        {
+            "L1": 283.0,
+            "L2": 312.0,
+            "L3": 349.44
+        }
+    ],
+    "HalfDayVisits": [
+        {
+            "L1": 166.0,
+            "L2": 184.0,
+            "L3": 203.0
+        }
+    ],
+    "DispatchTicket": [
+        {
+            "9 X 5 X 4 Incident Response": 99.0,
+            "24 X 7 X 4 Response to site": 132.0,
+            "SBD": 110.0,
+            "NBD": 82.5,
+            "2BD": 74.25,
+            "3BD": 72.77,
+            "Additional hour rate": 50.0
+        }
+    ],
+    "DispatchPricing": [
+        {
+            "2BD": 49.5,
+            "3BD": 72.77,
+            "4BD": 71.31
+        }
+    ],
+    "ShortTermProjects": [
+        {
+            "L1": 3882.27,
+            "L2": 4312.8,
+            "L3": 4744.13,
+            "L4": 4892.5,
+            "L5": 5381.75
+        }
+    ],
+    "LongTermProjects": [
+        {
+            "L1": 3639.63,
+            "L2": 4043.25,
+            "L3": 4447.63,
+            "L4": 4892.5,
+            "L5": 5381.75
+        }
+    ]
+},
+{
+    "Name": "Tunisia",
+    "Supplier": "Direct",
+    "Currency": "USD",
+    "PaymentTerms": "60 Days",
+    "L1": [
+        {
+            "With-Backfill": 29117.0,
+            "Without-Backfill": 32352.0
+        }
+    ],
+    "L2": [
+        {
+            "With-Backfill": 32346.0,
+            "Without-Backfill": 35940.0
+        }
+    ],
+    "L3": [
+        {
+            "With-Backfill": 35581.0,
+            "Without-Backfill": 39534.0
+        }
+    ],
+    "L4": [
+        {
+            "With-Backfill": 39140.0,
+            "Without-Backfill": 43488.0
+        }
+    ],
+    "L5": [
+        {
+            "With-Backfill": 43054.0,
+            "Without-Backfill": 47837.0
+        }
+    ],
+    "FullDayVisits": [
+        {
+            "L1": 283.0,
+            "L2": 312.0,
+            "L3": 349.44
+        }
+    ],
+    "HalfDayVisits": [
+        {
+            "L1": 166.0,
+            "L2": 184.0,
+            "L3": 203.0
+        }
+    ],
+    "DispatchTicket": [
+        {
+            "9 X 5 X 4 Incident Response": 95.4,
+            "24 X 7 X 4 Response to site": 127.2,
+            "SBD": 106.0,
+            "NBD": 79.5,
+            "2BD": 71.55,
+            "3BD": 70.12,
+            "Additional hour rate": 50.0
+        }
+    ],
+    "DispatchPricing": [
+        {
+            "2BD": 49.5,
+            "3BD": 70.12,
+            "4BD": 68.72
+        }
+    ],
+    "ShortTermProjects": [
+        {
+            "L1": 3882.27,
+            "L2": 4312.8,
+            "L3": 4744.13,
+            "L4": 4892.5,
+            "L5": 5381.75
+        }
+    ],
+    "LongTermProjects": [
+        {
+            "L1": 3639.63,
+            "L2": 4043.25,
+            "L3": 4447.63,
+            "L4": 4892.5,
+            "L5": 5381.75
+        }
+    ]
+},
+{
+    "Name": "Uganda",
+    "Supplier": "Direct",
+    "Currency": "USD",
+    "PaymentTerms": "60 Days",
+    "L1": [
+        {
+            "With-Backfill": 26936.0,
+            "Without-Backfill": 29928.0
+        }
+    ],
+    "L2": [
+        {
+            "With-Backfill": 29919.0,
+            "Without-Backfill": 33243.0
+        }
+    ],
+    "L3": [
+        {
+            "With-Backfill": 32911.0,
+            "Without-Backfill": 36567.0
+        }
+    ],
+    "L4": [
+        {
+            "With-Backfill": 36202.0,
+            "Without-Backfill": 40224.0
+            }
+        ],
+        "L5": [
+            {
+                "With-Backfill": 39823.0,
+                "Without-Backfill": 44247.0
+            }
+        ],
+        "FullDayVisits": [
+            {
+                "L1": 231.0,
+                "L2": 255.0,
+                "L3": 285.6
+            }
+        ],
+        "HalfDayVisits": [
+            {
+                "L1": 135.0,
+                "L2": 150.0,
+                "L3": 165.0
+            }
+        ],
+        "DispatchTicket": [
+            {
+                "9 X 5 X 4 Incident Response": 81.0,
+                "24 X 7 X 4 Response to site": 108.0,
+                "SBD": 90.0,
+                "NBD": 67.5,
+                "2BD": 60.75,
+                "3BD": 59.54,
+                "Additional hour rate": 40.0
+            }
+        ],
+        "DispatchPricing": [
+            {
+                "2BD": 40.5,
+                "3BD": 59.54,
+                "4BD": 58.34
+            }
+        ],
+        "ShortTermProjects": [
+            {
+                "L1": 3591.47,
+                "L2": 3989.2,
+                "L3": 4388.13,
+                "L4": 4525.25,
+                "L5": 4977.88
+            }
+        ],
+        "LongTermProjects": [
+            {
+                "L1": 3367.0,
+                "L2": 3739.88,
+                "L3": 4113.88,
+                "L4": 4525.25,
+                "L5": 4977.88
+            }
+        ]
+    },
+        {
+        "Name": "Zambia",
+        "Supplier": "Direct",
+        "Currency": "USD",
+        "PaymentTerms": "60 Days",
+        "L1": [
+            {
+                "With-Backfill": 38902.0,
+                "Without-Backfill": 43224.0
+            }
+        ],
+        "L2": [
+            {
+                "With-Backfill": 43216.0,
+                "Without-Backfill": 48017.0
+            }
+        ],
+        "L3": [
+            {
+                "With-Backfill": 47538.0,
+                "Without-Backfill": 52819.0
+            }
+        ],
+        "L4": [
+            {
+                "With-Backfill": 52291.0,
+                "Without-Backfill": 58101.0
+            }
+        ],
+        "L5": [
+            {
+                "With-Backfill": 57521.0,
+                "Without-Backfill": 63912.0
+            }
+        ],
+        "FullDayVisits": [
+            {
+                "L1": 334.0,
+                "L2": 368.0,
+                "L3": 412.16
+            }
+        ],
+        "HalfDayVisits": [
+            {
+                "L1": 196.0,
+                "L2": 217.0,
+                "L3": 239.0
+            }
+        ],
+        "DispatchTicket": [
+            {
+                "9 X 5 X 4 Incident Response": 112.5,
+                "24 X 7 X 4 Response to site": 150.0,
+                "SBD": 125.0,
+                "NBD": 93.75,
+                "2BD": 84.38,
+                "3BD": 82.69,
+                "Additional hour rate": 60.0
+            }
+        ],
+        "DispatchPricing": [
+            {
+                "2BD": 58.5,
+                "3BD": 82.69,
+                "4BD": 81.03
+            }
+        ],
+        "ShortTermProjects": [
+            {
+                "L1": 5186.93,
+                "L2": 5762.13,
+                "L3": 6338.4,
+                "L4": 6536.38,
+                "L5": 7190.13
+            }
+        ],
+        "LongTermProjects": [
+            {
+                "L1": 4862.75,
+                "L2": 5402.0,
+                "L3": 5942.25,
+                "L4": 6536.38,
+                "L5": 7190.13
+            }
+        ]
+    },
+    {
+        "Name": "Zimbabwe",
+        "Supplier": "Direct",
+        "Currency": "USD",
+        "PaymentTerms": "60 Days",
+        "L1": [
+            {
+                "With-Backfill": 24300.0,
+                "Without-Backfill": 27000.0
+            }
+        ],
+        "L2": [
+            {
+                "With-Backfill": 27000.0,
+                "Without-Backfill": 30000.0
+            }
+        ],
+        "L3": [
+            {
+                "With-Backfill": 32346.0,
+                "Without-Backfill": 35940.0
+            }
+        ],
+        "L4": [
+            {
+                "With-Backfill": 35581.0,
+                "Without-Backfill": 39534.0
+            }
+        ],
+        "L5": [
+            {
+                "With-Backfill": 39140.0,
+                "Without-Backfill": 43488.0
+            }
+        ],
+        "FullDayVisits": [
+            {
+                "L1": 257.0,
+                "L2": 283.0,
+                "L3": 316.96
+            }
+        ],
+        "HalfDayVisits": [
+            {
+                "L1": 151.0,
+                "L2": 167.0,
+                "L3": 184.0
+            }
+        ],
+        "DispatchTicket": [
+            {
+                "9 X 5 X 4 Incident Response": 85.5,
+                "24 X 7 X 4 Response to site": 114.0,
+                "SBD": 95.0,
+                "NBD": 71.25,
+                "2BD": 64.13,
+                "3BD": 62.84,
+                "Additional hour rate": 45.0
+            }
+        ],
+        "DispatchPricing": [
+            {
+                "2BD": 45.0,
+                "3BD": 62.84,
+                "4BD": 61.59
+            }
+        ],
+        "ShortTermProjects": [
+            {
+                "L1": 3240.0,
+                "L2": 3600.0,
+                "L3": 4312.8,
+                "L4": 4447.63,
+                "L5": 4892.5
+            }
+        ],
+        "LongTermProjects": [
+            {
+                "L1": 3037.5,
+                "L2": 3375.0,
+                "L3": 4043.25,
+                "L4": 4447.63,
+                "L5": 4892.5
+            }
+        ]
+    }
+      ]
     },
     {
       "Region": "Middle East",
-      "Countries":[]
+      "Countries":[
+        {
+    "Name": "Qatar",
+    "Supplier": "Direct",
+    "Currency": "USD",
+    "PaymentTerms": "60 Days",
+    "L1": [
+        {
+            "With-Backfill": 26000.0,
+            "Without-Backfill": 29250.0
+        }
+    ],
+    "L2": [
+        {
+            "With-Backfill": 28600.0,
+            "Without-Backfill": 32175.0
+        }
+    ],
+    "L3": [
+        {
+            "With-Backfill": 31460.0,
+            "Without-Backfill": 35392.5
+        }
+    ],
+    "L4": [
+        {
+            "With-Backfill": 35392.5,
+            "Without-Backfill": 39816.56
+        }
+    ],
+    "L5": [
+        {
+            "With-Backfill": 39816.56,
+            "Without-Backfill": 44793.63
+        }
+    ],
+    "FullDayVisits": [
+        {
+            "L1": 295.0,
+            "L2": 345.0,
+            "L3": 386.4
+        }
+    ],
+    "HalfDayVisits": [
+        {
+            "L1": 221.25,
+            "L2": 258.75,
+            "L3": 289.8
+        }
+    ],
+    "DispatchTicket": [
+        {
+            "9 X 5 X 4 Incident Response": 117.0,
+            "24 X 7 X 4 Response to site": 156.0,
+            "SBD": 130.0,
+            "NBD": 97.5,
+            "2BD": 87.75,
+            "3BD": 86.0,
+            "Additional hour rate": 50.0
+        }
+    ],
+    "DispatchPricing": [
+        {
+            "2BD": 49.5,
+            "3BD": 86.0,
+            "4BD": 84.28
+        }
+    ],
+    "ShortTermProjects": [
+        {
+            "L1": 3466.67,
+            "L2": 3813.33,
+            "L3": 4194.67,
+            "L4": 4424.06,
+            "L5": 4977.07
+        }
+    ],
+    "LongTermProjects": [
+        {
+            "L1": 3250.0,
+            "L2": 3575.0,
+            "L3": 3932.5,
+            "L4": 4424.06,
+            "L5": 4977.07
+        }
+    ]
+},
+{
+    "Name": "Saudi Arabia",
+    "Supplier": "Direct",
+    "Currency": "USD",
+    "PaymentTerms": "60 Days",
+    "L1": [
+        {
+            "With-Backfill": 30000.0,
+            "Without-Backfill": 33750.0
+        }
+    ],
+    "L2": [
+        {
+            "With-Backfill": 33000.0,
+            "Without-Backfill": 37125.0
+        }
+    ],
+    "L3": [
+        {
+            "With-Backfill": 36300.0,
+            "Without-Backfill": 40837.5
+        }
+    ],
+    "L4": [
+        {
+            "With-Backfill": 40837.5,
+            "Without-Backfill": 45942.19
+        }
+    ],
+    "L5": [
+        {
+            "With-Backfill": 45942.19,
+            "Without-Backfill": 51684.96
+        }
+    ],
+    "FullDayVisits": [
+        {
+            "L1": 295.0,
+            "L2": 345.0,
+            "L3": 386.4
+        }
+    ],
+    "HalfDayVisits": [
+        {
+            "L1": 221.25,
+            "L2": 258.75,
+            "L3": 289.8
+        }
+    ],
+    "DispatchTicket": [
+        {
+            "9 X 5 X 4 Incident Response": 117.0,
+            "24 X 7 X 4 Response to site": 156.0,
+            "SBD": 130.0,
+            "NBD": 97.5,
+            "2BD": 87.75,
+            "3BD": 86.0,
+            "Additional hour rate": 60.0
+        }
+    ],
+    "DispatchPricing": [
+        {
+            "2BD": 58.5,
+            "3BD": 86.0,
+            "4BD": 84.28
+        }
+    ],
+    "ShortTermProjects": [
+        {
+            "L1": 4000.0,
+            "L2": 4400.0,
+            "L3": 4840.0,
+            "L4": 5104.69,
+            "L5": 5742.77
+        }
+    ],
+    "LongTermProjects": [
+        {
+            "L1": 3750.0,
+            "L2": 4125.0,
+            "L3": 4537.5,
+            "L4": 5104.69,
+            "L5": 5742.77
+        }
+    ]
+},
+{
+    "Name": "United Arab Emirates",
+    "Supplier": "Direct",
+    "Currency": "USD",
+    "PaymentTerms": "60 Days",
+    "L1": [
+        {
+            "With-Backfill": 26000.0,
+            "Without-Backfill": 29250.0
+        }
+    ],
+    "L2": [
+        {
+            "With-Backfill": 28600.0,
+            "Without-Backfill": 32175.0
+        }
+    ],
+    "L3": [
+        {
+            "With-Backfill": 31460.0,
+            "Without-Backfill": 35392.5
+        }
+    ],
+    "L4": [
+        {
+            "With-Backfill": 35392.5,
+            "Without-Backfill": 39816.56
+        }
+    ],
+    "L5": [
+        {
+            "With-Backfill": 39816.56,
+            "Without-Backfill": 44793.63
+        }
+    ],
+    "FullDayVisits": [
+        {
+            "L1": 295.0,
+            "L2": 345.0,
+            "L3": 386.4
+        }
+    ],
+    "HalfDayVisits": [
+        {
+            "L1": 221.25,
+            "L2": 258.75,
+            "L3": 289.8
+        }
+    ],
+    "DispatchTicket": [
+        {
+            "9 X 5 X 4 Incident Response": 117.0,
+            "24 X 7 X 4 Response to site": 156.0,
+            "SBD": 130.0,
+            "NBD": 97.5,
+            "2BD": 87.75,
+            "3BD": 86.0,
+            "Additional hour rate": 50.0
+        }
+    ],
+    "DispatchPricing": [
+        {
+            "2BD": 49.5,
+            "3BD": 86.0,
+            "4BD": 84.28
+        }
+    ],
+    "ShortTermProjects": [
+        {
+            "L1": 3466.67,
+            "L2": 3813.33,
+            "L3": 4194.67,
+            "L4": 4424.06,
+            "L5": 4977.07
+        }
+    ],
+    "LongTermProjects": [
+        {
+            "L1": 3250.0,
+            "L2": 3575.0,
+            "L3": 3932.5,
+            "L4": 4424.06,
+            "L5": 4977.07
+        }
+    ]
+},
+{
+    "Name": "Bahrain",
+    "Supplier": "Direct",
+    "Currency": "USD",
+    "PaymentTerms": "60 Days",
+    "L1": [
+        {
+            "With-Backfill": 40392.0,
+            "Without-Backfill": 44880.0
+        }
+    ],
+    "L2": [
+        {
+            "With-Backfill": 44878.0,
+            "Without-Backfill": 49864.0
+        }
+    ],
+    "L3": [
+        {
+            "With-Backfill": 49365.0,
+            "Without-Backfill": 54850.0
+        }
+    ],
+    "L4": [
+        {
+            "With-Backfill": 54302.0,
+            "Without-Backfill": 60335.0
+        }
+    ],
+    "L5": [
+        {
+            "With-Backfill": 59733.0,
+            "Without-Backfill": 66369.0
+        }
+    ],
+    "FullDayVisits": [
+        {
+            "L1": 347.0,
+            "L2": 382.0,
+            "L3": 427.84
+        }
+    ],
+    "HalfDayVisits": [
+        {
+            "L1": 203.0,
+            "L2": 225.0,
+            "L3": 248.0
+        }
+    ],
+    "DispatchTicket": [
+        {
+            "9 X 5 X 4 Incident Response": 117.0,
+            "24 X 7 X 4 Response to site": 156.0,
+            "SBD": 130.0,
+            "NBD": 97.5,
+            "2BD": 87.75,
+            "3BD": 86.0,
+            "Additional hour rate": 60.0
+        }
+    ],
+    "DispatchPricing": [
+        {
+            "2BD": 60.75,
+            "3BD": 86.0,
+            "4BD": 84.28
+        }
+    ],
+    "ShortTermProjects": [
+        {
+            "L1": 5385.6,
+            "L2": 5983.73,
+            "L3": 6582.0,
+            "L4": 6787.75,
+            "L5": 7466.63
+        }
+    ],
+    "LongTermProjects": [
+        {
+            "L1": 5049.0,
+            "L2": 5609.75,
+            "L3": 6170.63,
+            "L4": 6787.75,
+            "L5": 7466.63
+        }
+    ]
+},
+{
+        "Name": "Iran",
+        "Supplier": "Direct",
+        "Currency": "USD",
+        "PaymentTerms": "60 Days",
+        "L1": [
+            {
+                "With-Backfill": 29117.0,
+                "Without-Backfill": 32352.0
+            }
+        ],
+        "L2": [
+            {
+                "With-Backfill": 32346.0,
+                "Without-Backfill": 35940.0
+            }
+        ],
+        "L3": [
+            {
+                "With-Backfill": 35581.0,
+                "Without-Backfill": 39534.0
+            }
+        ],
+        "L4": [
+            {
+                "With-Backfill": 39140.0,
+                "Without-Backfill": 43488.0
+            }
+        ],
+        "L5": [
+            {
+                "With-Backfill": 43054.0,
+                "Without-Backfill": 47837.0
+            }
+        ],
+        "FullDayVisits": [
+            {
+                "L1": 283.0,
+                "L2": 312.0,
+                "L3": 349.44
+            }
+        ],
+        "HalfDayVisits": [
+            {
+                "L1": 166.0,
+                "L2": 184.0,
+                "L3": 203.0
+            }
+        ],
+        "DispatchTicket": [
+            {
+                "9 X 5 X 4 Incident Response": 117.0,
+                "24 X 7 X 4 Response to site": 156.0,
+                "SBD": 130.0,
+                "NBD": 97.5,
+                "2BD": 87.75,
+                "3BD": 86.0,
+                "Additional hour rate": 50.0
+            }
+        ],
+        "DispatchPricing": [
+            {
+                "2BD": 49.5,
+                "3BD": 86.0,
+                "4BD": 84.28
+            }
+        ],
+        "ShortTermProjects": [
+            {
+                "L1": 3882.27,
+                "L2": 4312.8,
+                "L3": 4744.13,
+                "L4": 4892.5,
+                "L5": 5381.75
+            }
+        ],
+        "LongTermProjects": [
+            {
+                "L1": 3639.63,
+                "L2": 4043.25,
+                "L3": 4447.63,
+                "L4": 4892.5,
+                "L5": 5381.75
+            }
+        ]
+    },
+    {
+        "Name": "Iraq",
+        "Supplier": "Direct",
+        "Currency": "USD",
+        "PaymentTerms": "60 Days",
+        "L1": [
+            {
+                "With-Backfill": 29117.0,
+                "Without-Backfill": 32352.0
+            }
+        ],
+        "L2": [
+            {
+                "With-Backfill": 32346.0,
+                "Without-Backfill": 35940.0
+            }
+        ],
+        "L3": [
+            {
+                "With-Backfill": 35581.0,
+                "Without-Backfill": 39534.0
+            }
+        ],
+        "L4": [
+            {
+                "With-Backfill": 39140.0,
+                "Without-Backfill": 43488.0
+            }
+        ],
+        "L5": [
+            {
+                "With-Backfill": 43054.0,
+                "Without-Backfill": 47837.0
+            }
+        ],
+        "FullDayVisits": [
+            {
+                "L1": 283.0,
+                "L2": 312.0,
+                "L3": 349.44
+            }
+        ],
+        "HalfDayVisits": [
+            {
+                "L1": 166.0,
+                "L2": 184.0,
+                "L3": 203.0
+            }
+        ],
+        "DispatchTicket": [
+            {
+                "9 X 5 X 4 Incident Response": 117.0,
+                "24 X 7 X 4 Response to site": 156.0,
+                "SBD": 130.0,
+                "NBD": 97.5,
+                "2BD": 87.75,
+                "3BD": 86.0,
+                "Additional hour rate": 50.0
+            }
+        ],
+        "DispatchPricing": [
+            {
+                "2BD": 49.5,
+                "3BD": 86.0,
+                "4BD": 84.28
+            }
+        ],
+        "ShortTermProjects": [
+            {
+                "L1": 3882.27,
+                "L2": 4312.8,
+                "L3": 4744.13,
+                "L4": 4892.5,
+                "L5": 5381.75
+            }
+        ],
+        "LongTermProjects": [
+            {
+                "L1": 3639.63,
+                "L2": 4043.25,
+                "L3": 4447.63,
+                "L4": 4892.5,
+                "L5": 5381.75
+            }
+        ]
+    },
+    {
+    "Name": "Israel",
+    "Supplier": "Direct",
+    "Currency": "USD",
+    "PaymentTerms": "60 Days",
+    "L1": [
+        {
+            "With-Backfill": 46073.0,
+            "Without-Backfill": 51192.0
+        }
+    ],
+    "L2": [
+        {
+            "With-Backfill": 51192.0,
+            "Without-Backfill": 56880.0
+        }
+    ],
+    "L3": [
+        {
+            "With-Backfill": 56312.0,
+            "Without-Backfill": 62568.0
+        }
+    ],
+    "L4": [
+        {
+            "With-Backfill": 61943.0,
+            "Without-Backfill": 68825.0
+        }
+    ],
+    "L5": [
+        {
+            "With-Backfill": 68138.0,
+            "Without-Backfill": 75708.0
+        }
+    ],
+    "FullDayVisits": [
+        {
+            "L1": 395.0,
+            "L2": 435.0,
+            "L3": 487.2
+        }
+    ],
+    "HalfDayVisits": [
+        {
+            "L1": 266.0,
+            "L2": 295.0,
+            "L3": 325.0
+        }
+    ],
+    "DispatchTicket": [
+        {
+            "9 X 5 X 4 Incident Response": 117.0,
+            "24 X 7 X 4 Response to site": 156.0,
+            "SBD": 130.0,
+            "NBD": 97.5,
+            "2BD": 87.75,
+            "3BD": 86.0,
+            "Additional hour rate": 60.0
+        }
+    ],
+    "DispatchPricing": [
+        {
+            "2BD": 58.5,
+            "3BD": 86.0,
+            "4BD": 84.28
+        }
+    ],
+    "ShortTermProjects": [
+        {
+            "L1": 6143.07,
+            "L2": 6825.6,
+            "L3": 7508.27,
+            "L4": 7742.88,
+            "L5": 8517.25
+        }
+    ],
+    "LongTermProjects": [
+        {
+            "L1": 5759.13,
+            "L2": 6399.0,
+            "L3": 7039.0,
+            "L4": 7742.88,
+            "L5": 8517.25
+        }
+    ]
+},
+{
+    "Name": "Jordan",
+    "Supplier": "Direct",
+    "Currency": "USD",
+    "PaymentTerms": "60 Days",
+    "L1": [
+        {
+            "With-Backfill": 29117.0,
+            "Without-Backfill": 32352.0
+        }
+    ],
+    "L2": [
+        {
+            "With-Backfill": 32346.0,
+            "Without-Backfill": 35940.0
+        }
+    ],
+    "L3": [
+        {
+            "With-Backfill": 35581.0,
+            "Without-Backfill": 39534.0
+        }
+    ],
+    "L4": [
+        {
+            "With-Backfill": 39140.0,
+            "Without-Backfill": 43488.0
+        }
+    ],
+    "L5": [
+        {
+            "With-Backfill": 43054.0,
+            "Without-Backfill": 47837.0
+        }
+    ],
+    "FullDayVisits": [
+        {
+            "L1": 283.0,
+            "L2": 312.0,
+            "L3": 349.44
+        }
+    ],
+    "HalfDayVisits": [
+        {
+            "L1": 166.0,
+            "L2": 184.0,
+            "L3": 203.0
+        }
+    ],
+    "DispatchTicket": [
+        {
+            "9 X 5 X 4 Incident Response": 99.0,
+            "24 X 7 X 4 Response to site": 132.0,
+            "SBD": 110.0,
+            "NBD": 82.5,
+            "2BD": 74.25,
+            "3BD": 72.77,
+            "Additional hour rate": 50.0
+        }
+    ],
+    "DispatchPricing": [
+        {
+            "2BD": 49.5,
+            "3BD": 72.77,
+            "4BD": 71.31
+        }
+    ],
+    "ShortTermProjects": [
+        {
+            "L1": 3882.27,
+            "L2": 4312.8,
+            "L3": 4744.13,
+            "L4": 4892.5,
+            "L5": 5381.75
+        }
+    ],
+    "LongTermProjects": [
+        {
+            "L1": 3639.63,
+            "L2": 4043.25,
+            "L3": 4447.63,
+            "L4": 4892.5,
+            "L5": 5381.75
+        }
+    ]
+},
+{
+    "Name": "Kuwait",
+    "Supplier": "Direct",
+    "Currency": "USD",
+    "PaymentTerms": "60 Days",
+    "L1": [
+        {
+            "With-Backfill": 29117.0,
+            "Without-Backfill": 32352.0
+        }
+    ],
+    "L2": [
+        {
+            "With-Backfill": 32346.0,
+            "Without-Backfill": 35940.0
+        }
+    ],
+    "L3": [
+        {
+            "With-Backfill": 37746.0,
+            "Without-Backfill": 41940.0
+        }
+    ],
+    "L4": [
+        {
+            "With-Backfill": 41521.0,
+            "Without-Backfill": 46134.0
+        }
+    ],
+    "L5": [
+        {
+            "With-Backfill": 45674.0,
+            "Without-Backfill": 50748.0
+        }
+    ],
+    "FullDayVisits": [
+        {
+            "L1": 334.0,
+            "L2": 368.0,
+            "L3": 412.16
+        }
+    ],
+    "HalfDayVisits": [
+        {
+            "L1": 196.0,
+            "L2": 217.0,
+            "L3": 239.0
+        }
+    ],
+    "DispatchTicket": [
+        {
+            "9 X 5 X 4 Incident Response": 117.0,
+            "24 X 7 X 4 Response to site": 156.0,
+            "SBD": 130.0,
+            "NBD": 97.5,
+            "2BD": 87.75,
+            "3BD": 86.0,
+            "Additional hour rate": 60.0
+        }
+    ],
+    "DispatchPricing": [
+        {
+            "2BD": 58.5,
+            "3BD": 86.0,
+            "4BD": 84.28
+        }
+    ],
+    "ShortTermProjects": [
+        {
+            "L1": 3882.27,
+            "L2": 4312.8,
+            "L3": 5032.8,
+            "L4": 5190.13,
+            "L5": 5709.25
+        }
+    ],
+    "LongTermProjects": [
+        {
+            "L1": 3639.63,
+            "L2": 4043.25,
+            "L3": 4718.25,
+            "L4": 5190.13,
+            "L5": 5709.25
+        }
+    ]
+},
+{
+    "Name": "Lebanon",
+    "Supplier": "Direct",
+    "Currency": "USD",
+    "PaymentTerms": "60 Days",
+    "L1": [
+        {
+            "With-Backfill": 29117.0,
+            "Without-Backfill": 32352.0
+        }
+    ],
+    "L2": [
+        {
+            "With-Backfill": 32346.0,
+            "Without-Backfill": 35940.0
+        }
+    ],
+    "L3": [
+        {
+            "With-Backfill": 35581.0,
+            "Without-Backfill": 39534.0
+        }
+    ],
+    "L4": [
+        {
+            "With-Backfill": 39140.0,
+            "Without-Backfill": 43488.0
+        }
+    ],
+    "L5": [
+        {
+            "With-Backfill": 43054.0,
+            "Without-Backfill": 47837.0
+        }
+    ],
+    "FullDayVisits": [
+        {
+            "L1": 283.0,
+            "L2": 312.0,
+            "L3": 349.44
+        }
+    ],
+    "HalfDayVisits": [
+        {
+            "L1": 166.0,
+            "L2": 184.0,
+            "L3": 203.0
+        }
+    ],
+    "DispatchTicket": [
+        {
+            "9 X 5 X 4 Incident Response": 99.0,
+            "24 X 7 X 4 Response to site": 132.0,
+            "SBD": 110.0,
+            "NBD": 82.5,
+            "2BD": 74.25,
+            "3BD": 72.77,
+            "Additional hour rate": 50.0
+        }
+    ],
+    "DispatchPricing": [
+        {
+            "2BD": 49.5,
+            "3BD": 72.77,
+            "4BD": 71.31
+        }
+    ],
+    "ShortTermProjects": [
+        {
+            "L1": 3882.27,
+            "L2": 4312.8,
+            "L3": 4744.13,
+            "L4": 4892.5,
+            "L5": 5381.75
+        }
+    ],
+    "LongTermProjects": [
+        {
+            "L1": 3639.63,
+            "L2": 4043.25,
+            "L3": 4447.63,
+            "L4": 4892.5,
+            "L5": 5381.75
+        }
+    ]
+},
+{
+    "Name": "Oman",
+    "Supplier": "Direct",
+    "Currency": "USD",
+    "PaymentTerms": "60 Days",
+    "L1": [
+        {
+            "With-Backfill": 32919.0,
+            "Without-Backfill": 36576.0
+        }
+    ],
+    "L2": [
+        {
+            "With-Backfill": 36567.0,
+            "Without-Backfill": 40630.0
+        }
+    ],
+    "L3": [
+        {
+            "With-Backfill": 40224.0,
+            "Without-Backfill": 44693.0
+        }
+    ],
+    "L4": [
+        {
+            "With-Backfill": 44247.0,
+            "Without-Backfill": 49163.0
+        }
+    ],
+    "L5": [
+        {
+            "With-Backfill": 48672.0,
+            "Without-Backfill": 54080.0
+        }
+    ],
+    "FullDayVisits": [
+        {
+            "L1": 283.0,
+            "L2": 312.0,
+            "L3": 349.44
+        }
+    ],
+    "HalfDayVisits": [
+        {
+            "L1": 166.0,
+            "L2": 184.0,
+            "L3": 203.0
+        }
+    ],
+    "DispatchTicket": [
+        {
+            "9 X 5 X 4 Incident Response": 117.0,
+            "24 X 7 X 4 Response to site": 156.0,
+            "SBD": 130.0,
+            "NBD": 97.5,
+            "2BD": 87.75,
+            "3BD": 86.0,
+            "Additional hour rate": 50.0
+        }
+    ],
+    "DispatchPricing": [
+        {
+            "2BD": 49.5,
+            "3BD": 86.0,
+            "4BD": 84.28
+        }
+    ],
+    "ShortTermProjects": [
+        {
+            "L1": 4389.2,
+            "L2": 4875.6,
+            "L3": 5363.2,
+            "L4": 5530.88,
+            "L5": 6084.0
+        }
+    ],
+    "LongTermProjects": [
+        {
+            "L1": 4114.88,
+            "L2": 4570.88,
+            "L3": 5028.0,
+            "L4": 5530.88,
+            "L5": 6084.0
+        }
+    ]
+},
+{
+    "Name": "Palestine",
+    "Supplier": "Direct",
+    "Currency": "USD",
+    "PaymentTerms": "60 Days",
+    "L1": [
+        {
+            "With-Backfill": 29117.0,
+            "Without-Backfill": 32352.0
+        }
+    ],
+    "L2": [
+        {
+            "With-Backfill": 32346.0,
+            "Without-Backfill": 35940.0
+        }
+    ],
+    "L3": [
+        {
+            "With-Backfill": 35581.0,
+            "Without-Backfill": 39534.0
+        }
+    ],
+    "L4": [
+        {
+            "With-Backfill": 39140.0,
+            "Without-Backfill": 43488.0
+        }
+    ],
+    "L5": [
+        {
+            "With-Backfill": 43054.0,
+            "Without-Backfill": 47837.0
+        }
+    ],
+    "FullDayVisits": [
+        {
+            "L1": 283.0,
+            "L2": 312.0,
+            "L3": 349.44
+        }
+    ],
+    "HalfDayVisits": [
+        {
+            "L1": 166.0,
+            "L2": 184.0,
+            "L3": 203.0
+        }
+    ],
+    "DispatchTicket": [
+        {
+            "9 X 5 X 4 Incident Response": 99.0,
+            "24 X 7 X 4 Response to site": 132.0,
+            "SBD": 110.0,
+            "NBD": 82.5,
+            "2BD": 74.25,
+            "3BD": 72.77,
+            "Additional hour rate": 50.0
+        }
+    ],
+    "DispatchPricing": [
+        {
+            "2BD": 49.5,
+            "3BD": 72.77,
+            "4BD": 71.31
+        }
+    ],
+    "ShortTermProjects": [
+        {
+            "L1": 3882.27,
+            "L2": 4312.8,
+            "L3": 4744.13,
+            "L4": 4892.5,
+            "L5": 5381.75
+        }
+    ],
+    "LongTermProjects": [
+        {
+            "L1": 3639.63,
+            "L2": 4043.25,
+            "L3": 4447.63,
+            "L4": 4892.5,
+            "L5": 5381.75
+        }
+    ]
+},
+{
+    "Name": "Syria",
+    "Supplier": "Direct",
+    "Currency": "USD",
+    "PaymentTerms": "60 Days",
+    "L1": [
+        {
+            "With-Backfill": 29117.0,
+            "Without-Backfill": 32352.0
+        }
+    ],
+    "L2": [
+        {
+            "With-Backfill": 32346.0,
+            "Without-Backfill": 35940.0
+        }
+    ],
+    "L3": [
+        {
+            "With-Backfill": 35581.0,
+            "Without-Backfill": 39534.0
+        }
+    ],
+    "L4": [
+        {
+            "With-Backfill": 39140.0,
+            "Without-Backfill": 43488.0
+        }
+    ],
+    "L5": [
+        {
+            "With-Backfill": 43054.0,
+            "Without-Backfill": 47837.0
+        }
+    ],
+    "FullDayVisits": [
+        {
+            "L1": 283.0,
+            "L2": 312.0,
+            "L3": 349.44
+        }
+    ],
+    "HalfDayVisits": [
+        {
+            "L1": 166.0,
+            "L2": 184.0,
+            "L3": 203.0
+        }
+    ],
+    "DispatchTicket": [
+        {
+            "9 X 5 X 4 Incident Response": 95.4,
+            "24 X 7 X 4 Response to site": 127.2,
+            "SBD": 106.0,
+            "NBD": 79.5,
+            "2BD": 71.55,
+            "3BD": 70.12,
+            "Additional hour rate": 50.0
+        }
+    ],
+    "DispatchPricing": [
+        {
+            "2BD": 49.5,
+            "3BD": 70.12,
+            "4BD": 68.72
+        }
+    ],
+    "ShortTermProjects": [
+        {
+            "L1": 3882.27,
+            "L2": 4312.8,
+            "L3": 4744.13,
+            "L4": 4892.5,
+            "L5": 5381.75
+        }
+    ],
+    "LongTermProjects": [
+        {
+            "L1": 3639.63,
+            "L2": 4043.25,
+            "L3": 4447.63,
+            "L4": 4892.5,
+            "L5": 5381.75
+        }
+    ]
+},
+{
+    "Name": "Yemen",
+    "Supplier": "Direct",
+    "Currency": "USD",
+    "PaymentTerms": "60 Days",
+    "L1": [
+        {
+            "With-Backfill": 29117.0,
+            "Without-Backfill": 32352.0
+        }
+    ],
+    "L2": [
+        {
+            "With-Backfill": 32346.0,
+            "Without-Backfill": 35940.0
+        }
+    ],
+    "L3": [
+        {
+            "With-Backfill": 36666.0,
+            "Without-Backfill": 40740.0
+        }
+    ],
+    "L4": [
+        {
+            "With-Backfill": 40333.0,
+            "Without-Backfill": 44814.0
+        }
+    ],
+    "L5": [
+        {
+            "With-Backfill": 44367.0,
+            "Without-Backfill": 49296.0
+        }
+    ],
+    "FullDayVisits": [
+        {
+            "L1": 257.0,
+            "L2": 283.0,
+            "L3": 316.96
+        }
+    ],
+    "HalfDayVisits": [
+        {
+            "L1": 151.0,
+            "L2": 167.0,
+            "L3": 184.0
+        }
+    ],
+    "DispatchTicket": [
+        {
+            "9 X 5 X 4 Incident Response": 85.5,
+            "24 X 7 X 4 Response to site": 114.0,
+            "SBD": 95.0,
+            "NBD": 71.25,
+            "2BD": 64.13,
+            "3BD": 62.84,
+            "Additional hour rate": 45.0
+        }
+    ],
+    "DispatchPricing": [
+        {
+            "2BD": 45.0,
+            "3BD": 62.84,
+            "4BD": 61.59
+        }
+    ],
+    "ShortTermProjects": [
+        {
+            "L1": 3882.27,
+            "L2": 4312.8,
+            "L3": 4888.8,
+            "L4": 5041.63,
+            "L5": 5545.88
+        }
+    ],
+    "LongTermProjects": [
+        {
+            "L1": 3639.63,
+            "L2": 4043.25,
+            "L3": 4583.25,
+            "L4": 5041.63,
+            "L5": 5545.88
+        }
+    ]
+}
+
+      ]
     },
     {
       "Region": "Latin America",
-      "Countries":[]
+      "Countries":[
+        {
+    "Name": "Brazil",
+    "Supplier": "Direct",
+    "Currency": "USD",
+    "PaymentTerms": "60 Days",
+    "L1": [
+        {
+            "With-Backfill": 39000.0,
+            "Without-Backfill": 43875.0
+        }
+    ],
+    "L2": [
+        {
+            "With-Backfill": 44850.0,
+            "Without-Backfill": 50456.25
+        }
+    ],
+    "L3": [
+        {
+            "With-Backfill": 51577.5,
+            "Without-Backfill": 58024.69
+        }
+    ],
+    "L4": [
+        {
+            "With-Backfill": 58024.69,
+            "Without-Backfill": 66728.39
+        }
+    ],
+    "L5": [
+        {
+            "With-Backfill": 66728.39,
+            "Without-Backfill": 76737.65
+        }
+    ],
+    "FullDayVisits": [
+        {
+            "L1": 345.0,
+            "L2": 395.0,
+            "L3": 442.4
+        }
+    ],
+    "HalfDayVisits": [
+        {
+            "L1": 258.75,
+            "L2": 296.25,
+            "L3": 331.8
+        }
+    ],
+    "DispatchTicket": [
+        {
+            "9 X 5 X 4 Incident Response": 112.5,
+            "24 X 7 X 4 Response to site": 150.0,
+            "SBD": 125.0,
+            "NBD": 93.75,
+            "2BD": 84.38,
+            "3BD": 82.69,
+            "Additional hour rate": 55.0
+        }
+    ],
+    "DispatchPricing": [
+        {
+            "2BD": 56.25,
+            "3BD": 82.69,
+            "4BD": 81.03
+        }
+    ],
+    "ShortTermProjects": [
+        {
+            "L1": 5200.0,
+            "L2": 5980.0,
+            "L3": 6877.0,
+            "L4": 7253.09,
+            "L5": 8341.05
+        }
+    ],
+    "LongTermProjects": [
+        {
+            "L1": 4875.0,
+            "L2": 5606.25,
+            "L3": 6447.19,
+            "L4": 7253.09,
+            "L5": 8341.05
+        }
+    ]
+},
+{
+    "Name": "Antigua and Barbuda",
+    "Supplier": "Direct",
+    "Currency": "USD",
+    "PaymentTerms": "60 Days",
+    "L1": [
+        {
+            "With-Backfill": 26936.0,
+            "Without-Backfill": 29928.0
+        }
+    ],
+    "L2": [
+        {
+            "With-Backfill": 29919.0,
+            "Without-Backfill": 33243.0
+        }
+    ],
+    "L3": [
+        {
+            "With-Backfill": 32911.0,
+            "Without-Backfill": 36567.0
+        }
+    ],
+    "L4": [
+        {
+            "With-Backfill": 36202.0,
+            "Without-Backfill": 40224.0
+        }
+    ],
+    "L5": [
+        {
+            "With-Backfill": 39823.0,
+            "Without-Backfill": 44247.0
+        }
+    ],
+    "FullDayVisits": [
+        {
+            "L1": 231.0,
+            "L2": 255.0,
+            "L3": 285.6
+        }
+    ],
+    "HalfDayVisits": [
+        {
+            "L1": 135.0,
+            "L2": 150.0,
+            "L3": 165.0
+        }
+    ],
+    "DispatchTicket": [
+        {
+            "9 X 5 X 4 Incident Response": 103.5,
+            "24 X 7 X 4 Response to site": 138.0,
+            "SBD": 115.0,
+            "NBD": 86.25,
+            "2BD": 77.63,
+            "3BD": 76.07,
+            "Additional hour rate": 40.0
+        }
+    ],
+    "DispatchPricing": [
+        {
+            "2BD": 40.5,
+            "3BD": 76.07,
+            "4BD": 74.55
+        }
+    ],
+    "ShortTermProjects": [
+        {
+            "L1": 3591.47,
+            "L2": 3989.2,
+            "L3": 4388.13,
+            "L4": 4525.25,
+            "L5": 4977.88
+        }
+    ],
+    "LongTermProjects": [
+        {
+            "L1": 3367.0,
+            "L2": 3739.88,
+            "L3": 4113.88,
+            "L4": 4525.25,
+            "L5": 4977.88
+        }
+    ]
+},
+{
+    "Name": "Argentina",
+    "Supplier": "Direct",
+    "Currency": "USD",
+    "PaymentTerms": "60 Days",
+    "L1": [
+        {
+            "With-Backfill": 21870.0,
+            "Without-Backfill": 24300.0
+        }
+    ],
+    "L2": [
+        {
+            "With-Backfill": 24300.0,
+            "Without-Backfill": 27000.0
+        }
+    ],
+    "L3": [
+        {
+            "With-Backfill": 29700.0,
+            "Without-Backfill": 33000.0
+        }
+    ],
+    "L4": [
+        {
+            "With-Backfill": 32670.0,
+            "Without-Backfill": 36300.0
+        }
+    ],
+    "L5": [
+        {
+            "With-Backfill": 35937.0,
+            "Without-Backfill": 39930.0
+        }
+    ],
+    "FullDayVisits": [
+        {
+            "L1": 340.0,
+            "L2": 374.0,
+            "L3": 418.88
+        }
+    ],
+    "HalfDayVisits": [
+        {
+            "L1": 196.0,
+            "L2": 217.0,
+            "L3": 239.0
+        }
+    ],
+    "DispatchTicket": [
+        {
+            "9 X 5 X 4 Incident Response": 117.0,
+            "24 X 7 X 4 Response to site": 156.0,
+            "SBD": 130.0,
+            "NBD": 97.5,
+            "2BD": 87.75,
+            "3BD": 86.0,
+            "Additional hour rate": 60.0
+        }
+    ],
+    "DispatchPricing": [
+        {
+            "2BD": 58.5,
+            "3BD": 86.0,
+            "4BD": 84.28
+        }
+    ],
+    "ShortTermProjects": [
+        {
+            "L1": 2916.0,
+            "L2": 3240.0,
+            "L3": 3960.0,
+            "L4": 4083.75,
+            "L5": 4492.13
+        }
+    ],
+    "LongTermProjects": [
+        {
+            "L1": 2733.75,
+            "L2": 3037.5,
+            "L3": 3712.5,
+            "L4": 4083.75,
+            "L5": 4492.13
+        }
+    ]
+},
+{
+    "Name": "Bolivia",
+    "Supplier": "Direct",
+    "Currency": "USD",
+    "PaymentTerms": "60 Days",
+    "L1": [
+        {
+            "With-Backfill": 38902.0,
+            "Without-Backfill": 43224.0
+        }
+    ],
+    "L2": [
+        {
+            "With-Backfill": 43216.0,
+            "Without-Backfill": 48017.0
+        }
+    ],
+    "L3": [
+        {
+            "With-Backfill": 47538.0,
+            "Without-Backfill": 52819.0
+        }
+    ],
+    "L4": [
+        {
+            "With-Backfill": 52291.0,
+            "Without-Backfill": 58101.0
+        }
+    ],
+    "L5": [
+        {
+            "With-Backfill": 57521.0,
+            "Without-Backfill": 63912.0
+        }
+    ],
+    "FullDayVisits": [
+        {
+            "L1": 334.0,
+            "L2": 368.0,
+            "L3": 412.16
+        }
+    ],
+    "HalfDayVisits": [
+        {
+            "L1": 196.0,
+            "L2": 217.0,
+            "L3": 239.0
+        }
+    ],
+    "DispatchTicket": [
+        {
+            "9 X 5 X 4 Incident Response": 130.5,
+            "24 X 7 X 4 Response to site": 174.0,
+            "SBD": 145.0,
+            "NBD": 108.75,
+            "2BD": 97.88,
+            "3BD": 95.92,
+            "Additional hour rate": 60.0
+        }
+    ],
+    "DispatchPricing": [
+        {
+            "2BD": 58.5,
+            "3BD": 95.92,
+            "4BD": 94.0
+        }
+    ],
+    "ShortTermProjects": [
+        {
+            "L1": 5186.93,
+            "L2": 5762.13,
+            "L3": 6338.4,
+            "L4": 6536.38,
+            "L5": 7190.13
+        }
+    ],
+    "LongTermProjects": [
+        {
+            "L1": 4862.75,
+            "L2": 5402.0,
+            "L3": 5942.25,
+            "L4": 6536.38,
+            "L5": 7190.13
+        }
+    ]
+},
+{
+    "Name": "Chile",
+    "Supplier": "Direct",
+    "Currency": "USD",
+    "PaymentTerms": "60 Days",
+    "L1": [
+        {
+            "With-Backfill": 24257.0,
+            "Without-Backfill": 26952.0
+        }
+    ],
+    "L2": [
+        {
+            "With-Backfill": 26946.0,
+            "Without-Backfill": 29940.0
+        }
+    ],
+    "L3": [
+        {
+            "With-Backfill": 32346.0,
+            "Without-Backfill": 35940.0
+        }
+    ],
+    "L4": [
+        {
+            "With-Backfill": 35581.0,
+            "Without-Backfill": 39534.0
+        }
+    ],
+    "L5": [
+        {
+            "With-Backfill": 39140.0,
+            "Without-Backfill": 43488.0
+        }
+    ],
+    "FullDayVisits": [
+        {
+            "L1": 334.0,
+            "L2": 368.0,
+            "L3": 412.16
+        }
+    ],
+    "HalfDayVisits": [
+        {
+            "L1": 196.0,
+            "L2": 217.0,
+            "L3": 239.0
+        }
+    ],
+    "DispatchTicket": [
+        {
+            "9 X 5 X 4 Incident Response": 117.0,
+            "24 X 7 X 4 Response to site": 156.0,
+            "SBD": 130.0,
+            "NBD": 97.5,
+            "2BD": 87.75,
+            "3BD": 86.0,
+            "Additional hour rate": 60.0
+        }
+    ],
+    "DispatchPricing": [
+        {
+            "2BD": 58.5,
+            "3BD": 86.0,
+            "4BD": 84.28
+        }
+    ],
+    "ShortTermProjects": [
+        {
+            "L1": 3234.27,
+            "L2": 3592.8,
+            "L3": 4312.8,
+            "L4": 4447.63,
+            "L5": 4892.5
+        }
+    ],
+    "LongTermProjects": [
+        {
+            "L1": 3032.13,
+            "L2": 3368.25,
+            "L3": 4043.25,
+            "L4": 4447.63,
+            "L5": 4892.5
+        }
+    ]
+},
+{
+    "Name": "Colombia",
+    "Supplier": "Direct",
+    "Currency": "USD",
+    "PaymentTerms": "60 Days",
+    "L1": [
+        {
+            "With-Backfill": 24257.0,
+            "Without-Backfill": 26952.0
+        }
+    ],
+    "L2": [
+        {
+            "With-Backfill": 26946.0,
+            "Without-Backfill": 29940.0
+        }
+    ],
+    "L3": [
+        {
+            "With-Backfill": 32346.0,
+            "Without-Backfill": 35940.0
+        }
+    ],
+    "L4": [
+        {
+            "With-Backfill": 35581.0,
+            "Without-Backfill": 39534.0
+        }
+    ],
+    "L5": [
+        {
+            "With-Backfill": 39140.0,
+            "Without-Backfill": 43488.0
+        }
+    ],
+    "FullDayVisits": [
+        {
+            "L1": 231.0,
+            "L2": 255.0,
+            "L3": 285.6
+        }
+    ],
+    "HalfDayVisits": [
+        {
+            "L1": 135.0,
+            "L2": 150.0,
+            "L3": 165.0
+        }
+    ],
+    "DispatchTicket": [
+        {
+            "9 X 5 X 4 Incident Response": 117.0,
+            "24 X 7 X 4 Response to site": 156.0,
+            "SBD": 130.0,
+            "NBD": 97.5,
+            "2BD": 87.75,
+            "3BD": 86.0,
+            "Additional hour rate": 40.0
+        }
+    ],
+    "DispatchPricing": [
+        {
+            "2BD": 40.5,
+            "3BD": 86.0,
+            "4BD": 84.28
+        }
+    ],
+    "ShortTermProjects": [
+        {
+            "L1": 3234.27,
+            "L2": 3592.8,
+            "L3": 4312.8,
+            "L4": 4447.63,
+            "L5": 4892.5
+        }
+    ],
+    "LongTermProjects": [
+        {
+            "L1": 3032.13,
+            "L2": 3368.25,
+            "L3": 4043.25,
+            "L4": 4447.63,
+            "L5": 4892.5
+        }
+    ]
+},
+{
+    "Name": "Costa Rica",
+    "Supplier": "Direct",
+    "Currency": "USD",
+    "PaymentTerms": "60 Days",
+    "L1": [
+        {
+            "With-Backfill": 38902.0,
+            "Without-Backfill": 43224.0
+        }
+    ],
+    "L2": [
+        {
+            "With-Backfill": 43216.0,
+            "Without-Backfill": 48017.0
+        }
+    ],
+    "L3": [
+        {
+            "With-Backfill": 47538.0,
+            "Without-Backfill": 52819.0
+        }
+    ],
+    "L4": [
+        {
+            "With-Backfill": 52291.0,
+            "Without-Backfill": 58101.0
+        }
+    ],
+    "L5": [
+        {
+            "With-Backfill": 57521.0,
+            "Without-Backfill": 63912.0
+        }
+    ],
+    "FullDayVisits": [
+        {
+            "L1": 334.0,
+            "L2": 368.0,
+            "L3": 412.16
+        }
+    ],
+    "HalfDayVisits": [
+        {
+            "L1": 196.0,
+            "L2": 217.0,
+            "L3": 239.0
+        }
+    ],
+    "DispatchTicket": [
+        {
+            "9 X 5 X 4 Incident Response": 117.0,
+            "24 X 7 X 4 Response to site": 156.0,
+            "SBD": 130.0,
+            "NBD": 97.5,
+            "2BD": 87.75,
+            "3BD": 86.0,
+            "Additional hour rate": 60.0
+        }
+    ],
+    "DispatchPricing": [
+        {
+            "2BD": 58.5,
+            "3BD": 86.0,
+            "4BD": 84.28
+        }
+    ],
+    "ShortTermProjects": [
+        {
+            "L1": 5186.93,
+            "L2": 5762.13,
+            "L3": 6338.4,
+            "L4": 6536.38,
+            "L5": 7190.13
+        }
+    ],
+    "LongTermProjects": [
+        {
+            "L1": 4862.75,
+            "L2": 5402.0,
+            "L3": 5942.25,
+            "L4": 6536.38,
+            "L5": 7190.13
+        }
+    ]
+},
+{
+    "Name": "Ecuador",
+    "Supplier": "Direct",
+    "Currency": "USD",
+    "PaymentTerms": "60 Days",
+    "L1": [
+        {
+            "With-Backfill": 26936.0,
+            "Without-Backfill": 29928.0
+        }
+    ],
+    "L2": [
+        {
+            "With-Backfill": 29919.0,
+            "Without-Backfill": 33243.0
+        }
+    ],
+    "L3": [
+        {
+            "With-Backfill": 32911.0,
+            "Without-Backfill": 36567.0
+        }
+    ],
+    "L4": [
+        {
+            "With-Backfill": 36202.0,
+            "Without-Backfill": 40224.0
+        }
+    ],
+    "L5": [
+        {
+            "With-Backfill": 39823.0,
+            "Without-Backfill": 44247.0
+        }
+    ],
+    "FullDayVisits": [
+        {
+            "L1": 231.0,
+            "L2": 255.0,
+            "L3": 285.6
+        }
+    ],
+    "HalfDayVisits": [
+        {
+            "L1": 135.0,
+            "L2": 150.0,
+            "L3": 165.0
+        }
+    ],
+    "DispatchTicket": [
+        {
+            "9 X 5 X 4 Incident Response": 117.0,
+            "24 X 7 X 4 Response to site": 156.0,
+            "SBD": 130.0,
+            "NBD": 97.5,
+            "2BD": 87.75,
+            "3BD": 86.0,
+            "Additional hour rate": 40.0
+        }
+    ],
+    "DispatchPricing": [
+        {
+            "2BD": 40.5,
+            "3BD": 86.0,
+            "4BD": 84.28
+        }
+    ],
+    "ShortTermProjects": [
+        {
+            "L1": 3591.47,
+            "L2": 3989.2,
+            "L3": 4388.13,
+            "L4": 4525.25,
+            "L5": 4977.88
+        }
+    ],
+    "LongTermProjects": [
+        {
+            "L1": 3367.0,
+            "L2": 3739.88,
+            "L3": 4113.88,
+            "L4": 4525.25,
+            "L5": 4977.88
+        }
+    ]
+},
+{
+    "Name": "El Salvador",
+    "Supplier": "Direct",
+    "Currency": "USD",
+    "PaymentTerms": "60 Days",
+    "L1": [
+        {
+            "With-Backfill": 38902.0,
+            "Without-Backfill": 43224.0
+        }
+    ],
+    "L2": [
+        {
+            "With-Backfill": 43216.0,
+            "Without-Backfill": 48017.0
+        }
+    ],
+    "L3": [
+        {
+            "With-Backfill": 47538.0,
+            "Without-Backfill": 52819.0
+        }
+    ],
+    "L4": [
+        {
+            "With-Backfill": 52291.0,
+            "Without-Backfill": 58101.0
+        }
+    ],
+    "L5": [
+        {
+            "With-Backfill": 57521.0,
+            "Without-Backfill": 63912.0
+        }
+    ],
+    "FullDayVisits": [
+        {
+            "L1": 334.0,
+            "L2": 368.0,
+            "L3": 412.16
+        }
+    ],
+    "HalfDayVisits": [
+        {
+            "L1": 196.0,
+            "L2": 217.0,
+            "L3": 239.0
+        }
+    ],
+    "DispatchTicket": [
+        {
+            "9 X 5 X 4 Incident Response": 117.0,
+            "24 X 7 X 4 Response to site": 156.0,
+            "SBD": 130.0,
+            "NBD": 97.5,
+            "2BD": 87.75,
+            "3BD": 86.0,
+            "Additional hour rate": 60.0
+        }
+    ],
+    "DispatchPricing": [
+        {
+            "2BD": 58.5,
+            "3BD": 86.0,
+            "4BD": 84.28
+        }
+    ],
+    "ShortTermProjects": [
+        {
+            "L1": 5186.93,
+            "L2": 5762.13,
+            "L3": 6338.4,
+            "L4": 6536.38,
+            "L5": 7190.13
+        }
+    ],
+    "LongTermProjects": [
+        {
+            "L1": 4862.75,
+            "L2": 5402.0,
+            "L3": 5942.25,
+            "L4": 6536.38,
+            "L5": 7190.13
+        }
+    ]
+},
+{
+    "Name": "Grenada",
+    "Supplier": "Direct",
+    "Currency": "USD",
+    "PaymentTerms": "60 Days",
+    "L1": [
+        {
+            "With-Backfill": 38902.0,
+            "Without-Backfill": 43224.0
+        }
+    ],
+    "L2": [
+        {
+            "With-Backfill": 43216.0,
+            "Without-Backfill": 48017.0
+        }
+    ],
+    "L3": [
+        {
+            "With-Backfill": 47538.0,
+            "Without-Backfill": 52819.0
+        }
+    ],
+    "L4": [
+        {
+            "With-Backfill": 52291.0,
+            "Without-Backfill": 58101.0
+        }
+    ],
+    "L5": [
+        {
+            "With-Backfill": 57521.0,
+            "Without-Backfill": 63912.0
+        }
+    ],
+    "FullDayVisits": [
+        {
+            "L1": 334.0,
+            "L2": 368.0,
+            "L3": 412.16
+        }
+    ],
+    "HalfDayVisits": [
+        {
+            "L1": 196.0,
+            "L2": 217.0,
+            "L3": 239.0
+        }
+    ],
+    "DispatchTicket": [
+        {
+            "9 X 5 X 4 Incident Response": 99.0,
+            "24 X 7 X 4 Response to site": 132.0,
+            "SBD": 110.0,
+            "NBD": 82.5,
+            "2BD": 74.25,
+            "3BD": 72.77,
+            "Additional hour rate": 60.0
+        }
+    ],
+    "DispatchPricing": [
+        {
+            "2BD": 58.5,
+            "3BD": 72.77,
+            "4BD": 71.31
+        }
+    ],
+    "ShortTermProjects": [
+        {
+            "L1": 5186.93,
+            "L2": 5762.13,
+            "L3": 6338.4,
+            "L4": 6536.38,
+            "L5": 7190.13
+        }
+    ],
+    "LongTermProjects": [
+        {
+            "L1": 4862.75,
+            "L2": 5402.0,
+            "L3": 5942.25,
+            "L4": 6536.38,
+            "L5": 7190.13
+        }
+    ]
+},
+{
+    "Name": "Guatemala",
+    "Supplier": "Direct",
+    "Currency": "USD",
+    "PaymentTerms": "60 Days",
+    "L1": [
+        {
+            "With-Backfill": 38902.0,
+            "Without-Backfill": 43224.0
+        }
+    ],
+    "L2": [
+        {
+            "With-Backfill": 43216.0,
+            "Without-Backfill": 48017.0
+        }
+    ],
+    "L3": [
+        {
+            "With-Backfill": 47538.0,
+            "Without-Backfill": 52819.0
+        }
+    ],
+    "L4": [
+        {
+            "With-Backfill": 52291.0,
+            "Without-Backfill": 58101.0
+        }
+    ],
+    "L5": [
+        {
+            "With-Backfill": 57521.0,
+            "Without-Backfill": 63912.0
+        }
+    ],
+    "FullDayVisits": [
+        {
+            "L1": 334.0,
+            "L2": 368.0,
+            "L3": 412.16
+        }
+    ],
+    "HalfDayVisits": [
+        {
+            "L1": 196.0,
+            "L2": 217.0,
+            "L3": 239.0
+        }
+    ],
+    "DispatchTicket": [
+        {
+            "9 X 5 X 4 Incident Response": 117.0,
+            "24 X 7 X 4 Response to site": 156.0,
+            "SBD": 130.0,
+            "NBD": 97.5,
+            "2BD": 87.75,
+            "3BD": 86.0,
+            "Additional hour rate": 60.0
+        }
+    ],
+    "DispatchPricing": [
+        {
+            "2BD": 58.5,
+            "3BD": 86.0,
+            "4BD": 84.28
+        }
+    ],
+    "ShortTermProjects": [
+        {
+            "L1": 5186.93,
+            "L2": 5762.13,
+            "L3": 6338.4,
+            "L4": 6536.38,
+            "L5": 7190.13
+        }
+    ],
+    "LongTermProjects": [
+        {
+            "L1": 4862.75,
+            "L2": 5402.0,
+            "L3": 5942.25,
+            "L4": 6536.38,
+            "L5": 7190.13
+        }
+    ]
+},
+{
+    "Name": "Honduras",
+    "Supplier": "Direct",
+    "Currency": "USD",
+    "PaymentTerms": "60 Days",
+    "L1": [
+        {
+            "With-Backfill": 26936.0,
+            "Without-Backfill": 29928.0
+        }
+    ],
+    "L2": [
+        {
+            "With-Backfill": 29919.0,
+            "Without-Backfill": 33243.0
+        }
+    ],
+    "L3": [
+        {
+            "With-Backfill": 32911.0,
+            "Without-Backfill": 36567.0
+        }
+    ],
+    "L4": [
+        {
+            "With-Backfill": 36202.0,
+            "Without-Backfill": 40224.0
+        }
+    ],
+    "L5": [
+        {
+            "With-Backfill": 39823.0,
+            "Without-Backfill": 44247.0
+        }
+    ],
+    "FullDayVisits": [
+        {
+            "L1": 231.0,
+            "L2": 255.0,
+            "L3": 285.6
+        }
+    ],
+    "HalfDayVisits": [
+        {
+            "L1": 135.0,
+            "L2": 150.0,
+            "L3": 165.0
+        }
+    ],
+    "DispatchTicket": [
+        {
+            "9 X 5 X 4 Incident Response": 117.0,
+            "24 X 7 X 4 Response to site": 156.0,
+            "SBD": 130.0,
+            "NBD": 97.5,
+            "2BD": 87.75,
+            "3BD": 86.0,
+            "Additional hour rate": 40.0
+        }
+    ],
+    "DispatchPricing": [
+        {
+            "2BD": 40.5,
+            "3BD": 86.0,
+            "4BD": 84.28
+        }
+    ],
+    "ShortTermProjects": [
+        {
+            "L1": 3591.47,
+            "L2": 3989.2,
+            "L3": 4388.13,
+            "L4": 4525.25,
+            "L5": 4977.88
+        }
+    ],
+    "LongTermProjects": [
+        {
+            "L1": 3367.0,
+            "L2": 3739.88,
+            "L3": 4113.88,
+            "L4": 4525.25,
+            "L5": 4977.88
+        }
+    ]
+},
+{
+    "Name": "Nicaragua",
+    "Supplier": "Direct",
+    "Currency": "USD",
+    "PaymentTerms": "60 Days",
+    "L1": [
+        {
+            "With-Backfill": 38902.0,
+            "Without-Backfill": 43224.0
+        }
+    ],
+    "L2": [
+        {
+            "With-Backfill": 43216.0,
+            "Without-Backfill": 48017.0
+        }
+    ],
+    "L3": [
+        {
+            "With-Backfill": 47538.0,
+            "Without-Backfill": 52819.0
+        }
+    ],
+    "L4": [
+        {
+            "With-Backfill": 52291.0,
+            "Without-Backfill": 58101.0
+        }
+    ],
+    "L5": [
+        {
+            "With-Backfill": 57521.0,
+            "Without-Backfill": 63912.0
+        }
+    ],
+    "FullDayVisits": [
+        {
+            "L1": 334.0,
+            "L2": 368.0,
+            "L3": 412.16
+        }
+    ],
+    "HalfDayVisits": [
+        {
+            "L1": 196.0,
+            "L2": 217.0,
+            "L3": 239.0
+        }
+    ],
+    "DispatchTicket": [
+        {
+            "9 X 5 X 4 Incident Response": 112.5,
+            "24 X 7 X 4 Response to site": 150.0,
+            "SBD": 125.0,
+            "NBD": 93.75,
+            "2BD": 84.38,
+            "3BD": 82.69,
+            "Additional hour rate": 60.0
+        }
+    ],
+    "DispatchPricing": [
+        {
+            "2BD": 58.5,
+            "3BD": 82.69,
+            "4BD": 81.03
+        }
+    ],
+    "ShortTermProjects": [
+        {
+            "L1": 5186.93,
+            "L2": 5762.13,
+            "L3": 6338.4,
+            "L4": 6536.38,
+            "L5": 7190.13
+        }
+    ],
+    "LongTermProjects": [
+        {
+            "L1": 4862.75,
+            "L2": 5402.0,
+            "L3": 5942.25,
+            "L4": 6536.38,
+            "L5": 7190.13
+        }
+    ]
+},
+{
+    "Name": "Panama",
+    "Supplier": "Direct",
+    "Currency": "USD",
+    "PaymentTerms": "60 Days",
+    "L1": [
+        {
+            "With-Backfill": 38902.0,
+            "Without-Backfill": 43224.0
+        }
+    ],
+    "L2": [
+        {
+            "With-Backfill": 43216.0,
+            "Without-Backfill": 48017.0
+        }
+    ],
+    "L3": [
+        {
+            "With-Backfill": 47538.0,
+            "Without-Backfill": 52819.0
+        }
+    ],
+    "L4": [
+        {
+            "With-Backfill": 52291.0,
+            "Without-Backfill": 58101.0
+        }
+    ],
+    "L5": [
+        {
+            "With-Backfill": 57521.0,
+            "Without-Backfill": 63912.0
+        }
+    ],
+    "FullDayVisits": [
+        {
+            "L1": 334.0,
+            "L2": 368.0,
+            "L3": 412.16
+        }
+    ],
+    "HalfDayVisits": [
+        {
+            "L1": 196.0,
+            "L2": 217.0,
+            "L3": 239.0
+        }
+    ],
+    "DispatchTicket": [
+        {
+            "9 X 5 X 4 Incident Response": 117.0,
+            "24 X 7 X 4 Response to site": 156.0,
+            "SBD": 130.0,
+            "NBD": 97.5,
+            "2BD": 87.75,
+            "3BD": 86.0,
+            "Additional hour rate": 60.0
+        }
+    ],
+    "DispatchPricing": [
+        {
+            "2BD": 58.5,
+            "3BD": 86.0,
+            "4BD": 84.28
+        }
+    ],
+    "ShortTermProjects": [
+        {
+            "L1": 5186.93,
+            "L2": 5762.13,
+            "L3": 6338.4,
+            "L4": 6536.38,
+            "L5": 7190.13
+        }
+    ],
+    "LongTermProjects": [
+        {
+            "L1": 4862.75,
+            "L2": 5402.0,
+            "L3": 5942.25,
+            "L4": 6536.38,
+            "L5": 7190.13
+        }
+    ]
+},
+{
+    "Name": "Paraguay",
+    "Supplier": "Direct",
+    "Currency": "USD",
+    "PaymentTerms": "60 Days",
+    "L1": [
+        {
+            "With-Backfill": 38902.0,
+            "Without-Backfill": 43224.0
+        }
+    ],
+    "L2": [
+        {
+            "With-Backfill": 43216.0,
+            "Without-Backfill": 48017.0
+        }
+    ],
+    "L3": [
+        {
+            "With-Backfill": 47538.0,
+            "Without-Backfill": 52819.0
+        }
+    ],
+    "L4": [
+        {
+            "With-Backfill": 52291.0,
+            "Without-Backfill": 58101.0
+        }
+    ],
+    "L5": [
+        {
+            "With-Backfill": 57521.0,
+            "Without-Backfill": 63912.0
+        }
+    ],
+    "FullDayVisits": [
+        {
+            "L1": 334.0,
+            "L2": 368.0,
+            "L3": 412.16
+        }
+    ],
+    "HalfDayVisits": [
+        {
+            "L1": 196.0,
+            "L2": 217.0,
+            "L3": 239.0
+        }
+    ],
+    "DispatchTicket": [
+        {
+            "9 X 5 X 4 Incident Response": 117.0,
+            "24 X 7 X 4 Response to site": 156.0,
+            "SBD": 130.0,
+            "NBD": 97.5,
+            "2BD": 87.75,
+            "3BD": 86.0,
+            "Additional hour rate": 60.0
+        }
+    ],
+    "DispatchPricing": [
+        {
+            "2BD": 58.5,
+            "3BD": 86.0,
+            "4BD": 84.28
+        }
+    ],
+    "ShortTermProjects": [
+        {
+            "L1": 5186.93,
+            "L2": 5762.13,
+            "L3": 6338.4,
+            "L4": 6536.38,
+            "L5": 7190.13
+        }
+    ],
+    "LongTermProjects": [
+        {
+            "L1": 4862.75,
+            "L2": 5402.0,
+            "L3": 5942.25,
+            "L4": 6536.38,
+            "L5": 7190.13
+        }
+    ]
+},
+{
+    "Name": "Peru",
+    "Supplier": "Direct",
+    "Currency": "USD",
+    "PaymentTerms": "60 Days",
+    "L1": [
+        {
+            "With-Backfill": 38902.0,
+            "Without-Backfill": 43224.0
+        }
+    ],
+    "L2": [
+        {
+            "With-Backfill": 43216.0,
+            "Without-Backfill": 48017.0
+        }
+    ],
+    "L3": [
+        {
+            "With-Backfill": 47538.0,
+            "Without-Backfill": 52819.0
+        }
+    ],
+    "L4": [
+        {
+            "With-Backfill": 52291.0,
+            "Without-Backfill": 58101.0
+        }
+    ],
+    "L5": [
+        {
+            "With-Backfill": 57521.0,
+            "Without-Backfill": 63912.0
+        }
+    ],
+    "FullDayVisits": [
+        {
+            "L1": 334.0,
+            "L2": 368.0,
+            "L3": 412.16
+        }
+    ],
+    "HalfDayVisits": [
+        {
+            "L1": 196.0,
+            "L2": 217.0,
+            "L3": 239.0
+        }
+    ],
+    "DispatchTicket": [
+        {
+            "9 X 5 X 4 Incident Response": 117.0,
+            "24 X 7 X 4 Response to site": 156.0,
+            "SBD": 130.0,
+            "NBD": 97.5,
+            "2BD": 87.75,
+            "3BD": 86.0,
+            "Additional hour rate": 60.0
+        }
+    ],
+    "DispatchPricing": [
+        {
+            "2BD": 58.5,
+            "3BD": 86.0,
+            "4BD": 84.28
+        }
+    ],
+    "ShortTermProjects": [
+        {
+            "L1": 5186.93,
+            "L2": 5762.13,
+            "L3": 6338.4,
+            "L4": 6536.38,
+            "L5": 7190.13
+        }
+    ],
+    "LongTermProjects": [
+        {
+            "L1": 4862.75,
+            "L2": 5402.0,
+            "L3": 5942.25,
+            "L4": 6536.38,
+            "L5": 7190.13
+        }
+    ]
+},
+{
+    "Name": "Suriname",
+    "Supplier": "Direct",
+    "Currency": "USD",
+    "PaymentTerms": "60 Days",
+    "L1": [
+        {
+            "With-Backfill": 38902.0,
+            "Without-Backfill": 43224.0
+        }
+    ],
+    "L2": [
+        {
+            "With-Backfill": 43216.0,
+            "Without-Backfill": 48017.0
+        }
+    ],
+    "L3": [
+        {
+            "With-Backfill": 47538.0,
+            "Without-Backfill": 52819.0
+        }
+    ],
+    "L4": [
+        {
+            "With-Backfill": 52291.0,
+            "Without-Backfill": 58101.0
+        }
+    ],
+    "L5": [
+        {
+            "With-Backfill": 57521.0,
+            "Without-Backfill": 63912.0
+        }
+    ],
+    "FullDayVisits": [
+        {
+            "L1": 334.0,
+            "L2": 368.0,
+            "L3": 412.16
+        }
+    ],
+    "HalfDayVisits": [
+        {
+            "L1": 196.0,
+            "L2": 217.0,
+            "L3": 239.0
+        }
+    ],
+    "DispatchTicket": [
+        {
+            "9 X 5 X 4 Incident Response": 112.5,
+            "24 X 7 X 4 Response to site": 150.0,
+            "SBD": 125.0,
+            "NBD": 93.75,
+            "2BD": 84.38,
+            "3BD": 82.69,
+            "Additional hour rate": 60.0
+        }
+    ],
+    "DispatchPricing": [
+        {
+            "2BD": 58.5,
+            "3BD": 82.69,
+            "4BD": 81.03
+        }
+    ],
+    "ShortTermProjects": [
+        {
+            "L1": 5186.93,
+            "L2": 5762.13,
+            "L3": 6338.4,
+            "L4": 6536.38,
+            "L5": 7190.13
+        }
+    ],
+    "LongTermProjects": [
+        {
+            "L1": 4862.75,
+            "L2": 5402.0,
+            "L3": 5942.25,
+            "L4": 6536.38,
+            "L5": 7190.13
+        }
+    ]
+},
+{
+    "Name": "Trinidad and Tobago",
+    "Supplier": "Direct",
+    "Currency": "USD",
+    "PaymentTerms": "60 Days",
+    "L1": [
+        {
+            "With-Backfill": 38902.0,
+            "Without-Backfill": 43224.0
+        }
+    ],
+    "L2": [
+        {
+            "With-Backfill": 43216.0,
+            "Without-Backfill": 48017.0
+        }
+    ],
+    "L3": [
+        {
+            "With-Backfill": 47538.0,
+            "Without-Backfill": 52819.0
+        }
+    ],
+    "L4": [
+        {
+            "With-Backfill": 52291.0,
+            "Without-Backfill": 58101.0
+        }
+    ],
+    "L5": [
+        {
+            "With-Backfill": 57521.0,
+            "Without-Backfill": 63912.0
+        }
+    ],
+    "FullDayVisits": [
+        {
+            "L1": 334.0,
+            "L2": 368.0,
+            "L3": 412.16
+        }
+    ],
+    "HalfDayVisits": [
+        {
+            "L1": 196.0,
+            "L2": 217.0,
+            "L3": 239.0
+        }
+    ],
+    "DispatchTicket": [
+        {
+            "9 X 5 X 4 Incident Response": 112.5,
+            "24 X 7 X 4 Response to site": 150.0,
+            "SBD": 125.0,
+            "NBD": 93.75,
+            "2BD": 84.38,
+            "3BD": 82.69,
+            "Additional hour rate": 60.0
+        }
+    ],
+    "DispatchPricing": [
+        {
+            "2BD": 58.5,
+            "3BD": 82.69,
+            "4BD": 81.03
+        }
+    ],
+    "ShortTermProjects": [
+        {
+            "L1": 5186.93,
+            "L2": 5762.13,
+            "L3": 6338.4,
+            "L4": 6536.38,
+            "L5": 7190.13
+        }
+    ],
+    "LongTermProjects": [
+        {
+            "L1": 4862.75,
+            "L2": 5402.0,
+            "L3": 5942.25,
+            "L4": 6536.38,
+            "L5": 7190.13
+        }
+    ]
+},
+{
+    "Name": "Uruguay",
+    "Supplier": "Direct",
+    "Currency": "USD",
+    "PaymentTerms": "60 Days",
+    "L1": [
+        {
+            "With-Backfill": 38902.0,
+            "Without-Backfill": 43224.0
+        }
+    ],
+    "L2": [
+        {
+            "With-Backfill": 43216.0,
+            "Without-Backfill": 48017.0
+        }
+    ],
+    "L3": [
+        {
+            "With-Backfill": 47538.0,
+            "Without-Backfill": 52819.0
+        }
+    ],
+    "L4": [
+        {
+            "With-Backfill": 52291.0,
+            "Without-Backfill": 58101.0
+        }
+    ],
+    "L5": [
+        {
+            "With-Backfill": 57521.0,
+            "Without-Backfill": 63912.0
+        }
+    ],
+    "FullDayVisits": [
+        {
+            "L1": 334.0,
+            "L2": 368.0,
+            "L3": 412.16
+        }
+    ],
+    "HalfDayVisits": [
+        {
+            "L1": 196.0,
+            "L2": 217.0,
+            "L3": 239.0
+        }
+    ],
+    "DispatchTicket": [
+        {
+            "9 X 5 X 4 Incident Response": 112.5,
+            "24 X 7 X 4 Response to site": 150.0,
+            "SBD": 125.0,
+            "NBD": 93.75,
+            "2BD": 84.38,
+            "3BD": 82.69,
+            "Additional hour rate": 60.0
+        }
+    ],
+    "DispatchPricing": [
+        {
+            "2BD": 58.5,
+            "3BD": 82.69,
+            "4BD": 81.03
+        }
+    ],
+    "ShortTermProjects": [
+        {
+            "L1": 5186.93,
+            "L2": 5762.13,
+            "L3": 6338.4,
+            "L4": 6536.38,
+            "L5": 7190.13
+        }
+    ],
+    "LongTermProjects": [
+        {
+            "L1": 4862.75,
+            "L2": 5402.0,
+            "L3": 5942.25,
+            "L4": 6536.38,
+            "L5": 7190.13
+        }
+    ]
+},
+{
+    "Name": "Venezuela",
+    "Supplier": "Direct",
+    "Currency": "USD",
+    "PaymentTerms": "60 Days",
+    "L1": [
+        {
+            "With-Backfill": 26936.0,
+            "Without-Backfill": 29928.0
+        }
+    ],
+    "L2": [
+        {
+            "With-Backfill": 29919.0,
+            "Without-Backfill": 33243.0
+        }
+    ],
+    "L3": [
+        {
+            "With-Backfill": 32911.0,
+            "Without-Backfill": 36567.0
+        }
+    ],
+    "L4": [
+        {
+            "With-Backfill": 36202.0,
+            "Without-Backfill": 40224.0
+        }
+    ],
+    "L5": [
+        {
+            "With-Backfill": 39823.0,
+            "Without-Backfill": 44247.0
+        }
+    ],
+    "FullDayVisits": [
+        {
+            "L1": 231.0,
+            "L2": 255.0,
+            "L3": 285.6
+        }
+    ],
+    "HalfDayVisits": [
+        {
+            "L1": 135.0,
+            "L2": 150.0,
+            "L3": 165.0
+        }
+    ],
+    "DispatchTicket": [
+        {
+            "9 X 5 X 4 Incident Response": 81.0,
+            "24 X 7 X 4 Response to site": 108.0,
+            "SBD": 90.0,
+            "NBD": 67.5,
+            "2BD": 60.75,
+            "3BD": 59.54,
+            "Additional hour rate": 40.0
+        }
+    ],
+    "DispatchPricing": [
+        {
+            "2BD": 40.5,
+            "3BD": 59.54,
+            "4BD": 58.34
+        }
+    ],
+    "ShortTermProjects": [
+        {
+            "L1": 3591.47,
+            "L2": 3989.2,
+            "L3": 4388.13,
+            "L4": 4525.25,
+            "L5": 4977.88
+        }
+    ],
+    "LongTermProjects": [
+        {
+            "L1": 3367.0,
+            "L2": 3739.88,
+            "L3": 4113.88,
+            "L4": 4525.25,
+            "L5": 4977.88
+        }
+    ]
+}
+      ]
     },
     {
       "Region": "North America",
-      "Countries":[]
+      "Countries":[
+        {
+    "Name": "Canada",
+    "Supplier": "Direct",
+    "Currency": "USD",
+    "PaymentTerms": "60 Days",
+    "L1": [
+        {
+            "With-Backfill": 48000.0,
+            "Without-Backfill": 54000.0
+        }
+    ],
+    "L2": [
+        {
+            "With-Backfill": 55200.0,
+            "Without-Backfill": 62100.0
+        }
+    ],
+    "L3": [
+        {
+            "With-Backfill": 63480.0,
+            "Without-Backfill": 71415.0
+        }
+    ],
+    "L4": [
+        {
+            "With-Backfill": 71415.0,
+            "Without-Backfill": 82127.25
+        }
+    ],
+    "L5": [
+        {
+            "With-Backfill": 82127.25,
+            "Without-Backfill": 94446.34
+        }
+    ],
+    "FullDayVisits": [
+        {
+            "L1": 325.0,
+            "L2": 345.0,
+            "L3": 386.4
+        }
+    ],
+    "HalfDayVisits": [
+        {
+            "L1": 243.75,
+            "L2": 258.75,
+            "L3": 289.8
+        }
+    ],
+    "DispatchTicket": [
+        {
+            "9 X 5 X 4 Incident Response": 130.5,
+            "24 X 7 X 4 Response to site": 174.0,
+            "SBD": 145.0,
+            "NBD": 108.75,
+            "2BD": 97.88,
+            "3BD": 95.92,
+            "Additional hour rate": 55.0
+        }
+    ],
+    "DispatchPricing": [
+        {
+            "2BD": 54.0,
+            "3BD": 95.92,
+            "4BD": 94.0
+        }
+    ],
+    "ShortTermProjects": [
+        {
+            "L1": 6400.0,
+            "L2": 7360.0,
+            "L3": 8464.0,
+            "L4": 8926.88,
+            "L5": 10265.91
+        }
+    ],
+    "LongTermProjects": [
+        {
+            "L1": 6000.0,
+            "L2": 6900.0,
+            "L3": 7935.0,
+            "L4": 8926.88,
+            "L5": 10265.91
+        }
+    ]
+},
+{
+    "Name": "Mexico",
+    "Supplier": "Direct",
+    "Currency": "USD",
+    "PaymentTerms": "60 Days",
+    "L1": [
+        {
+            "With-Backfill": 30000.0,
+            "Without-Backfill": 33750.0
+        }
+    ],
+    "L2": [
+        {
+            "With-Backfill": 34500.0,
+            "Without-Backfill": 38812.5
+        }
+    ],
+    "L3": [
+        {
+            "With-Backfill": 39675.0,
+            "Without-Backfill": 44634.38
+        }
+    ],
+    "L4": [
+        {
+            "With-Backfill": 44634.38,
+            "Without-Backfill": 51329.53
+        }
+    ],
+    "L5": [
+        {
+            "With-Backfill": 51329.53,
+            "Without-Backfill": 59028.96
+        }
+    ],
+    "FullDayVisits": [
+        {
+            "L1": 345.0,
+            "L2": 395.0,
+            "L3": 442.4
+        }
+    ],
+    "HalfDayVisits": [
+        {
+            "L1": 258.75,
+            "L2": 296.25,
+            "L3": 331.8
+        }
+    ],
+    "DispatchTicket": [
+        {
+            "9 X 5 X 4 Incident Response": 117.0,
+            "24 X 7 X 4 Response to site": 156.0,
+            "SBD": 130.0,
+            "NBD": 97.5,
+            "2BD": 87.75,
+            "3BD": 86.0,
+            "Additional hour rate": 60.0
+        }
+    ],
+    "DispatchPricing": [
+        {
+            "2BD": 58.5,
+            "3BD": 86.0,
+            "4BD": 84.28
+        }
+    ],
+    "ShortTermProjects": [
+        {
+            "L1": 4000.0,
+            "L2": 4600.0,
+            "L3": 5290.0,
+            "L4": 5579.3,
+            "L5": 6416.19
+        }
+    ],
+    "LongTermProjects": [
+        {
+            "L1": 3750.0,
+            "L2": 4312.5,
+            "L3": 4959.38,
+            "L4": 5579.3,
+            "L5": 6416.19
+        }
+    ]
+},
+{
+    "Name": "Aruba",
+    "Supplier": "Direct",
+    "Currency": "USD",
+    "PaymentTerms": "60 Days",
+    "L1": [
+        {
+            "With-Backfill": 38837.0,
+            "Without-Backfill": 43152.0
+        }
+    ],
+    "L2": [
+        {
+            "With-Backfill": 43146.0,
+            "Without-Backfill": 47940.0
+        }
+    ],
+    "L3": [
+        {
+            "With-Backfill": 48006.0,
+            "Without-Backfill": 53340.0
+        }
+    ],
+    "L4": [
+        {
+            "With-Backfill": 52807.0,
+            "Without-Backfill": 58674.0
+        }
+    ],
+    "L5": [
+        {
+            "With-Backfill": 58088.0,
+            "Without-Backfill": 64542.0
+        }
+    ],
+    "FullDayVisits": [
+        {
+            "L1": 340.0,
+            "L2": 374.0,
+            "L3": 418.88
+        }
+    ],
+    "HalfDayVisits": [
+        {
+            "L1": 196.0,
+            "L2": 217.0,
+            "L3": 239.0
+        }
+    ],
+    "DispatchTicket": [
+        {
+            "9 X 5 X 4 Incident Response": 117.0,
+            "24 X 7 X 4 Response to site": 156.0,
+            "SBD": 130.0,
+            "NBD": 97.5,
+            "2BD": 87.75,
+            "3BD": 86.0,
+            "Additional hour rate": 60.0
+        }
+    ],
+    "DispatchPricing": [
+        {
+            "2BD": 58.5,
+            "3BD": 86.0,
+            "4BD": 84.28
+        }
+    ],
+    "ShortTermProjects": [
+        {
+            "L1": 5178.27,
+            "L2": 5752.8,
+            "L3": 6400.8,
+            "L4": 6600.88,
+            "L5": 7261.0
+        }
+    ],
+    "LongTermProjects": [
+        {
+            "L1": 4854.63,
+            "L2": 5393.25,
+            "L3": 6000.75,
+            "L4": 6600.88,
+            "L5": 7261.0
+        }
+    ]
+},
+{
+    "Name": "The Bahamas",
+    "Supplier": "Direct",
+    "Currency": "USD",
+    "PaymentTerms": "60 Days",
+    "L1": [
+        {
+            "With-Backfill": 55350.0,
+            "Without-Backfill": 61500.0
+        }
+    ],
+    "L2": [
+        {
+            "With-Backfill": 61499.0,
+            "Without-Backfill": 68332.0
+        }
+    ],
+    "L3": [
+        {
+            "With-Backfill": 67649.0,
+            "Without-Backfill": 75165.0
+        }
+    ],
+    "L4": [
+        {
+            "With-Backfill": 74414.0,
+            "Without-Backfill": 82682.0
+        }
+    ],
+    "L5": [
+        {
+            "With-Backfill": 81856.0,
+            "Without-Backfill": 90951.0
+        }
+    ],
+    "FullDayVisits": [
+        {
+            "L1": 475.0,
+            "L2": 523.0,
+            "L3": 585.76
+        }
+    ],
+    "HalfDayVisits": [
+        {
+            "L1": 279.0,
+            "L2": 309.0,
+            "L3": 340.0
+        }
+    ],
+    "DispatchTicket": [
+        {
+            "9 X 5 X 4 Incident Response": 166.5,
+            "24 X 7 X 4 Response to site": 222.0,
+            "SBD": 185.0,
+            "NBD": 138.75,
+            "2BD": 124.88,
+            "3BD": 122.38,
+            "Additional hour rate": 85.0
+        }
+    ],
+    "DispatchPricing": [
+        {
+            "2BD": 83.25,
+            "3BD": 122.38,
+            "4BD": 119.93
+        }
+    ],
+    "ShortTermProjects": [
+        {
+            "L1": 7380.0,
+            "L2": 8199.87,
+            "L3": 9019.87,
+            "L4": 9301.75,
+            "L5": 10232.0
+        }
+    ],
+    "LongTermProjects": [
+        {
+            "L1": 6918.75,
+            "L2": 7687.38,
+            "L3": 8456.13,
+            "L4": 9301.75,
+            "L5": 10232.0
+        }
+    ]
+},
+{
+    "Name": "Cuba",
+    "Supplier": "Direct",
+    "Currency": "USD",
+    "PaymentTerms": "60 Days",
+    "L1": [
+        {
+            "With-Backfill": 26936.0,
+            "Without-Backfill": 29928.0
+        }
+    ],
+    "L2": [
+        {
+            "With-Backfill": 29919.0,
+            "Without-Backfill": 33243.0
+        }
+    ],
+    "L3": [
+        {
+            "With-Backfill": 32911.0,
+            "Without-Backfill": 36567.0
+        }
+    ],
+    "L4": [
+        {
+            "With-Backfill": 36202.0,
+            "Without-Backfill": 40224.0
+        }
+    ],
+    "L5": [
+        {
+            "With-Backfill": 39823.0,
+            "Without-Backfill": 44247.0
+        }
+    ],
+    "FullDayVisits": [
+        {
+            "L1": 231.0,
+            "L2": 255.0,
+            "L3": 285.6
+        }
+    ],
+    "HalfDayVisits": [
+        {
+            "L1": 135.0,
+            "L2": 150.0,
+            "L3": 165.0
+        }
+    ],
+    "DispatchTicket": [
+        {
+            "9 X 5 X 4 Incident Response": 117.0,
+            "24 X 7 X 4 Response to site": 156.0,
+            "SBD": 130.0,
+            "NBD": 97.5,
+            "2BD": 87.75,
+            "3BD": 86.0,
+            "Additional hour rate": 40.0
+        }
+    ],
+    "DispatchPricing": [
+        {
+            "2BD": 40.5,
+            "3BD": 86.0,
+            "4BD": 84.28
+        }
+    ],
+    "ShortTermProjects": [
+        {
+            "L1": 3591.47,
+            "L2": 3989.2,
+            "L3": 4388.13,
+            "L4": 4525.25,
+            "L5": 4977.88
+        }
+    ],
+    "LongTermProjects": [
+        {
+            "L1": 3367.0,
+            "L2": 3739.88,
+            "L3": 4113.88,
+            "L4": 4525.25,
+            "L5": 4977.88
+        }
+    ]
+},
+{
+    "Name": "Dominican Republic",
+    "Supplier": "Direct",
+    "Currency": "USD",
+    "PaymentTerms": "60 Days",
+    "L1": [
+        {
+            "With-Backfill": 26936.0,
+            "Without-Backfill": 29928.0
+        }
+    ],
+    "L2": [
+        {
+            "With-Backfill": 29919.0,
+            "Without-Backfill": 33243.0
+        }
+    ],
+    "L3": [
+        {
+            "With-Backfill": 32911.0,
+            "Without-Backfill": 36567.0
+        }
+    ],
+    "L4": [
+        {
+            "With-Backfill": 36202.0,
+            "Without-Backfill": 40224.0
+        }
+    ],
+    "L5": [
+        {
+            "With-Backfill": 39823.0,
+            "Without-Backfill": 44247.0
+        }
+    ],
+    "FullDayVisits": [
+        {
+            "L1": 231.0,
+            "L2": 255.0,
+            "L3": 285.6
+        }
+    ],
+    "HalfDayVisits": [
+        {
+            "L1": 135.0,
+            "L2": 150.0,
+            "L3": 165.0
+        }
+    ],
+    "DispatchTicket": [
+        {
+            "9 X 5 X 4 Incident Response": 117.0,
+            "24 X 7 X 4 Response to site": 156.0,
+            "SBD": 130.0,
+            "NBD": 97.5,
+            "2BD": 87.75,
+            "3BD": 86.0,
+            "Additional hour rate": 40.0
+        }
+    ],
+    "DispatchPricing": [
+        {
+            "2BD": 40.5,
+            "3BD": 86.0,
+            "4BD": 84.28
+        }
+    ],
+    "ShortTermProjects": [
+        {
+            "L1": 3591.47,
+            "L2": 3989.2,
+            "L3": 4388.13,
+            "L4": 4525.25,
+            "L5": 4977.88
+        }
+    ],
+    "LongTermProjects": [
+        {
+            "L1": 3367.0,
+            "L2": 3739.88,
+            "L3": 4113.88,
+            "L4": 4525.25,
+            "L5": 4977.88
+        }
+    ]
+},
+{
+    "Name": "Jamaica",
+    "Supplier": "Direct",
+    "Currency": "USD",
+    "PaymentTerms": "60 Days",
+    "L1": [
+        {
+            "With-Backfill": 33988.0,
+            "Without-Backfill": 37764.0
+        }
+    ],
+    "L2": [
+        {
+            "With-Backfill": 37757.0,
+            "Without-Backfill": 41952.0
+        }
+    ],
+    "L3": [
+        {
+            "With-Backfill": 43146.0,
+            "Without-Backfill": 47940.0
+        }
+    ],
+    "L4": [
+        {
+            "With-Backfill": 47461.0,
+            "Without-Backfill": 52734.0
+        }
+    ],
+    "L5": [
+        {
+            "With-Backfill": 52208.0,
+            "Without-Backfill": 58008.0
+        }
+    ],
+    "FullDayVisits": [
+        {
+            "L1": 231.0,
+            "L2": 255.0,
+            "L3": 285.6
+        }
+    ],
+    "HalfDayVisits": [
+        {
+            "L1": 135.0,
+            "L2": 150.0,
+            "L3": 165.0
+        }
+    ],
+    "DispatchTicket": [
+        {
+            "9 X 5 X 4 Incident Response": 103.5,
+            "24 X 7 X 4 Response to site": 138.0,
+            "SBD": 115.0,
+            "NBD": 86.25,
+            "2BD": 77.63,
+            "3BD": 76.07,
+            "Additional hour rate": 40.0
+        }
+    ],
+    "DispatchPricing": [
+        {
+            "2BD": 40.5,
+            "3BD": 76.07,
+            "4BD": 74.55
+        }
+    ],
+    "ShortTermProjects": [
+        {
+            "L1": 4531.73,
+            "L2": 5034.27,
+            "L3": 5752.8,
+            "L4": 5932.63,
+            "L5": 6526.0
+        }
+    ],
+    "LongTermProjects": [
+        {
+            "L1": 4248.5,
+            "L2": 4719.63,
+            "L3": 5393.25,
+            "L4": 5932.63,
+            "L5": 6526.0
+        }
+    ]
+},
+{
+    "Name": "Puerto Rico",
+    "Supplier": "Direct",
+    "Currency": "USD",
+    "PaymentTerms": "60 Days",
+    "L1": [
+        {
+            "With-Backfill": 37401.0,
+            "Without-Backfill": 41556.0
+        }
+    ],
+    "L2": [
+        {
+            "With-Backfill": 41553.0,
+            "Without-Backfill": 46170.0
+        }
+    ],
+    "L3": [
+        {
+            "With-Backfill": 45709.0,
+            "Without-Backfill": 50787.0
+        }
+    ],
+    "L4": [
+        {
+            "With-Backfill": 50280.0,
+            "Without-Backfill": 55866.0
+        }
+    ],
+    "L5": [
+        {
+            "With-Backfill": 55308.0,
+            "Without-Backfill": 61453.0
+        }
+    ],
+    "FullDayVisits": [
+        {
+            "L1": 321.0,
+            "L2": 354.0,
+            "L3": 396.48
+        }
+    ],
+    "HalfDayVisits": [
+        {
+            "L1": 189.0,
+            "L2": 209.0,
+            "L3": 230.0
+        }
+    ],
+    "DispatchTicket": [
+        {
+            "9 X 5 X 4 Incident Response": 112.5,
+            "24 X 7 X 4 Response to site": 150.0,
+            "SBD": 125.0,
+            "NBD": 93.75,
+            "2BD": 84.38,
+            "3BD": 82.69,
+            "Additional hour rate": 55.0
+        }
+    ],
+    "DispatchPricing": [
+        {
+            "2BD": 56.25,
+            "3BD": 82.69,
+            "4BD": 81.03
+        }
+    ],
+    "ShortTermProjects": [
+        {
+            "L1": 4986.8,
+            "L2": 5540.4,
+            "L3": 6094.53,
+            "L4": 6285.0,
+            "L5": 6913.5
+        }
+    ],
+    "LongTermProjects": [
+        {
+            "L1": 4675.13,
+            "L2": 5194.13,
+            "L3": 5713.63,
+            "L4": 6285.0,
+            "L5": 6913.5
+        }
+    ]
+},
+{
+        "Name": "United States of America (Tier 1)",
+        "Supplier": "Direct",
+        "Currency": "USD",
+        "PaymentTerms": "60 Days",
+        "L1": [
+            {
+                "With-Backfill": 67247.25,
+                "Without-Backfill": 69457.5
+            }
+        ],
+        "L2": [
+            {
+                "With-Backfill": 73972.5,
+                "Without-Backfill": 72765.0
+            }
+        ],
+        "L3": [
+            {
+                "With-Backfill": 72765.0,
+                "Without-Backfill": 79380.0
+            }
+        ],
+        "L4": [
+            {
+                "With-Backfill": 79380.0,
+                "Without-Backfill": 87648.75
+            }
+        ],
+        "L5": [
+            {
+                "With-Backfill": 87648.75,
+                "Without-Backfill": 98605.5
+            }
+        ],
+        "FullDayVisits": [
+            {
+                "L1": 391.65,
+                "L2": 446.25,
+                "L3": 499.8
+            }
+        ],
+        "HalfDayVisits": [
+            {
+                "L1": 260.4,
+                "L2": 294.0,
+                "L3": 334.95
+            }
+        ],
+        "DispatchTicket": [
+            {
+                "9 X 5 X 4 Incident Response": 137.03,
+                "24 X 7 X 4 Response to site": 182.7,
+                "SBD": 152.25,
+                "NBD": 114.19,
+                "2BD": 102.77,
+                "3BD": 100.71,
+                "Additional hour rate": 84.0
+            }
+        ],
+        "DispatchPricing": [
+            {
+                "2BD": 84.0,
+                "3BD": 100.71,
+                "4BD": 98.7
+            }
+        ],
+        "ShortTermProjects": [
+            {
+                "L1": 8966.3,
+                "L2": 9863.0,
+                "L3": 9702.0,
+                "L4": 9922.5,
+                "L5": 10956.09
+            }
+        ],
+        "LongTermProjects": [
+            {
+                "L1": 8405.91,
+                "L2": 9246.56,
+                "L3": 9095.63,
+                "L4": 9922.5,
+                "L5": 10956.09
+            }
+        ]
+    },
+    {
+        "Name": "United States of America (Tier 2)",
+        "Supplier": "Direct",
+        "Currency": "USD",
+        "PaymentTerms": "60 Days",
+        "L1": [
+            {
+                "With-Backfill": 64045.0,
+                "Without-Backfill": 66150.0
+            }
+        ],
+        "L2": [
+            {
+                "With-Backfill": 70450.0,
+                "Without-Backfill": 69300.0
+            }
+        ],
+        "L3": [
+            {
+                "With-Backfill": 69300.0,
+                "Without-Backfill": 75600.0
+            }
+        ],
+        "L4": [
+            {
+                "With-Backfill": 75600.0,
+                "Without-Backfill": 83475.0
+            }
+        ],
+        "L5": [
+            {
+                "With-Backfill": 83475.0,
+                "Without-Backfill": 93910.0
+            }
+        ],
+        "FullDayVisits": [
+            {
+                "L1": 373.0,
+                "L2": 425.0,
+                "L3": 476.0
+            }
+        ],
+        "HalfDayVisits": [
+            {
+                "L1": 248.0,
+                "L2": 280.0,
+                "L3": 319.0
+            }
+        ],
+        "DispatchTicket": [
+            {
+                "9 X 5 X 4 Incident Response": 130.5,
+                "24 X 7 X 4 Response to site": 174.0,
+                "SBD": 145.0,
+                "NBD": 108.75,
+                "2BD": 97.88,
+                "3BD": 95.92,
+                "Additional hour rate": 80.0
+            }
+        ],
+        "DispatchPricing": [
+            {
+                "2BD": 80.0,
+                "3BD": 95.92,
+                "4BD": 94.0
+            }
+        ],
+        "ShortTermProjects": [
+            {
+                "L1": 8539.33,
+                "L2": 9393.33,
+                "L3": 9240.0,
+                "L4": 9450.0,
+                "L5": 10434.38
+            }
+        ],
+        "LongTermProjects": [
+            {
+                "L1": 8005.63,
+                "L2": 8806.25,
+                "L3": 8662.5,
+                "L4": 9450.0,
+                "L5": 10434.38
+            }
+        ]
+    },
+    {
+    "Name": "Virgin Islands",
+    "Supplier": "Direct",
+    "Currency": "USD",
+    "PaymentTerms": "60 Days",
+    "L1": [
+        {
+            "With-Backfill": 55350.0,
+            "Without-Backfill": 61500.0
+        }
+    ],
+    "L2": [
+        {
+            "With-Backfill": 61499.0,
+            "Without-Backfill": 68332.0
+        }
+    ],
+    "L3": [
+        {
+            "With-Backfill": 67649.0,
+            "Without-Backfill": 75165.0
+        }
+    ],
+    "L4": [
+        {
+            "With-Backfill": 74414.0,
+            "Without-Backfill": 82682.0
+        }
+    ],
+    "L5": [
+        {
+            "With-Backfill": 81856.0,
+            "Without-Backfill": 90951.0
+        }
+    ],
+    "FullDayVisits": [
+        {
+            "L1": 475.0,
+            "L2": 523.0,
+            "L3": 585.76
+        }
+    ],
+    "HalfDayVisits": [
+        {
+            "L1": 279.0,
+            "L2": 309.0,
+            "L3": 340.0
+        }
+    ],
+    "DispatchTicket": [
+        {
+            "9 X 5 X 4 Incident Response": 162.0,
+            "24 X 7 X 4 Response to site": 216.0,
+            "SBD": 180.0,
+            "NBD": 135.0,
+            "2BD": 121.5,
+            "3BD": 119.07,
+            "Additional hour rate": 85.0
+        }
+    ],
+    "DispatchPricing": [
+        {
+            "2BD": 83.25,
+            "3BD": 119.07,
+            "4BD": 116.69
+        }
+    ],
+    "ShortTermProjects": [
+        {
+            "L1": 7380.0,
+            "L2": 8199.87,
+            "L3": 9019.87,
+            "L4": 9301.75,
+            "L5": 10232.0
+        }
+    ],
+    "LongTermProjects": [
+        {
+            "L1": 6918.75,
+            "L2": 7687.38,
+            "L3": 8456.13,
+            "L4": 9301.75,
+            "L5": 10232.0
+        }
+    ]
+}
+      ]
     }
 
 ]
