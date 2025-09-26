@@ -9,13 +9,12 @@
 <body>
   <div class="container">
     <h1 class="heading">PriceBook Calculator</h1>
-    <form class="form">
-      
+    <form class="form" id="pricebook-form">
       <!-- Region -->
       <div class="form-group">
         <label for="region">Region</label>
         <select id="region" name="region" class="input-field">
-          <option value="us">US</option>
+          <option value="">-- Select Region --</option>
         </select>
       </div>
 
@@ -23,7 +22,7 @@
       <div class="form-group">
         <label for="country">Country</label>
         <select id="country" name="country" class="input-field">
-          <option value="us">United States</option>
+          <option value="">-- Select Country --</option>
         </select>
       </div>
 
@@ -31,7 +30,7 @@
       <div class="form-group">
         <label for="supplier">Supplier</label>
         <select id="supplier" name="supplier" class="input-field">
-          <option value="supplier1">Supplier 1</option>
+          <option value="">-- Select Supplier --</option>
         </select>
       </div>
 
@@ -39,7 +38,7 @@
       <div class="form-group">
         <label for="currency">Currency</label>
         <select id="currency" name="currency" class="input-field">
-          <option value="usd">USD</option>
+          <option value="">-- Select Currency --</option>
         </select>
       </div>
 
@@ -47,7 +46,7 @@
       <div class="form-group">
         <label for="payment-terms">Payment Terms</label>
         <select id="payment-terms" name="payment-terms" class="input-field">
-          <option value="net60">60 Days</option>
+          <option value="">-- Select Payment Terms --</option>
         </select>
       </div>
 
@@ -55,7 +54,7 @@
       <div class="form-group">
         <label for="service-level">Service Level</label>
         <select id="service-level" name="service-level" class="input-field">
-          <option value="l1">L1</option>
+          <option value="">-- Select Service Level --</option>
         </select>
       </div>
 
@@ -63,7 +62,7 @@
       <div class="form-group">
         <label for="engagement-type">Engagement Type</label>
         <select id="engagement-type" name="engagement-type" class="input-field">
-          <option value="type1">Full Day Visit</option>
+          <option value="">-- Select Engagement Type --</option>
         </select>
       </div>
 
@@ -71,7 +70,7 @@
       <div class="form-group">
         <label for="sla">SLA</label>
         <select id="sla" name="sla" class="input-field">
-          <option value="sla1">SLA 1</option>
+          <option value="">-- Select SLA --</option>
         </select>
       </div>
 
@@ -85,8 +84,8 @@
       <div class="form-group">
         <label>Resource Model</label>
         <div class="radio-group">
-          <label><input type="radio" name="resource-model" value="with-backfill"> With Backfill</label>
-          <label><input type="radio" name="resource-model" value="without-backfill"> Without Backfill</label>
+          <label><input type="radio" name="resource-model" value="With-Backfill"> With Backfill</label>
+          <label><input type="radio" name="resource-model" value="Without-Backfill"> Without Backfill</label>
         </div>
       </div>
 
@@ -107,6 +106,10 @@
         <button type="submit" class="btn">Calculate</button>
       </div>
     </form>
+
+    <!-- Result -->
+    <div id="result"></div>
   </div>
+  <script src="index.js"></script>
 </body>
 </html>
