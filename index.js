@@ -135,6 +135,23 @@ engagementTypeSelect.addEventListener("change", () => {
     document.getElementById("resource-model-group").style.display = "none";
     document.getElementById("duration-group").style.display = "block";
     document.getElementById("additional-hours-group").style.display = "block";
+    document.getElementById("format").textContent = " (in hours)";
+  }
+  //Short Term Projects, Long Term Projects 
+  else if (selectedEngagement === "ShortTermProjects" || selectedEngagement === "LongTermProjects") {
+    const dataList = countryData[selectedEngagement];
+    if (dataList && dataList.length > 0) {
+      Object.keys(dataList[0]).forEach((sla) => {
+        const option = document.createElement("option");
+        option.value = sla;
+        option.textContent = sla;
+        slaSelect.appendChild(option);
+      });
+    }
+    document.getElementById("resource-model-group").style.display = "none";
+    document.getElementById("additional-hours-group").style.display = "none";
+    document.getElementById("duration-group").style.display = "block";
+    document.getElementById("format").textContent = " (in months)";
   }
   // Other Engagements
   else {
@@ -148,7 +165,6 @@ engagementTypeSelect.addEventListener("change", () => {
       });
     }
     document.getElementById("resource-model-group").style.display = "none";
-    document.getElementById("duration-group").style.display = "none";
     document.getElementById("additional-hours-group").style.display = "none";
     
   }
@@ -309,7 +325,12 @@ form.addEventListener("submit", (e) => {
       resultDiv.innerHTML = `<p style="color:red;">No rate found for ${values.sla}.</p>`;
       return;
     }
-    totalCost = rate * values.quantity ;
+    let duration = document.getElementById("duration").value;
+    if (!duration || duration <= 0) {
+      resultDiv.innerHTML = `<p style="color:red;">Please enter a valid duration (in months).</p>`;
+      return;
+    }
+    totalCost = rate * values.quantity * values.duration;
     resultDiv.innerHTML = `
       <h3>Calculation Result</h3>
       <p><strong>Engagement:</strong> ${values.engagementType === "LongTermProjects" ? "Long Term Project" : "Short Term Project"}</p>

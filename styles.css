@@ -8,13 +8,14 @@
 
 /* Container */
 body {
-  background: #f4f7fb;
+  background: linear-gradient(135deg, #e9efff, #f8faff);
   display: flex;
   justify-content: center;
   align-items: flex-start;
   min-height: 100vh;
   padding: 40px 20px;
 }
+
 
 .container {
   background: #fff;
