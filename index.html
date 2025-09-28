@@ -79,19 +79,19 @@
               <!-- Duration (hidden when Staffing is chosen) -->
         <div class="form-group" id="duration-group">
           <label for="duration">Duration<span id="format"></span></label>
-          <input type="number" id="duration" name="duration" class="input-field" placeholder="Enter duration">
+          <input type="number" id="duration" name="duration" class="input-field" placeholder="Enter duration" value="1" min="1">
         </div>
 
               <!-- Additional Hours (only for Dispatch Ticket) -->
         <div class="form-group" id="additional-hours-group" style="display:none;">
           <label for="additional-hours">Additional Hours</label>
-          <input type="number" id="additional-hours" name="additional-hours" class="input-field" placeholder="Enter hours">
+          <input type="number" id="additional-hours" name="additional-hours" class="input-field" placeholder="Enter hours" value="0" min="0">
         </div>
       </div>
       <!-- Number of Resources -->
       <div class="form-group">
         <label for="quantity">Number of Resources</label>
-        <input type="number" id="quantity" name="quantity" class="input-field" placeholder="Enter quantity">
+        <input type="number" id="quantity" name="quantity" class="input-field" placeholder="Enter quantity" value="1" min="1">
       </div>
 
 

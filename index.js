@@ -218,13 +218,18 @@ form.addEventListener("submit", (e) => {
     totalCost = rate * values.quantity;
 
     resultDiv.innerHTML = `
-      <h3>Calculation Result</h3>
-      <p><strong>Engagement:</strong> Staffing</p>
-      <p><strong>SLA:</strong> ${values.sla}</p>
-      <p><strong>Resource Model:</strong> ${values.resourceModel}</p>
-      <p><strong>Quantity:</strong> ${values.quantity}</p>
-      <p><strong>Rate per Resource:</strong> ${rate} ${values.currency}</p>
-      <p><strong>Total Cost:</strong> ${totalCost} ${values.currency}</p>
+      <div style="padding: 16px; border: 1px solid #ddd; border-radius: 8px; background: #fafafa; max-width: 400px; margin: 20px auto; ">
+        <h3 style="margin-bottom: 12px; color: #333; text-align: center;">📊 Calculation Result</h3>
+        <p><strong>Engagement:</strong> ${values.engagementType}</p>
+        <p><strong>SLA:</strong> ${values.sla || "N/A"}</p>
+        <p><strong>Quantity:</strong> ${values.quantity}</p>
+        <p><strong>Rate:</strong> ${rate} ${values.currency}</p>
+        <hr style="margin: 16px 0;">
+        <p style="font-size: 1.2rem; font-weight: bold; color: #444;">
+          💰 Total Cost: 
+          <span style="color: #2c7a2c; font-size: 1.5rem;">${totalCost} ${values.currency}</span>
+        </p>
+      </div>
     `;
   }
 
@@ -246,12 +251,18 @@ form.addEventListener("submit", (e) => {
     totalCost = rate * values.quantity;
 
     resultDiv.innerHTML = `
-      <h3>Calculation Result</h3>
-      <p><strong>Engagement:</strong> Full Day Visit</p>
-      <p><strong>SLA:</strong> ${values.sla}</p>
-      <p><strong>Quantity:</strong> ${values.quantity}</p>
-      <p><strong>Rate per Visit:</strong> ${rate} ${values.currency}</p>
-      <p><strong>Total Cost:</strong> ${totalCost} ${values.currency}</p>
+      <div style="padding: 16px; border: 1px solid #ddd; border-radius: 8px; background: #fafafa; max-width: 400px; margin-top: 20px auto;">
+        <h3 style="margin-bottom: 12px; color: #333; text-align: center;">📊 Calculation Result</h3>
+        <p><strong>Engagement:</strong> ${values.engagementType}</p>
+        <p><strong>SLA:</strong> ${values.sla || "N/A"}</p>
+        <p><strong>Quantity:</strong> ${values.quantity}</p>
+        <p><strong>Rate:</strong> ${rate} ${values.currency}</p>
+        <hr style="margin: 16px 0;">
+        <p style="font-size: 1.2rem; font-weight: bold; color: #444;">
+          💰 Total Cost: 
+          <span style="color: #2c7a2c; font-size: 1.5rem;">${totalCost} ${values.currency}</span>
+        </p>
+      </div>
     `;
   }
 
@@ -273,12 +284,18 @@ form.addEventListener("submit", (e) => {
     totalCost = rate * values.quantity;
 
     resultDiv.innerHTML = `
-      <h3>Calculation Result</h3>
-      <p><strong>Engagement:</strong> Half Day Visit</p>
-      <p><strong>SLA:</strong> ${values.sla}</p>
-      <p><strong>Quantity:</strong> ${values.quantity}</p>
-      <p><strong>Rate per Visit:</strong> ${rate} ${values.currency}</p>
-      <p><strong>Total Cost:</strong> ${totalCost} ${values.currency}</p>
+      <div style="padding: 16px; border: 1px solid #ddd; border-radius: 8px; background: #fafafa; max-width: 400px; margin-top: 20px auto;">
+        <h3 style="margin-bottom: 12px; color: #333; text-align: center;">📊 Calculation Result</h3>
+        <p><strong>Engagement:</strong> ${values.engagementType}</p>
+        <p><strong>SLA:</strong> ${values.sla || "N/A"}</p>
+        <p><strong>Quantity:</strong> ${values.quantity}</p>
+        <p><strong>Rate:</strong> ${rate} ${values.currency}</p>
+        <hr style="margin: 16px 0;">
+        <p style="font-size: 1.2rem; font-weight: bold; color: #444;">
+          💰 Total Cost: 
+          <span style="color: #2c7a2c; font-size: 1.5rem;">${totalCost} ${values.currency}</span>
+        </p>
+      </div>
     `;
   }
 
@@ -304,13 +321,18 @@ form.addEventListener("submit", (e) => {
     totalCost = (rate * values.quantity * Number(duration)) + (additionalHourRate * values.additionalHours);
 
     resultDiv.innerHTML = `
-      <h3>Calculation Result</h3>
-      <p><strong>Engagement:</strong> Dispatch Ticket</p>
-      <p><strong>SLA:</strong> ${values.sla}</p>
-      <p><strong>Quantity:</strong> ${values.quantity}</p>
-      <p><strong>Rate per Ticket:</strong> ${rate} ${values.currency}</p>
-      <p><strong>Additional Hours:</strong> ${values.additionalHours} hrs at ${additionalHourRate} ${values.currency}/hr</p>
-      <p><strong>Total Cost:</strong> ${totalCost} ${values.currency}</p>
+      <div style="padding: 16px; border: 1px solid #ddd; border-radius: 8px; background: #fafafa; max-width: 400px; margin-top: 20px auto;">
+        <h3 style="margin-bottom: 12px; color: #333; text-align: center;">📊 Calculation Result</h3>
+        <p><strong>Engagement:</strong> ${values.engagementType}</p>
+        <p><strong>SLA:</strong> ${values.sla || "N/A"}</p>
+        <p><strong>Quantity:</strong> ${values.quantity}</p>
+        <p><strong>Rate:</strong> ${rate} ${values.currency}</p>
+        <hr style="margin: 16px 0;">
+        <p style="font-size: 1.2rem; font-weight: bold; color: #444;">
+          💰 Total Cost: 
+          <span style="color: #2c7a2c; font-size: 1.5rem;">${totalCost} ${values.currency}</span>
+        </p>
+      </div>
     `;
   }
   //Long Term Projects, Short Term Projects
@@ -332,12 +354,18 @@ form.addEventListener("submit", (e) => {
     }
     totalCost = rate * values.quantity * values.duration;
     resultDiv.innerHTML = `
-      <h3>Calculation Result</h3>
-      <p><strong>Engagement:</strong> ${values.engagementType === "LongTermProjects" ? "Long Term Project" : "Short Term Project"}</p>
-      <p><strong>SLA:</strong> ${values.sla}</p>
-      <p><strong>Quantity:</strong> ${values.quantity}</p>
-      <p><strong>Rate:</strong> ${rate} ${values.currency}</p>
-      <p><strong>Total Cost:</strong> ${totalCost} ${values.currency}</p>
+      <div style="padding: 16px; border: 1px solid #ddd; border-radius: 8px; background: #fafafa; max-width: 400px; margin-top: 20px auto;">
+        <h3 style="margin-bottom: 12px; color: #333; text-align: center;">📊 Calculation Result</h3>
+        <p><strong>Engagement:</strong> ${values.engagementType}</p>
+        <p><strong>SLA:</strong> ${values.sla || "N/A"}</p>
+        <p><strong>Quantity:</strong> ${values.quantity}</p>
+        <p><strong>Rate:</strong> ${rate} ${values.currency}</p>
+        <hr style="margin: 16px 0;">
+        <p style="font-size: 1.2rem; font-weight: bold; color: #444;">
+          💰 Total Cost: 
+          <span style="color: #2c7a2c; font-size: 1.5rem;">${totalCost} ${values.currency}</span>
+        </p>
+      </div>
     `;
   }
   //Dispatch Pricing
@@ -353,16 +381,23 @@ form.addEventListener("submit", (e) => {
       return;
     }
     totalCost = rate * values.quantity ;
+
     resultDiv.innerHTML = `
-      <h3>Calculation Result</h3>
-      <p><strong>Engagement:</strong> Dispatch Pricing</p>
-      <p><strong>SLA:</strong> ${values.sla}</p>
-      <p><strong>Quantity:</strong> ${values.quantity}</p>
-      <p><strong>Rate:</strong> ${rate} ${values.currency}</p>
-      <p><strong>Total Cost:</strong> ${totalCost} ${values.currency}</p>
+      <div style="padding: 16px; border: 1px solid #ddd; border-radius: 8px; background: #fafafa; max-width: 400px; margin-top: 20px auto;">
+        <h3 style="margin-bottom: 12px; color: #333; text-align: center;">📊 Calculation Result</h3>
+        <p><strong>Engagement:</strong> ${values.engagementType}</p>
+        <p><strong>SLA:</strong> ${values.sla || "N/A"}</p>
+        <p><strong>Quantity:</strong> ${values.quantity}</p>
+        <p><strong>Rate:</strong> ${rate} ${values.currency}</p>
+        <hr style="margin: 16px 0;">
+        <p style="font-size: 1.2rem; font-weight: bold; color: #444;">
+          💰 Total Cost: 
+          <span style="color: #2c7a2c; font-size: 1.5rem;">${totalCost} ${values.currency}</span>
+        </p>
+      </div>
     `;
-  }
+      }
   else {
-    resultDiv.innerHTML = `<p style="color:blue;">Calculation logic for ${values.engagementType} not yet implemented.</p>`;
+    resultDiv.innerHTML = `<p style="color:blue;">Choose a Valid Engagement Type.</p>`;
   }
 });
