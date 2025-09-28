@@ -26,7 +26,6 @@ Short / Long-Term Projects → (Monthly Price × Duration) × Resources
 🚀 Live Demo
 [Click Here](https://pricebook-calc.vercel.app)
 
-👉 View the Application on Vercel
 
 🛠️ Tech Stack
 
@@ -36,6 +35,7 @@ Data: Converted Excel (.xlsx) → JSON
 
 Hosting: Vercel
 
+```
 📂 Project Structure
 ├── index.html        # Main UI
 ├── styles.css         # Minimal styling
@@ -43,6 +43,7 @@ Hosting: Vercel
 ├── data.json       # Converted pricing data
 ├── data.xlsx     #Provided excel file
 └── README.md         # Documentation
+```
 
 ⚙️ How It Works
 
