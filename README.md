@@ -64,9 +64,9 @@ Click Calculate → Get the Total Price instantly.
 
 Clone this repo:
 
-git clone https://github.com/yourusername/teceze-pricebook-calculator.git
+git clone https://github.com/MR-Titus02/Pricebook-Calc
 
-cd teceze-pricebook-calculator
+cd Pricebook-Calc
 
 
 Open index.html in your browser.
@@ -81,6 +81,9 @@ JSON structure was carefully derived from the provided Pricebook for reliable ca
 
 Author
 Titus Senthilkumaran
-[Email](titusroxsan@gmail.com)
+
+titusroxsan@gmail.com
+
 [Linkedin](https://www.linkedin.com/in/titus-senthilkumaran)
+
 [Portfolio](https://mrtitus.netlify.app)
