@@ -55,6 +55,43 @@ countrySelect.addEventListener("change", () => {
   const countryData = regionData.Countries.find((c) => c.Name === selectedCountry);
   if (!countryData) return;
 
+ // Show message for USA Tier 1
+  if (selectedCountry === "United States of America (Tier 1)") {
+   document.getElementById("message").innerHTML = `<span style='color: red; font-weight: bold;'>Note: USA Tier 1 cities are 
+   <ol style='margin-top: 0; padding-left: 30px; color: black; font-weight: normal;'>
+   <li>Atlanta</li>
+   <li>Austin</li>
+   <li>Charlotte</li>
+    <li>Boston</li>
+   <li>Chcicago</li>
+   <li>Dallas</li>
+    <li>denver</li>
+   <li>Honolulu</li>
+   <li>Houston</li>
+    <li>Las Vegas</li>
+   <li>Los Angeles</li>
+   <li>Miami</li>
+    <li>Minneapolis</li>
+   <li>Nashville</li>
+   <li>New York City</li>
+  <li>Oakland</li>
+   <li>Philadelphia</li>
+   <li>Phoenix</li>
+  <li>Portland</li>
+   <li>Raleigh</li>
+   <li>San Antonio</li>
+  <li>San Diego</li>
+   <li>San Francisco</li>
+  <li>San Jose</li>
+   <li>Seattle</li>
+   <li>Washington, D.C.</li>
+   </ol>
+   <p>if your project location is outside these cities, please select USA Tier 2 option.</p>
+   </span>`;
+  } else {
+    document.getElementById('message').innerHTML = ""; // Clear message if another country is selected
+  }
+
   // Supplier
   supplierSelect.innerHTML = `<option value="${countryData.Supplier}">${countryData.Supplier}</option>`;
 
@@ -251,7 +288,7 @@ form.addEventListener("submit", (e) => {
     totalCost = rate * values.quantity;
 
     resultDiv.innerHTML = `
-      <div style="padding: 16px; border: 1px solid #ddd; border-radius: 8px; background: #fafafa; max-width: 400px; margin-top: 20px auto;">
+      <div style="padding: 16px; border: 1px solid #ddd; border-radius: 8px; background: #fafafa; max-width: 400px; margin: 20px auto;">
         <h3 style="margin-bottom: 12px; color: #333; text-align: center;">📊 Calculation Result</h3>
         <p><strong>Engagement:</strong> ${values.engagementType}</p>
         <p><strong>SLA:</strong> ${values.sla || "N/A"}</p>
@@ -284,7 +321,7 @@ form.addEventListener("submit", (e) => {
     totalCost = rate * values.quantity;
 
     resultDiv.innerHTML = `
-      <div style="padding: 16px; border: 1px solid #ddd; border-radius: 8px; background: #fafafa; max-width: 400px; margin-top: 20px auto;">
+      <div style="padding: 16px; border: 1px solid #ddd; border-radius: 8px; background: #fafafa; max-width: 400px; margin: 20px auto;">
         <h3 style="margin-bottom: 12px; color: #333; text-align: center;">📊 Calculation Result</h3>
         <p><strong>Engagement:</strong> ${values.engagementType}</p>
         <p><strong>SLA:</strong> ${values.sla || "N/A"}</p>
@@ -321,7 +358,7 @@ form.addEventListener("submit", (e) => {
     totalCost = (rate * values.quantity * Number(duration)) + (additionalHourRate * values.additionalHours);
 
     resultDiv.innerHTML = `
-      <div style="padding: 16px; border: 1px solid #ddd; border-radius: 8px; background: #fafafa; max-width: 400px; margin-top: 20px auto;">
+      <div style="padding: 16px; border: 1px solid #ddd; border-radius: 8px; background: #fafafa; max-width: 400px; margin: 20px auto;">
         <h3 style="margin-bottom: 12px; color: #333; text-align: center;">📊 Calculation Result</h3>
         <p><strong>Engagement:</strong> ${values.engagementType}</p>
         <p><strong>SLA:</strong> ${values.sla || "N/A"}</p>
@@ -354,7 +391,7 @@ form.addEventListener("submit", (e) => {
     }
     totalCost = rate * values.quantity * values.duration;
     resultDiv.innerHTML = `
-      <div style="padding: 16px; border: 1px solid #ddd; border-radius: 8px; background: #fafafa; max-width: 400px; margin-top: 20px auto;">
+      <div style="padding: 16px; border: 1px solid #ddd; border-radius: 8px; background: #fafafa; max-width: 400px; margin: 20px auto;">
         <h3 style="margin-bottom: 12px; color: #333; text-align: center;">📊 Calculation Result</h3>
         <p><strong>Engagement:</strong> ${values.engagementType}</p>
         <p><strong>SLA:</strong> ${values.sla || "N/A"}</p>
@@ -383,7 +420,7 @@ form.addEventListener("submit", (e) => {
     totalCost = rate * values.quantity ;
 
     resultDiv.innerHTML = `
-      <div style="padding: 16px; border: 1px solid #ddd; border-radius: 8px; background: #fafafa; max-width: 400px; margin-top: 20px auto;">
+      <div style="padding: 16px; border: 1px solid #ddd; border-radius: 8px; background: #fafafa; max-width: 400px; margin: 20px auto;">
         <h3 style="margin-bottom: 12px; color: #333; text-align: center;">📊 Calculation Result</h3>
         <p><strong>Engagement:</strong> ${values.engagementType}</p>
         <p><strong>SLA:</strong> ${values.sla || "N/A"}</p>
