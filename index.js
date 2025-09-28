@@ -1,4 +1,4 @@
-let jsonData = []; // will store your JSON
+let jsonData = [];
 
 // DOM Elements
 const regionSelect = document.getElementById("region");
@@ -31,7 +31,13 @@ function populateRegions() {
   });
 }
 
-// On Region Change → populate countries
+  function camelCaseToWords(str) {
+  return str
+    .replace(/([A-Z])/g, " $1") // Add space before capital letters
+    .replace(/^./, (char) => char.toUpperCase()); // Capitalize first letter
+}
+
+// On Region Change to populate countries
 regionSelect.addEventListener("change", () => {
   countrySelect.innerHTML = '<option value="">-- Select Country --</option>';
   const selectedRegion = regionSelect.value;
@@ -46,7 +52,7 @@ regionSelect.addEventListener("change", () => {
   resetDependentFields();
 });
 
-// On Country Change → populate supplier, currency, payment terms, engagement types
+// On Country Change to populate supplier, currency, payment terms, engagement types
 countrySelect.addEventListener("change", () => {
   const selectedRegion = regionSelect.value;
   const selectedCountry = countrySelect.value;
@@ -54,6 +60,8 @@ countrySelect.addEventListener("change", () => {
   if (!regionData) return;
   const countryData = regionData.Countries.find((c) => c.Name === selectedCountry);
   if (!countryData) return;
+
+
 
  // Show message for USA Tier 1
   if (selectedCountry === "United States of America (Tier 1)") {
@@ -101,7 +109,7 @@ countrySelect.addEventListener("change", () => {
   // Payment Terms
   paymentTermsSelect.innerHTML = `<option value="${countryData.PaymentTerms}">${countryData.PaymentTerms}</option>`;
 
-  // Engagement Types (added Staffing here)
+  // Engagement Types (added Staffing)
   engagementTypeSelect.innerHTML = '<option value="">-- Select Engagement Type --</option>';
   const engagementTypes = [
     "Staffing",
@@ -112,10 +120,12 @@ countrySelect.addEventListener("change", () => {
     "ShortTermProjects",
     "LongTermProjects"
   ];
+
   engagementTypes.forEach((type) => {
     const option = document.createElement("option");
     option.value = type;
     option.textContent = type;
+    option.textContent = camelCaseToWords(type);
     engagementTypeSelect.appendChild(option);
   });
 
@@ -256,14 +266,14 @@ form.addEventListener("submit", (e) => {
 
     resultDiv.innerHTML = `
       <div style="padding: 16px; border: 1px solid #ddd; border-radius: 8px; background: #fafafa; max-width: 400px; margin: 20px auto; ">
-        <h3 style="margin-bottom: 12px; color: #333; text-align: center;">📊 Calculation Result</h3>
+        <h3 style="margin-bottom: 12px; color: #333; text-align: center;"> Calculation Result</h3>
         <p><strong>Engagement:</strong> ${values.engagementType}</p>
         <p><strong>SLA:</strong> ${values.sla || "N/A"}</p>
         <p><strong>Quantity:</strong> ${values.quantity}</p>
         <p><strong>Rate:</strong> ${rate} ${values.currency}</p>
         <hr style="margin: 16px 0;">
         <p style="font-size: 1.2rem; font-weight: bold; color: #444;">
-          💰 Total Cost: 
+           Total Cost: 
           <span style="color: #2c7a2c; font-size: 1.5rem;">${totalCost} ${values.currency}</span>
         </p>
       </div>
@@ -284,19 +294,19 @@ form.addEventListener("submit", (e) => {
       resultDiv.innerHTML = `<p style="color:red;">No rate found for ${values.sla}.</p>`;
       return;
     }
-
+    
     totalCost = rate * values.quantity;
 
     resultDiv.innerHTML = `
       <div style="padding: 16px; border: 1px solid #ddd; border-radius: 8px; background: #fafafa; max-width: 400px; margin: 20px auto;">
-        <h3 style="margin-bottom: 12px; color: #333; text-align: center;">📊 Calculation Result</h3>
-        <p><strong>Engagement:</strong> ${values.engagementType}</p>
+        <h3 style="margin-bottom: 12px; color: #333; text-align: center;"> Calculation Result</h3>
+        <p><strong>Engagement:</strong> ${camelCaseToWords(values.engagementType)}</p>
         <p><strong>SLA:</strong> ${values.sla || "N/A"}</p>
         <p><strong>Quantity:</strong> ${values.quantity}</p>
         <p><strong>Rate:</strong> ${rate} ${values.currency}</p>
         <hr style="margin: 16px 0;">
         <p style="font-size: 1.2rem; font-weight: bold; color: #444;">
-          💰 Total Cost: 
+           Total Cost: 
           <span style="color: #2c7a2c; font-size: 1.5rem;">${totalCost} ${values.currency}</span>
         </p>
       </div>
@@ -322,14 +332,14 @@ form.addEventListener("submit", (e) => {
 
     resultDiv.innerHTML = `
       <div style="padding: 16px; border: 1px solid #ddd; border-radius: 8px; background: #fafafa; max-width: 400px; margin: 20px auto;">
-        <h3 style="margin-bottom: 12px; color: #333; text-align: center;">📊 Calculation Result</h3>
-        <p><strong>Engagement:</strong> ${values.engagementType}</p>
+        <h3 style="margin-bottom: 12px; color: #333; text-align: center;"> Calculation Result</h3>
+        <p><strong>Engagement:</strong> ${camelCaseToWords(values.engagementType)}</p>
         <p><strong>SLA:</strong> ${values.sla || "N/A"}</p>
         <p><strong>Quantity:</strong> ${values.quantity}</p>
         <p><strong>Rate:</strong> ${rate} ${values.currency}</p>
         <hr style="margin: 16px 0;">
         <p style="font-size: 1.2rem; font-weight: bold; color: #444;">
-          💰 Total Cost: 
+           Total Cost: 
           <span style="color: #2c7a2c; font-size: 1.5rem;">${totalCost} ${values.currency}</span>
         </p>
       </div>
@@ -359,14 +369,14 @@ form.addEventListener("submit", (e) => {
 
     resultDiv.innerHTML = `
       <div style="padding: 16px; border: 1px solid #ddd; border-radius: 8px; background: #fafafa; max-width: 400px; margin: 20px auto;">
-        <h3 style="margin-bottom: 12px; color: #333; text-align: center;">📊 Calculation Result</h3>
-        <p><strong>Engagement:</strong> ${values.engagementType}</p>
+        <h3 style="margin-bottom: 12px; color: #333; text-align: center;"> Calculation Result</h3>
+        <p><strong>Engagement:</strong> ${camelCaseToWords(values.engagementType)}</p>
         <p><strong>SLA:</strong> ${values.sla || "N/A"}</p>
         <p><strong>Quantity:</strong> ${values.quantity}</p>
         <p><strong>Rate:</strong> ${rate} ${values.currency}</p>
         <hr style="margin: 16px 0;">
         <p style="font-size: 1.2rem; font-weight: bold; color: #444;">
-          💰 Total Cost: 
+           Total Cost: 
           <span style="color: #2c7a2c; font-size: 1.5rem;">${totalCost} ${values.currency}</span>
         </p>
       </div>
@@ -392,14 +402,14 @@ form.addEventListener("submit", (e) => {
     totalCost = rate * values.quantity * values.duration;
     resultDiv.innerHTML = `
       <div style="padding: 16px; border: 1px solid #ddd; border-radius: 8px; background: #fafafa; max-width: 400px; margin: 20px auto;">
-        <h3 style="margin-bottom: 12px; color: #333; text-align: center;">📊 Calculation Result</h3>
-        <p><strong>Engagement:</strong> ${values.engagementType}</p>
+        <h3 style="margin-bottom: 12px; color: #333; text-align: center;"> Calculation Result</h3>
+        <p><strong>Engagement:</strong> ${camelCaseToWords(values.engagementType)}</p>
         <p><strong>SLA:</strong> ${values.sla || "N/A"}</p>
         <p><strong>Quantity:</strong> ${values.quantity}</p>
         <p><strong>Rate:</strong> ${rate} ${values.currency}</p>
         <hr style="margin: 16px 0;">
         <p style="font-size: 1.2rem; font-weight: bold; color: #444;">
-          💰 Total Cost: 
+           Total Cost: 
           <span style="color: #2c7a2c; font-size: 1.5rem;">${totalCost} ${values.currency}</span>
         </p>
       </div>
@@ -421,14 +431,14 @@ form.addEventListener("submit", (e) => {
 
     resultDiv.innerHTML = `
       <div style="padding: 16px; border: 1px solid #ddd; border-radius: 8px; background: #fafafa; max-width: 400px; margin: 20px auto;">
-        <h3 style="margin-bottom: 12px; color: #333; text-align: center;">📊 Calculation Result</h3>
-        <p><strong>Engagement:</strong> ${values.engagementType}</p>
+        <h3 style="margin-bottom: 12px; color: #333; text-align: center;"> Calculation Result</h3>
+        <p><strong>Engagement:</strong> ${camelCaseToWords(values.engagementType)}</p>
         <p><strong>SLA:</strong> ${values.sla || "N/A"}</p>
         <p><strong>Quantity:</strong> ${values.quantity}</p>
         <p><strong>Rate:</strong> ${rate} ${values.currency}</p>
         <hr style="margin: 16px 0;">
         <p style="font-size: 1.2rem; font-weight: bold; color: #444;">
-          💰 Total Cost: 
+           Total Cost: 
           <span style="color: #2c7a2c; font-size: 1.5rem;">${totalCost} ${values.currency}</span>
         </p>
       </div>
