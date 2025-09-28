@@ -24,6 +24,7 @@ Short / Long-Term Projects → (Monthly Price × Duration) × Resources
 ☁️ Hosted on Vercel for easy access
 
 🚀 Live Demo
+[Click Here](https://pricebook-calc.vercel.app)
 
 👉 View the Application on Vercel
 
@@ -37,9 +38,10 @@ Hosting: Vercel
 
 📂 Project Structure
 ├── index.html        # Main UI
-├── style.css         # Minimal styling
-├── script.js         # Calculator logic
-├── pricebook.json    # Converted pricing data
+├── styles.css         # Minimal styling
+├── index.js         # Calculator logic
+├── data.json       # Converted pricing data
+├── data.xlsx     #Provided excel file
 └── README.md         # Documentation
 
 ⚙️ How It Works
@@ -63,6 +65,7 @@ Click Calculate → Get the Total Price instantly.
 Clone this repo:
 
 git clone https://github.com/yourusername/teceze-pricebook-calculator.git
+
 cd teceze-pricebook-calculator
 
 
@@ -75,3 +78,9 @@ No build or dependencies required (pure HTML/CSS/JS).
 This project is built specifically for TECEZE Internship Assessment.
 
 JSON structure was carefully derived from the provided Pricebook for reliable calculations.
+
+Author
+Titus Senthilkumaran
+[Email](titusroxsan@gmail.com)
+[Linkedin](https://www.linkedin.com/in/titus-senthilkumaran)
+[Portfolio](https://mrtitus.netlify.app)
