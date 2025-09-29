@@ -200,6 +200,22 @@ engagementTypeSelect.addEventListener("change", () => {
     document.getElementById("duration-group").style.display = "block";
     document.getElementById("format").textContent = " (in months)";
   }
+  //Half day or full day 
+  else if (selectedEngagement === "HalfDayVisits" || selectedEngagement === "FullDayVisits") {
+        const dataList = countryData[selectedEngagement];
+    if (dataList && dataList.length > 0) {
+      Object.keys(dataList[0]).forEach((sla) => {
+        const option = document.createElement("option");
+        option.value = sla;
+        option.textContent = sla;
+        slaSelect.appendChild(option);
+      });
+    }
+    document.getElementById("resource-model-group").style.display = "none";
+    document.getElementById("additional-hours-group").style.display = "none";
+    document.getElementById("duration-group").style.display = "none";
+    
+  }
   // Other Engagements
   else {
     const dataList = countryData[selectedEngagement];
